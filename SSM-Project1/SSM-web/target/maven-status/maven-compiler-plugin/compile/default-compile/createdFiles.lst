@@ -1,0 +1,10 @@
+controller\PromotionAdController.class
+controller\PromotionSpaceController.class
+controller\UserController.class
+controller\CourseController.class
+controller\ResourceCategoryController.class
+controller\RoleController.class
+controller\CourseContentController.class
+controller\TestController.class
+controller\MenuController.class
+controller\ResourceController.class
