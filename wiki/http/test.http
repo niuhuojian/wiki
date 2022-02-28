@@ -1,2 +1,2 @@
-GET http://localhost:8081/hello
+GET http://localhost:8081/test/list
 Accept: application/json
