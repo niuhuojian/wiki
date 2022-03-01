@@ -5,6 +5,7 @@ import demo.domain.EbookExample;
 import demo.mapper.EbookMapper;
 import demo.req.EbookReq;
 import demo.resp.EbookResp;
+import demo.utils.CopyUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -23,12 +24,7 @@ public class EbookService {
         criteria.andNameLike("%"+ebookReq.getName()+"%");
         List<Ebook> ebookList = ebookMapper.selectByExample(ebookExample);
 
-        List<EbookResp> ebookRespList=new ArrayList<>();
-        for(Ebook ebook:ebookList){
-            EbookResp ebookResp=new EbookResp();
-            BeanUtils.copyProperties(ebook,ebookResp);
-            ebookRespList.add(ebookResp);
-        }
+        List<EbookResp> ebookRespList = CopyUtils.copyList(ebookList, EbookResp.class);
         return ebookRespList;
     }
 }
