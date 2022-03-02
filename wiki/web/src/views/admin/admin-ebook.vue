@@ -16,9 +16,17 @@
           </template>
           <template v-slot:action="{text, record}">
             <a-space size="small">
-              <a-button type="primary" @click="edit(record)">
+              <a-button type="primary" @click="edit()">
                 编辑
               </a-button>
+              <a-modal
+                  v-model:visible="modalVisible"
+                  title="编辑确认"
+                  :confirm-loading="modalLoading"
+                  @ok="handleModalOk"
+              >
+                <p>{{ test }}</p>
+              </a-modal>
               <a-button type="danger">
                   删除
               </a-button>
@@ -108,19 +116,41 @@ export default defineComponent({
       });
 
     };
+
+
+    const modalVisible = ref<boolean>(false);
+    const modalLoading = ref<boolean>(false);
+
+    const showModal = () => {
+      modalVisible.value = true;
+    };
+
+    const handleModalOk = () => {
+      modalLoading.value = true;
+      modalVisible.value=false;
+    };
+
+    const edit=()=>{
+      modalVisible.value=true;
+    }
+
     onMounted(()=>{
       handleQuery({
         page: 1,
         size: pagination.value.pageSize
       });
     });
+
     return {
       ebooks,
       pagination,
       loading,
       columns,
       handlePageChange,
-
+      edit,
+      modalVisible,
+      modalLoading,
+      handleModalOk
     };
   },
 });
