@@ -48,13 +48,16 @@ public class EbookService {
         Ebook ebook=CopyUtils.copy(ebookSaveReq,Ebook.class);
         if(ObjectUtils.isEmpty(ebookSaveReq.getId())){
             //新增
-            long id = snowFlake.nextId();
-            ebook.setId(id);
+            long l = snowFlake.nextId();
+            ebook.setId(l);
             ebookMapper.insert(ebook);
         }else{
             //更新
             ebookMapper.updateByPrimaryKey(ebook);
         }
+    }
 
+    public void delete(Long id){
+        ebookMapper.deleteByPrimaryKey(id);
     }
 }
