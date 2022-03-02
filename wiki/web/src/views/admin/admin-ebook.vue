@@ -1,13 +1,120 @@
-<template>
+<template xmlns:v-slot="http://www.w3.org/1999/XSL/Transform">
   <a-layout>
     <a-layout style="padding: 0 24px 24px">
       <a-layout-content
           :style="{ background: '#fff', padding: '24px', margin: 0, minHeight: '280px' }"
       >
-        <div class="AdminEbook">
-          <h1>电子书管理</h1>
-        </div>
+        <a-table :columns="columns"
+                 :data-source="ebooks"
+                 :row-key="record => record.id"
+                 @resizeColumn="handleResizeColumn"
+                 :pagination="pagination"
+                 :loading="loading"
+                 @change="handlePageChange">
+          <template #cover="{text:cover}">
+            <img v-if="cover" :src="cover" alt="avatar"/>
+          </template>
+          <template v-slot:action="{text, record}">
+            <a-space size="small">
+              <a-button type="primary" @click="edit(record)">
+                编辑
+              </a-button>
+              <a-button type="danger">
+                  删除
+              </a-button>
+            </a-space>
+          </template>
+        </a-table>
       </a-layout-content>
     </a-layout>
   </a-layout>
 </template>
+
+<script lang="ts">
+import axios from "axios";
+import { defineComponent, ref ,onMounted} from 'vue';
+import {message} from "ant-design-vue";
+
+export default defineComponent({
+  name: 'AdminEbook',
+  setup() {
+    const ebooks = ref();
+    const pagination =ref({
+      current : 1 ,
+      pageSize : 10,
+      total : 0
+    });
+    const loading = ref(false);
+    const columns = [
+      {
+        title: '封面',
+        dataIndex: 'cover',
+        slots: { customRender: 'cover' }
+      },
+      {
+        title: '名称',
+        dataIndex: 'name'
+      },
+      {
+        title: '分类1',
+        key: 'catrgory1Id',
+        dataIndex: 'category1Id'
+      },
+      {
+        title: '分类2',
+        dataIndex: 'category1Id'
+      },
+      {
+        title: '文档数',
+        dataIndex: 'docCount'
+      },
+      {
+        title: '阅读数',
+        dataIndex: 'viewCount'
+      },
+      {
+        title: '点赞数',
+        dataIndex: 'voteCount'
+      },
+      {
+        title: 'Action',
+        key: 'action',
+        slots: { customRender: 'action' }
+      }
+    ];
+
+    const handleQuery = (params: any)=>{
+      loading.value=true;
+      axios.get("/ebook/list",params).then((res)=>{
+        loading.value=false;
+        const data = res.data;
+        ebooks.value=data.content;
+
+        //重置分页按钮
+        pagination.value.current=params.page;
+        }
+    )
+  };
+    const handlePageChange = (pagination : any)=>{
+      handleQuery({
+        page: pagination.current,
+        size: pagination.pageSize
+      });
+      onMounted(()=>{
+        handleQuery({});
+      })
+    };
+    return {
+      ebooks,
+      pagination,
+      loading,
+      columns,
+      handleResizeColumn: (w, col) => {
+        col.width = w;
+      },
+      handlePageChange
+
+    };
+  },
+});
+</script>
