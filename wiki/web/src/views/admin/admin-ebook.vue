@@ -4,6 +4,11 @@
       <a-layout-content
           :style="{ background: '#fff', padding: '24px', margin: 0, minHeight: '280px' }"
       >
+        <p>
+          <a-button type="primary" @click="add()" size="large">
+            新增
+          </a-button>
+        </p>
         <a-table :columns="columns"
                  :data-source="ebooks"
                  :row-key="record => record.id"
@@ -21,7 +26,7 @@
               </a-button>
               <a-modal
                   v-model:visible="modalVisible"
-                  title="编辑确认"
+                  title="电子书表单"
                   :confirm-loading="modalLoading"
                   @ok="handleModalOk"
               >
@@ -162,6 +167,10 @@ export default defineComponent({
       })
     };
 
+    const add=(record:any)=>{
+      modalVisible.value=true;
+      ebook.value={};
+    }
     const edit=(record:any)=>{
       modalVisible.value=true;
       ebook.value=record;
@@ -182,6 +191,7 @@ export default defineComponent({
       loading,
       columns,
       handlePageChange,
+      add,
       edit,
       modalVisible,
       modalLoading,

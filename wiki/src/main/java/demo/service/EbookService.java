@@ -10,6 +10,7 @@ import demo.req.EbookSaveReq;
 import demo.resp.EbookQueryResp;
 import demo.resp.PageResp;
 import demo.utils.CopyUtils;
+import demo.utils.SnowFlake;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
@@ -19,6 +20,8 @@ import java.util.List;
 public class EbookService {
     @Autowired
     private EbookMapper ebookMapper;
+    @Autowired
+    private SnowFlake snowFlake;
 
     public PageResp<EbookQueryResp> list(EbookQueryReq ebookReq){
 
@@ -45,6 +48,8 @@ public class EbookService {
         Ebook ebook=CopyUtils.copy(ebookSaveReq,Ebook.class);
         if(ObjectUtils.isEmpty(ebookSaveReq.getId())){
             //新增
+            long id = snowFlake.nextId();
+            ebook.setId(id);
             ebookMapper.insert(ebook);
         }else{
             //更新

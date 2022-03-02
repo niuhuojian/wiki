@@ -6,6 +6,7 @@ import demo.resp.CommonResp;
 import demo.resp.EbookQueryResp;
 import demo.resp.PageResp;
 import demo.service.EbookService;
+import demo.utils.SnowFlake;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class EbookController {
     @Autowired
     private EbookService ebookService;
+
 
 
     @RequestMapping("/list")
