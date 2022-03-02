@@ -75,6 +75,15 @@
   </div>
 </template>
 
+<style scoped>
+  .ant-avatar{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 8%;
+    margin: 5px 0;
+  }
+</style>
 <script lang="ts">
 import { defineComponent,onMounted,ref,reactive,toRef } from 'vue';
 import axios from 'axios';
@@ -106,7 +115,7 @@ export default defineComponent({
     const ebook=ref();
     const ebook1=reactive({books:[]});
     onMounted(()=>{
-      axios.get("http://localhost:8081/ebook/list?name=Spring").then((response)=>{
+      axios.get("http://localhost:8081/ebook/list").then((response)=>{
         //获取响应回来的数据，仔细的说就是传回来的EbookResp对象
         const data=response.data;
         ebook.value=data.content;

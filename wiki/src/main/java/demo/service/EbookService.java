@@ -9,6 +9,8 @@ import demo.utils.CopyUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.ObjectUtils;
+import org.springframework.util.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,8 +22,13 @@ public class EbookService {
     public List<EbookResp> list(EbookReq ebookReq){
         EbookExample ebookExample = new EbookExample();
         EbookExample.Criteria criteria = ebookExample.createCriteria();
-        //通过ebookExample来设置模糊查询
-        criteria.andNameLike("%"+ebookReq.getName()+"%");
+
+        if(!ObjectUtils.isEmpty(ebookReq.getName())){
+            //表示如果请求中的name不为空再启动模糊查询
+            //通过ebookExample来设置模糊查询
+            criteria.andNameLike("%"+ebookReq.getName()+"%");
+        }
+
         List<Ebook> ebookList = ebookMapper.selectByExample(ebookExample);
 
         List<EbookResp> ebookRespList = CopyUtils.copyList(ebookList, EbookResp.class);
