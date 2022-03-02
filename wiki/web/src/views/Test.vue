@@ -1,5 +1,18 @@
 <template>
-  <div class="home">
+  <a-layout>
+    <a-layout-header class="header">
+      <div class="logo" />
+      <a-menu
+          v-model:selectedKeys="selectedKeys1"
+          theme="dark"
+          mode="horizontal"
+          :style="{ lineHeight: '64px' }"
+      >
+        <a-menu-item key="1">nav 1</a-menu-item>
+        <a-menu-item key="2">nav 2</a-menu-item>
+        <a-menu-item key="3">nav 3</a-menu-item>
+      </a-menu>
+    </a-layout-header>
     <a-layout>
       <a-layout-sider width="200" style="background: #fff">
         <a-menu
@@ -47,41 +60,25 @@
         </a-menu>
       </a-layout-sider>
       <a-layout style="padding: 0 24px 24px">
+        <a-breadcrumb style="margin: 16px 0">
+          <a-breadcrumb-item>Home</a-breadcrumb-item>
+          <a-breadcrumb-item>List</a-breadcrumb-item>
+          <a-breadcrumb-item>App</a-breadcrumb-item>
+        </a-breadcrumb>
         <a-layout-content
             :style="{ background: '#fff', padding: '24px', margin: 0, minHeight: '280px' }"
         >
-          <pre>
-            {{ebook}}
-          </pre>
+          Content
         </a-layout-content>
       </a-layout>
     </a-layout>
-
-  </div>
+  </a-layout>
 </template>
 
 <script lang="ts">
-import { defineComponent,onMounted,ref,reactive,toRef } from 'vue';
-import axios from 'axios';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'Home',
-  setup(){
-    //ref用来定义响应式数据，在这里用来装载返回的ebook数据
-    const ebook=ref();
-    const ebook1=reactive({books:[]});
-    onMounted(()=>{
-      axios.get("http://localhost:8081/ebook/list?name=Spring").then((response)=>{
-        //获取响应回来的数据，仔细的说就是传回来的EbookResp对象
-        const data=response.data;
-        ebook.value=data.content;
-        ebook1.books=data.content;
-      });
-    });
-    return{
-      ebook,
-      books:toRef(ebook1,"books")
-    }
-  },
+  name: 'test',
 });
 </script>
