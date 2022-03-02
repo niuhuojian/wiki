@@ -5,6 +5,7 @@ import demo.domain.Ebook;
 import demo.req.EbookReq;
 import demo.resp.CommonResp;
 import demo.resp.EbookResp;
+import demo.resp.PageResp;
 import demo.service.DemoService;
 import demo.service.EbookService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,8 +23,8 @@ public class EbookController {
 
     @RequestMapping("/list")
     public CommonResp list(EbookReq ebookReq){
-        CommonResp<List<EbookResp>> resp=new CommonResp<>();
-        List<EbookResp> list = ebookService.list(ebookReq);
+        CommonResp<PageResp<EbookResp>> resp=new CommonResp<>();
+        PageResp<EbookResp> list = ebookService.list(ebookReq);
         resp.setContent(list);
         return resp;
     }
