@@ -1,4 +1,4 @@
-GET http://localhost:8081/ebook/list?page=2&size=2
+GET http://localhost:8081/ebook/list?size=1001&page=2
 Accept: application/json
 
 POST http://localhost:8081/ebook/save

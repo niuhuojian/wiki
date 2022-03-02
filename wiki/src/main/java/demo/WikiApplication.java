@@ -8,8 +8,6 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @SpringBootApplication
 @MapperScan("demo.mapper")
-@EnableAspectJAutoProxy(proxyTargetClass = true)
-@ComponentScan(basePackages = "demo.*")
 public class WikiApplication {
 
     public static void main(String[] args) {

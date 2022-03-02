@@ -133,12 +133,16 @@ export default defineComponent({
       }).then((res)=>{
         loading.value=false;
         const data = res.data;
-        ebooks.value=data.content.list;
+        if(data.success){
+          ebooks.value=data.content.list;
 
-        //重置分页按钮
-        pagination.value.current=params.page;
-        pagination.value.total=data.content.total;
+          //重置分页按钮
+          pagination.value.current=params.page;
+          pagination.value.total=data.content.total;
+        }else{
+          message.error(data.message);
         }
+      }
     )
   };
     const handlePageChange = (pagination : any)=>{
@@ -188,11 +192,11 @@ export default defineComponent({
       axios.delete("/ebook/delete/"+id).then((res)=>{
         const data=res.data;
         if(data.success){
-          // handleQuery({
-          //   page:pagination.value.current,
-          //   size:pagination.value.pageSize
-          // });
-          alert(id);
+          handleQuery({
+            page:pagination.value.current,
+            size:pagination.value.pageSize
+          });
+
         }
       });
     };
