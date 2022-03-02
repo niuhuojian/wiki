@@ -16,7 +16,7 @@
           </template>
           <template v-slot:action="{text, record}">
             <a-space size="small">
-              <a-button type="primary" @click="edit()">
+              <a-button type="primary" @click="edit(record)">
                 编辑
               </a-button>
               <a-modal
@@ -25,7 +25,26 @@
                   :confirm-loading="modalLoading"
                   @ok="handleModalOk"
               >
-                <p>{{ test }}</p>
+                <a-form
+                    :model="ebook"
+                    :label-col="{span:6}"
+                >
+                  <a-form-item  label="封面">
+                    <a-input v-model:value="ebook.cover" />
+                  </a-form-item>
+                  <a-form-item label="名称">
+                    <a-input v-model:value="ebook.name" />
+                  </a-form-item>
+                  <a-form-item label="分类一">
+                    <a-input-number v-model:value="ebook.category1Id" />
+                  </a-form-item>
+                  <a-form-item label="分类二">
+                    <a-input v-model:value="ebook.category2Id" />
+                  </a-form-item>
+                  <a-form-item label="描述">
+                    <a-textarea v-model:value="ebook.desc" type="text" />
+                  </a-form-item>
+                </a-form>
               </a-modal>
               <a-button type="danger">
                   删除
@@ -118,6 +137,7 @@ export default defineComponent({
     };
 
 
+    const ebook=ref({});
     const modalVisible = ref<boolean>(false);
     const modalLoading = ref<boolean>(false);
 
@@ -130,8 +150,9 @@ export default defineComponent({
       modalVisible.value=false;
     };
 
-    const edit=()=>{
+    const edit=(record:any)=>{
       modalVisible.value=true;
+      ebook.value=record;
     }
 
     onMounted(()=>{
@@ -140,6 +161,8 @@ export default defineComponent({
         size: pagination.value.pageSize
       });
     });
+
+
 
     return {
       ebooks,
@@ -150,7 +173,8 @@ export default defineComponent({
       edit,
       modalVisible,
       modalLoading,
-      handleModalOk
+      handleModalOk,
+      ebook
     };
   },
 });
