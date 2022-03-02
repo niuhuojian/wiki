@@ -10,8 +10,8 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import theHeader from '@/components/the-header';
-import theFooter from '@/components/the-footer';
+import theHeader from '@/components/the-header.vue';
+import theFooter from '@/components/the-footer.vue';
 export default defineComponent({
   name: 'app',
   components:{
