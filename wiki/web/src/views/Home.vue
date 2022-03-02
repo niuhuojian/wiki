@@ -87,60 +87,34 @@
 <script lang="ts">
 import { defineComponent,onMounted,ref,reactive,toRef } from 'vue';
 import axios from 'axios';
-import { StarOutlined, LikeOutlined, MessageOutlined } from '@ant-design/icons-vue';
 
-const listData: any = [];
-
-for (let i = 0; i < 23; i++) {
-  listData.push({
-    href: 'https://www.antdv.com/',
-    title: `ant design vue part ${i}`,
-    avatar: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
-    description:
-        'Ant Design, a design language for background applications, is refined by Ant UED Team.',
-    content:
-        'We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.',
-  });
-}
 
 export default defineComponent({
   name: 'Home',
-  components: {
-    StarOutlined,
-    LikeOutlined,
-    MessageOutlined,
-  },
   setup(){
     //ref用来定义响应式数据，在这里用来装载返回的ebook数据
     const ebook=ref();
-    const ebook1=reactive({books:[]});
+    //const ebook1=reactive({books:[]});
     onMounted(()=>{
-      axios.get("/ebook/list").then((response)=>{
+      axios.get("/ebook/list",{
+        params:{
+          page:1,
+          size:1000
+        }
+      }).then((response)=>{
         //获取响应回来的数据，仔细的说就是传回来的EbookResp对象
         const data=response.data;
-        ebook.value=data.content;
-        ebook1.books=data.content;
+        ebook.value=data.content.list;
+        //ebook1.books=data.content;
       });
     });
 
-    const pagination = {
-      onChange: (page: any) => {
-        console.log(page);
-      },
-      pageSize: 3,
-    };
-    const actions: Record<string, string>[] = [
-      { type: 'StarOutlined', text: '156' },
-      { type: 'LikeOutlined', text: '156' },
-      { type: 'MessageOutlined', text: '2' },
-    ];
-
     return{
       ebook,
-      books:toRef(ebook1,"books"),
-      listData,
-      pagination,
-      actions,
+      //books:toRef(ebook1,"books"),
+      pagination:{
+        pageSize:3
+      },
     }
   },
 });
