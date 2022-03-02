@@ -5,24 +5,22 @@ import com.github.pagehelper.PageInfo;
 import demo.domain.Ebook;
 import demo.domain.EbookExample;
 import demo.mapper.EbookMapper;
-import demo.req.EbookReq;
-import demo.resp.EbookResp;
+import demo.req.EbookQueryReq;
+import demo.req.EbookSaveReq;
+import demo.resp.EbookQueryResp;
 import demo.resp.PageResp;
 import demo.utils.CopyUtils;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
-import org.springframework.util.StringUtils;
 
-import java.util.ArrayList;
 import java.util.List;
 @Service
 public class EbookService {
     @Autowired
     private EbookMapper ebookMapper;
 
-    public PageResp<EbookResp> list(EbookReq ebookReq){
+    public PageResp<EbookQueryResp> list(EbookQueryReq ebookReq){
 
         EbookExample ebookExample = new EbookExample();
         EbookExample.Criteria criteria = ebookExample.createCriteria();
@@ -39,7 +37,19 @@ public class EbookService {
         PageResp pageResp=new PageResp();
         pageResp.setTotal(pageInfo.getTotal());
         pageResp.setList(ebookList);
-        List<EbookResp> ebookRespList = CopyUtils.copyList(ebookList, EbookResp.class);
+        List<EbookQueryResp> ebookQueryRespList = CopyUtils.copyList(ebookList, EbookQueryResp.class);
         return pageResp;
+    }
+
+    public void save(EbookSaveReq ebookSaveReq){
+        Ebook ebook=CopyUtils.copy(ebookSaveReq,Ebook.class);
+        if(ObjectUtils.isEmpty(ebookSaveReq.getId())){
+            //新增
+            ebookMapper.insert(ebook);
+        }else{
+            //更新
+            ebookMapper.updateByPrimaryKey(ebook);
+        }
+
     }
 }

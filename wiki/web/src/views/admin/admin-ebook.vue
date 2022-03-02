@@ -36,7 +36,7 @@
                     <a-input v-model:value="ebook.name" />
                   </a-form-item>
                   <a-form-item label="分类一">
-                    <a-input-number v-model:value="ebook.category1Id" />
+                    <a-input v-model:value="ebook.category1Id" />
                   </a-form-item>
                   <a-form-item label="分类二">
                     <a-input v-model:value="ebook.category2Id" />
@@ -147,7 +147,19 @@ export default defineComponent({
 
     const handleModalOk = () => {
       modalLoading.value = true;
-      modalVisible.value=false;
+      axios.post("/ebook/save",ebook.value).then((res)=>{
+        const data=res.data;
+        if(data.success){
+          modalVisible.value=false;
+          modalLoading.value=false;
+
+          //重新加载数据
+          handleQuery({
+            page:pagination.value.current,
+            size:pagination.value.pageSize
+          })
+        }
+      })
     };
 
     const edit=(record:any)=>{
