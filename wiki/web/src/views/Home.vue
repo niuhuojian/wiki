@@ -115,7 +115,7 @@ export default defineComponent({
     const ebook=ref();
     const ebook1=reactive({books:[]});
     onMounted(()=>{
-      axios.get("http://localhost:8081/ebook/list").then((response)=>{
+      axios.get("/ebook/list").then((response)=>{
         //获取响应回来的数据，仔细的说就是传回来的EbookResp对象
         const data=response.data;
         ebook.value=data.content;
