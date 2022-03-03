@@ -95,23 +95,13 @@ export default defineComponent({
     };
 
     const isShowWelcome=ref(true);
-    const handleClick=(value:any)=>{
-      console.log("click",value);
-      if (value.key === 'welcome'){
-        isShowWelcome.value = true;
-      }else{
-        isShowWelcome.value = false;
-      }
-    }
-
-
-
-    onMounted(()=>{
-      handleQueryCategory();
+    let categoryId2=0;
+    const handleQueryEbook=()=>{
       axios.get("/ebook/list",{
         params:{
           page:1,
-          size:1000
+          size:1000,
+          categoryId2: categoryId2
         }
       }).then((response)=>{
         //获取响应回来的数据，仔细的说就是传回来的EbookResp对象
@@ -119,6 +109,23 @@ export default defineComponent({
         ebook.value=data.content.list;
         //ebook1.books=data.content;
       });
+    };
+
+    const handleClick=(value:any)=>{
+      console.log("click",value);
+      if (value.key === 'welcome'){
+        isShowWelcome.value = true;
+      }else{
+        categoryId2 = value.key;
+        isShowWelcome.value = false;
+        handleQueryEbook();
+      }
+    }
+
+
+
+    onMounted(()=>{
+      handleQueryCategory();
     });
 
 

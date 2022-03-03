@@ -34,6 +34,9 @@ public class EbookService {
             //通过ebookExample来设置模糊查询
             criteria.andNameLike("%"+ebookReq.getName()+"%");
         }
+        if(!ObjectUtils.isEmpty(ebookReq.getCategoryId2())){
+            criteria.andCategory2IdEqualTo(ebookReq.getCategoryId2());
+        }
         PageHelper.startPage(ebookReq.getPage(),ebookReq.getSize());
         List<Ebook> ebookList = ebookMapper.selectByExample(ebookExample);
         PageInfo<Ebook> pageInfo=new PageInfo<>(ebookList);
