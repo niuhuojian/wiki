@@ -37,6 +37,9 @@
           <template #cover="{text:cover}">
             <img v-if="cover" :src="cover" alt="avatar"/>
           </template>
+          <template v-slot:category="{text,record}">
+            <span>{{getCategoryName(record.category1Id)}} / {{getCategoryName(record.category2Id)}}</span>
+          </template>
           <template v-slot:action="{text, record}">
             <a-space size="small">
               <a-button type="primary" @click="edit(record)">
@@ -58,11 +61,11 @@
                   <a-form-item label="名称">
                     <a-input v-model:value="ebook.name" />
                   </a-form-item>
-                  <a-form-item label="分类一">
-                    <a-input v-model:value="ebook.category1Id" />
-                  </a-form-item>
-                  <a-form-item label="分类二">
-                    <a-input v-model:value="ebook.category2Id" />
+                  <a-form-item label="分类">
+                    <a-cascader v-model:value="categoryIds"
+                                :field-names="{label:'name',value:'id',children:'children'}"
+                                :options="level1"
+                                placeholder="Please select" />
                   </a-form-item>
                   <a-form-item label="描述">
                     <a-textarea v-model:value="ebook.description" type="text" />
@@ -117,13 +120,8 @@ export default defineComponent({
         dataIndex: 'name'
       },
       {
-        title: '分类1',
-        key: 'catrgory1Id',
-        dataIndex: 'category1Id'
-      },
-      {
-        title: '分类2',
-        dataIndex: 'category2Id'
+        title: '分类',
+        slots: { customRender: 'category'}
       },
       {
         title: '文档数',
@@ -146,6 +144,9 @@ export default defineComponent({
 
     const handleQuery = (params: any)=>{
       loading.value=true;
+      //为了获取最新的数据，先清空，再赋值
+      //原因不详
+      ebooks.value=[];
       axios.get("/ebook/list",{
         params:{
           page:params.page,
@@ -175,8 +176,8 @@ export default defineComponent({
 
     };
 
-
-    const ebook=ref({});
+    const categoryIds=ref();
+    const ebook=ref();
     const modalVisible = ref<boolean>(false);
     const modalLoading = ref<boolean>(false);
 
@@ -186,6 +187,8 @@ export default defineComponent({
 
     const handleModalOk = () => {
       modalLoading.value = true;
+      ebook.value.category1Id=categoryIds.value[0];
+      ebook.value.category2Id=categoryIds.value[1];
       axios.post("/ebook/save",ebook.value).then((res)=>{
         modalLoading.value=false;
         const data=res.data;
@@ -210,6 +213,7 @@ export default defineComponent({
     const edit=(record:any)=>{
       modalVisible.value=true;
       ebook.value=Tool.copy(record);
+      categoryIds.value=[ebook.value.category1Id,ebook.value.category2Id];
     }
 
     const del=(id:number)=>{
@@ -225,7 +229,39 @@ export default defineComponent({
       });
     };
 
+    const level1=ref();
+    let categorys:any;
+    const handleQueryCategory = ()=>{
+      loading.value=true;
+      axios.get("/category/all").then((res)=>{
+            loading.value=false;
+            const data = res.data;
+
+            if(data.success){
+              categorys=data.content;
+              console.log("原始数组：",categorys);
+              level1.value=[];
+              level1.value=Tool.array2Tree(categorys,0);
+              console.log("树形结构：",level1);
+            }else{
+              message.error(data.message);
+            }
+          }
+      )
+    };
+
+    const getCategoryName=(cid:number)=>{
+      let result="";
+      categorys.forEach((item:any)=>{
+        if(item.id===cid){
+          result=item.name;
+        }
+      });
+      return result;
+    };
+
     onMounted(()=>{
+      handleQueryCategory();
       handleQuery({
         page: 1,
         size: pagination.value.pageSize
@@ -248,7 +284,10 @@ export default defineComponent({
       handleModalOk,
       ebook,
       param,
-      handleQuery
+      handleQuery,
+      categoryIds,
+      level1,
+      getCategoryName
     };
   },
 });
