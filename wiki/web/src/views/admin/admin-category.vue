@@ -28,7 +28,7 @@
           </a-form>
         </p>
         <a-table :columns="columns"
-                 :data-source="categorys"
+                 :data-source="level1"
                  :row-key="record => record.id"
                  @resizeColumn="handleResizeColumn"
                  :loading="loading"
@@ -116,13 +116,19 @@ export default defineComponent({
       }
     ];
 
+    const level1=ref();
     const handleQuery = ()=>{
       loading.value=true;
       axios.get("/category/all").then((res)=>{
         loading.value=false;
         const data = res.data;
+
         if(data.success){
           categorys.value=data.content;
+          console.log("原始数组：",categorys.value);
+          level1.value=[];
+          level1.value=Tool.array2Tree(categorys.value,0);
+          console.log("树形结构：",level1);
         }else{
           message.error(data.message);
         }
@@ -192,7 +198,8 @@ export default defineComponent({
       handleModalOk,
       category,
       param,
-      handleQuery
+      handleQuery,
+      level1
     };
   },
 });
