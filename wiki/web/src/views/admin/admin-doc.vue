@@ -70,6 +70,9 @@
                   <a-form-item label="顺序">
                     <a-input v-model:value="doc.sort" />
                   </a-form-item>
+                  <a-form-item label="内容">
+                    <div id="content"></div>
+                  </a-form-item>
                 </a-form>
               </a-modal>
               <a-popconfirm
@@ -97,11 +100,14 @@ import { defineComponent, ref ,onMounted} from 'vue';
 import {message} from "ant-design-vue";
 import {Tool} from '@/util/tool.ts';
 import { useRoute } from "vue-router";
+import E from "wangeditor"
 
 export default defineComponent({
   name: 'AdminDoc',
   setup() {
     const route=useRoute();
+    const editor = new E('#content');
+
 
     const param=ref();
     param.value={};
@@ -178,6 +184,7 @@ export default defineComponent({
     };
 
     const add=(record:any)=>{
+
       modalVisible.value=true;
       doc.value={
         ebookId:route.query.ebookId
@@ -185,6 +192,12 @@ export default defineComponent({
 
       treeSelectData.value=Tool.copy(level1.value);
       treeSelectData.value.unshift({id:0,name:'无'});
+
+      setTimeout(function () {
+        //刚加载完不进行操作时，不会进到表单里面触发富文本编辑器，也就不会create
+        //而当visible属性为true时，页面才开始渲染modal，虽然时间很短，但仍然需要时间，所以将创建放到后面，保证渲染完成
+        editor.create();
+      },100);
 
     }
 
@@ -243,6 +256,7 @@ export default defineComponent({
     };
 
     const edit=(record:any)=>{
+
       modalVisible.value=true;
       doc.value=Tool.copy(record);
 
@@ -252,6 +266,12 @@ export default defineComponent({
 
       //为选择树添加一个无
       treeSelectData.value.unshift({id:0,name:'无'});
+
+      setTimeout(function () {
+        //刚加载完不进行操作时，不会进到表单里面触发富文本编辑器，也就不会create
+        //而当visible属性为true时，页面才开始渲染modal，虽然时间很短，但仍然需要时间，所以将创建放到后面，保证渲染完成
+        editor.create();
+      },100);
     }
 
     const del=(id:number)=>{
@@ -271,6 +291,7 @@ export default defineComponent({
     };
 
     onMounted(()=>{
+
       handleQuery();
     });
 
