@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.List;
 
 @RestController
 @RequestMapping("/category")
@@ -24,6 +25,14 @@ public class CategotyController {
         CommonResp<PageResp<CategoryQueryResp>> resp=new CommonResp<>();
         PageResp<CategoryQueryResp> list = categoryService.list(categoryReq);
         resp.setContent(list);
+        return resp;
+    }
+
+    @RequestMapping("/all")
+    public CommonResp all(){
+        CommonResp<List<CategoryQueryResp>> resp=new CommonResp<>();
+        List<CategoryQueryResp> all = categoryService.all();
+        resp.setContent(all);
         return resp;
     }
 
