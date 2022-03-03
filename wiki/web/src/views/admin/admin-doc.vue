@@ -257,7 +257,10 @@ export default defineComponent({
     const del=(id:number)=>{
       //level1为整个树的数据
       //id则为当前选择的目标节点
+      ids.splice(0,ids.length);
+      console.log("number="+ids.toString());
       getDeleteIds(level1.value,id);
+      console.log("number="+ids.toString());
       axios.delete("/doc/delete/"+ids.join(",")).then((res)=>{
         const data=res.data;
         if(data.success){
