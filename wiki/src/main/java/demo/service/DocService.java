@@ -11,6 +11,8 @@ import demo.resp.DocQueryResp;
 import demo.resp.PageResp;
 import demo.utils.CopyUtils;
 import demo.utils.SnowFlake;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
@@ -19,6 +21,8 @@ import java.util.List;
 
 @Service
 public class DocService {
+    private static final Logger Log= LoggerFactory.getLogger(DocService.class);
+
     @Autowired
     private DocMapper docMapper;
     @Autowired
@@ -67,5 +71,12 @@ public class DocService {
 
         List<DocQueryResp> docQueryRespList = CopyUtils.copyList(docList, DocQueryResp.class);
         return docQueryRespList;
+    }
+
+    public void delete(List<String> ids){
+        DocExample docExample=new DocExample();
+        DocExample.Criteria criteria = docExample.createCriteria();
+        criteria.andIdIn(ids);
+        docMapper.deleteByExample(docExample);
     }
 }

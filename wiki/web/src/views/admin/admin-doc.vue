@@ -214,6 +214,34 @@ export default defineComponent({
         }
       }
     };
+
+    const ids:Array<string>=[];
+    const getDeleteIds=(treeSelectData:any,id:any)=>{
+      //遍历数组，即遍历某一层节点
+      for(let i=0;i<treeSelectData.length;i++){
+        const node=treeSelectData[i];
+        if(node.id === id){
+          // //将目标节点设置为disabled
+          // node.disabled=true;
+          ids.push(node.id);
+
+          //遍历所有子节点
+          const children=node.children;
+          if(Tool.isNotEmpty(children)){
+            for(let j=0;j<children.length;j++){
+              getDeleteIds(children,children[j].id);
+            }
+          }
+        }else{
+          //如果当前节点不是目标节点，就到子节点找找看
+          const children=node.children;
+          if(Tool.isNotEmpty(children)){
+            getDeleteIds(children,id);
+          }
+        }
+      }
+    };
+
     const edit=(record:any)=>{
       modalVisible.value=true;
       doc.value=Tool.copy(record);
@@ -227,7 +255,10 @@ export default defineComponent({
     }
 
     const del=(id:number)=>{
-      axios.delete("/doc/delete/"+id).then((res)=>{
+      //level1为整个树的数据
+      //id则为当前选择的目标节点
+      getDeleteIds(level1.value,id);
+      axios.delete("/doc/delete/"+ids.join(",")).then((res)=>{
         const data=res.data;
         if(data.success){
           handleQuery();
