@@ -133,6 +133,9 @@ export default defineComponent({
     param.value={};
     const docs = ref();
     const loading = ref(false);
+    const treeSelectData=ref();
+    treeSelectData.value=[];
+
     const columns = [
       {
         title: '名称',
@@ -152,7 +155,7 @@ export default defineComponent({
       loading.value=true;
       //清空表单内的数据，重新加载得到最新的数据
       level1.value=[];
-      axios.get("/doc/all").then((res)=>{
+      axios.get("/doc/all/"+route.query.ebookId).then((res)=>{
         loading.value=false;
         const data = res.data;
         if(data.success){
@@ -161,6 +164,11 @@ export default defineComponent({
           level1.value=[];
           level1.value=Tool.array2Tree(docs.value,0);
           console.log("树形结构：",level1);
+
+          //父文档下拉框初始化，相当于点击新增
+          treeSelectData.value=Tool.copy(level1.value);
+          //为选择添加无选项
+          treeSelectData.value.unshift({id:0,name:'无'});
         }else{
           message.error(data.message);
         }
@@ -181,8 +189,7 @@ export default defineComponent({
   };
 
     //因为使用数选择组件的话，会随当前编辑的节点而变化，所以另外声明一个响应式变量
-    const treeSelectData=ref();
-    treeSelectData.value=[];
+
     const doc=ref();
     doc.value={};
     // const modalVisible = ref<boolean>(false);

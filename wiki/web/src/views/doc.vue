@@ -38,7 +38,7 @@
         // loading.value=true;
         //清空表单内的数据，重新加载得到最新的数据
         level1.value=[];
-        axios.get("/doc/all").then((res)=>{
+        axios.get("/doc/all/"+route.query.ebookId).then((res)=>{
               // loading.value=false;
               const data = res.data;
               if(data.success){
