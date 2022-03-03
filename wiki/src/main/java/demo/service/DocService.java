@@ -65,6 +65,7 @@ public class DocService {
         }else{
             //更新
             docMapper.updateByPrimaryKey(doc);
+            //包含大字段的更新方法
             int i = contentMapper.updateByPrimaryKeyWithBLOBs(content);
             if(i == 0){
                 contentMapper.insert(content);
@@ -92,5 +93,12 @@ public class DocService {
         DocExample.Criteria criteria = docExample.createCriteria();
         criteria.andIdIn(ids);
         docMapper.deleteByExample(docExample);
+    }
+
+    public String listContent(Long id){
+        //这里查询已经是全部字段，包括大字段
+        Content content = contentMapper.selectByPrimaryKey(id);
+        String content1 = content.getContent();
+        return content1;
     }
 }

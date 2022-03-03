@@ -52,5 +52,13 @@ public class DocController {
         return commonResp;
     }
 
+    @RequestMapping("/listContent/{id}")
+    public CommonResp listContent(@PathVariable Long id){
+        CommonResp<String> resp=new CommonResp<>();
+        String s = docService.listContent(id);
+        resp.setContent(s);
+        return resp;
+    }
+
 
 }

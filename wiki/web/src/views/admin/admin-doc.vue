@@ -155,7 +155,6 @@ export default defineComponent({
       axios.get("/doc/all").then((res)=>{
         loading.value=false;
         const data = res.data;
-
         if(data.success){
           docs.value=data.content;
           console.log("原始数组：",docs.value);
@@ -168,27 +167,40 @@ export default defineComponent({
       }
     )
   };
+    const handleQueryContent = ()=>{
+      axios.get("/doc/listContent/"+doc.value.id).then((res)=>{
+        const data = res.data;
+
+        if(data.success){
+          editor.txt.html(data.content)
+        }else{
+          message.error(data.message);
+        }
+      }
+    )
+  };
 
     //因为使用数选择组件的话，会随当前编辑的节点而变化，所以另外声明一个响应式变量
     const treeSelectData=ref();
     treeSelectData.value=[];
     const doc=ref();
     doc.value={};
-    const modalVisible = ref<boolean>(false);
-    const modalLoading = ref<boolean>(false);
+    // const modalVisible = ref<boolean>(false);
+    // const modalLoading = ref<boolean>(false);
 
-    const showModal = () => {
-      modalVisible.value = true;
-    };
+    // const showModal = () => {
+    //   modalVisible.value = true;
+    // };
 
     const handleSave = () => {
-      modalLoading.value = true;
+      // modalLoading.value = true;
       doc.value.content=editor.txt.html();
       axios.post("/doc/save",doc.value).then((res)=>{
-        modalLoading.value=false;
+        // modalLoading.value=false;
         const data=res.data;
         if(data.success){
-          modalVisible.value=false;
+          // modalVisible.value=false;
+          message.success("保存成功");
 
           //重新加载数据
           handleQuery();
@@ -199,8 +211,9 @@ export default defineComponent({
     };
 
     const add=(record:any)=>{
-
-      modalVisible.value=true;
+      //清空富文本框
+      editor.txt.html("");
+      // modalVisible.value=true;
       doc.value={
         ebookId:route.query.ebookId
       };
@@ -266,10 +279,12 @@ export default defineComponent({
     };
 
     const edit=(record:any)=>{
-
-      modalVisible.value=true;
+      //清空富文本框
+      editor.txt.html("");
+      // modalVisible.value=true;
       doc.value=Tool.copy(record);
-
+      //点击编辑按钮后，等到doc从数据库获取值后，再进行查询内容回显
+      handleQueryContent();
       //当前节点不能选择自身或所有子节点，作为父节点，会使树断开
       treeSelectData.value=Tool.copy(level1.value);
       setDisable(treeSelectData.value,record.id);
@@ -310,8 +325,8 @@ export default defineComponent({
       add,
       edit,
       del,
-      modalVisible,
-      modalLoading,
+      // modalVisible,
+      // modalLoading,
       handleSave,
       doc,
       param,
