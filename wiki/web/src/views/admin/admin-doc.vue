@@ -4,7 +4,7 @@
       <a-layout-content
           :style="{ background: '#fff', padding: '24px', margin: 0, minHeight: '280px' }"
       >
-        <a-row>
+        <a-row :gutter="24">
           <a-col :span="8">
             <p>
               <a-form
@@ -35,13 +35,16 @@
                      @resizeColumn="handleResizeColumn"
                      :loading="loading"
                      :pagination="false"
+                     size="small"
+                     v-if="level1.length>0"
+                     :defaultExpandAllRows="true"
             >
-              <template #cover="{text:cover}">
-                <img v-if="cover" :src="cover" alt="avatar"/>
+              <template #name="{text,record}">
+                {{record.sort}}{{text}}
               </template>
               <template v-slot:action="{text, record}">
                 <a-space size="small">
-                  <a-button type="primary" @click="edit(record)">
+                  <a-button type="primary" @click="edit(record)" size="small">
                     编辑
                   </a-button>
 
@@ -51,7 +54,7 @@
                       cancel-text="否"
                       @confirm="del(record.id)"
                   >
-                    <a-button type="danger">
+                    <a-button type="danger" size="small">
                       删除
                     </a-button>
                   </a-popconfirm>
@@ -60,29 +63,38 @@
             </a-table>
           </a-col>
           <a-col :span="16">
+            <p>
+              <a-form layout="incline" :model="param">
+                <a-form-item>
+                  <a-button type="primary" @click="handleSave()">
+                    保存
+                  </a-button>
+                </a-form-item>
+              </a-form>
+            </p>
             <a-form
                 :model="doc"
-                :label-col="{span:6}"
+                layout="vertical"
             >
-              <a-form-item label="名称">
-                <a-input v-model:value="doc.name" />
+              <a-form-item>
+                <a-input v-model:value="doc.name" placeholder="名称"/>
               </a-form-item>
               <a-form-item label="父文档">
                 <a-tree-select
                     v-model:value="doc.parent"
                     style="width: 100%"
                     :dropdown-style="{ maxHeight: '400px', overflow: 'auto' }"
-                    placeholder="Please select"
+                    placeholder="请选择父文档"
                     tree-default-expand-all
                     :tree-data="treeSelectData"
                     :replaceFields="{title:'name',key:'id',value:'id'}"
                 >
                 </a-tree-select>
               </a-form-item>
-              <a-form-item label="顺序">
-                <a-input v-model:value="doc.sort" />
+              <a-form-item>
+                <a-input v-model:value="doc.sort" placeholder="顺序"/>
               </a-form-item>
-              <a-form-item label="内容">
+              <a-form-item>
                 <div id="content"></div>
               </a-form-item>
             </a-form>
@@ -114,7 +126,8 @@ export default defineComponent({
   setup() {
     const route=useRoute();
     const editor = new E('#content');
-
+    //修改富文本输入框的覆盖层级大小，越大越顶级（类似于ps中的图层），防止覆盖住其他元素
+    editor.config.zIndex=0;
 
     const param=ref();
     param.value={};
@@ -123,16 +136,8 @@ export default defineComponent({
     const columns = [
       {
         title: '名称',
-        dataIndex: 'name'
-      },
-      {
-        title: '父分类',
-        key: 'parent',
-        dataIndex: 'parent'
-      },
-      {
-        title: '顺序',
-        dataIndex: 'sort'
+        dataIndex: 'name',
+        slots: {customRender: 'name'}
       },
       {
         title: 'Action',
@@ -142,6 +147,7 @@ export default defineComponent({
     ];
 
     const level1=ref();
+    level1.value=[];
     const handleQuery = ()=>{
       loading.value=true;
       //清空表单内的数据，重新加载得到最新的数据
@@ -166,7 +172,8 @@ export default defineComponent({
     //因为使用数选择组件的话，会随当前编辑的节点而变化，所以另外声明一个响应式变量
     const treeSelectData=ref();
     treeSelectData.value=[];
-    const doc=ref({});
+    const doc=ref();
+    doc.value={};
     const modalVisible = ref<boolean>(false);
     const modalLoading = ref<boolean>(false);
 
@@ -174,8 +181,9 @@ export default defineComponent({
       modalVisible.value = true;
     };
 
-    const handleModalOk = () => {
+    const handleSave = () => {
       modalLoading.value = true;
+      doc.value.content=editor.txt.html();
       axios.post("/doc/save",doc.value).then((res)=>{
         modalLoading.value=false;
         const data=res.data;
@@ -200,11 +208,6 @@ export default defineComponent({
       treeSelectData.value=Tool.copy(level1.value);
       treeSelectData.value.unshift({id:0,name:'无'});
 
-      setTimeout(function () {
-        //刚加载完不进行操作时，不会进到表单里面触发富文本编辑器，也就不会create
-        //而当visible属性为true时，页面才开始渲染modal，虽然时间很短，但仍然需要时间，所以将创建放到后面，保证渲染完成
-        editor.create();
-      },100);
 
     }
 
@@ -274,11 +277,6 @@ export default defineComponent({
       //为选择树添加一个无
       treeSelectData.value.unshift({id:0,name:'无'});
 
-      setTimeout(function () {
-        //刚加载完不进行操作时，不会进到表单里面触发富文本编辑器，也就不会create
-        //而当visible属性为true时，页面才开始渲染modal，虽然时间很短，但仍然需要时间，所以将创建放到后面，保证渲染完成
-        editor.create();
-      },100);
     }
 
     const del=(id:number)=>{
@@ -298,8 +296,9 @@ export default defineComponent({
     };
 
     onMounted(()=>{
-
       handleQuery();
+      //因为修改了布局，加载就能看到输入页面，所以可以直接创建
+      editor.create();
     });
 
 
@@ -313,7 +312,7 @@ export default defineComponent({
       del,
       modalVisible,
       modalLoading,
-      handleModalOk,
+      handleSave,
       doc,
       param,
       handleQuery,

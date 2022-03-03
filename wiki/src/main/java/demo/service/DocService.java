@@ -2,8 +2,10 @@ package demo.service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import demo.domain.Content;
 import demo.domain.Doc;
 import demo.domain.DocExample;
+import demo.mapper.ContentMapper;
 import demo.mapper.DocMapper;
 import demo.req.DocQueryReq;
 import demo.req.DocSaveReq;
@@ -28,6 +30,9 @@ public class DocService {
     @Autowired
     private SnowFlake snowFlake;
 
+    @Autowired
+    private ContentMapper contentMapper;
+
     public PageResp<DocQueryResp> list(DocQueryReq docReq){
 
         DocExample docExample = new DocExample();
@@ -46,15 +51,24 @@ public class DocService {
     }
 
     public void save(DocSaveReq docSaveReq){
+        //要分清楚两者区别
+        //Doc内只有该有的属性值，而没有content，所以需要再新增一个content对象存放内容
         Doc doc=CopyUtils.copy(docSaveReq,Doc.class);
+        Content content=CopyUtils.copy(docSaveReq, Content.class);
         if(ObjectUtils.isEmpty(docSaveReq.getId())){
             //新增
             long l = snowFlake.nextId();
             doc.setId(l);
             docMapper.insert(doc);
+            content.setId(doc.getId());
+            contentMapper.insert(content);
         }else{
             //更新
             docMapper.updateByPrimaryKey(doc);
+            int i = contentMapper.updateByPrimaryKeyWithBLOBs(content);
+            if(i == 0){
+                contentMapper.insert(content);
+            }
         }
     }
 
