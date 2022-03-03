@@ -28,7 +28,7 @@
           </a-form>
         </p>
         <a-table :columns="columns"
-                 :data-source="ebooks"
+                 :data-source="categorys"
                  :row-key="record => record.id"
                  @resizeColumn="handleResizeColumn"
                  :pagination="pagination"
@@ -44,28 +44,22 @@
               </a-button>
               <a-modal
                   v-model:visible="modalVisible"
-                  title="电子书表单"
+                  title="分类表单"
                   :confirm-loading="modalLoading"
                   @ok="handleModalOk"
               >
                 <a-form
-                    :model="ebook"
+                    :model="category"
                     :label-col="{span:6}"
                 >
-                  <a-form-item  label="封面">
-                    <a-input v-model:value="ebook.cover" />
-                  </a-form-item>
                   <a-form-item label="名称">
-                    <a-input v-model:value="ebook.name" />
+                    <a-input v-model:value="category.name" />
                   </a-form-item>
-                  <a-form-item label="分类一">
-                    <a-input v-model:value="ebook.category1Id" />
+                  <a-form-item label="父分类">
+                    <a-input v-model:value="category.parent" />
                   </a-form-item>
-                  <a-form-item label="分类二">
-                    <a-input v-model:value="ebook.category2Id" />
-                  </a-form-item>
-                  <a-form-item label="描述">
-                    <a-textarea v-model:value="ebook.description" type="text" />
+                  <a-form-item label="顺序">
+                    <a-input v-model:value="category.sort" />
                   </a-form-item>
                 </a-form>
               </a-modal>
@@ -95,11 +89,11 @@ import {message} from "ant-design-vue";
 import {Tool} from '@/util/tool.ts';
 
 export default defineComponent({
-  name: 'AdminEbook',
+  name: 'AdminCategory',
   setup() {
     const param=ref();
     param.value={};
-    const ebooks = ref();
+    const categorys = ref();
     const pagination =ref({
       current : 1 ,
       pageSize : 6,
@@ -108,34 +102,17 @@ export default defineComponent({
     const loading = ref(false);
     const columns = [
       {
-        title: '封面',
-        dataIndex: 'cover',
-        slots: { customRender: 'cover' }
-      },
-      {
         title: '名称',
         dataIndex: 'name'
       },
       {
-        title: '分类1',
-        key: 'catrgory1Id',
-        dataIndex: 'category1Id'
+        title: '父分类',
+        key: 'parent',
+        dataIndex: 'parent'
       },
       {
-        title: '分类2',
-        dataIndex: 'category2Id'
-      },
-      {
-        title: '文档数',
-        dataIndex: 'docCount'
-      },
-      {
-        title: '阅读数',
-        dataIndex: 'viewCount'
-      },
-      {
-        title: '点赞数',
-        dataIndex: 'voteCount'
+        title: '顺序',
+        dataIndex: 'sort'
       },
       {
         title: 'Action',
@@ -146,7 +123,7 @@ export default defineComponent({
 
     const handleQuery = (params: any)=>{
       loading.value=true;
-      axios.get("/ebook/list",{
+      axios.get("/category/list",{
         params:{
           page:params.page,
           size:params.size,
@@ -156,7 +133,7 @@ export default defineComponent({
         loading.value=false;
         const data = res.data;
         if(data.success){
-          ebooks.value=data.content.list;
+          categorys.value=data.content.list;
 
           //重置分页按钮
           pagination.value.current=params.page;
@@ -176,7 +153,7 @@ export default defineComponent({
     };
 
 
-    const ebook=ref({});
+    const category=ref({});
     const modalVisible = ref<boolean>(false);
     const modalLoading = ref<boolean>(false);
 
@@ -186,7 +163,7 @@ export default defineComponent({
 
     const handleModalOk = () => {
       modalLoading.value = true;
-      axios.post("/ebook/save",ebook.value).then((res)=>{
+      axios.post("/category/save",category.value).then((res)=>{
         modalLoading.value=false;
         const data=res.data;
         if(data.success){
@@ -205,15 +182,15 @@ export default defineComponent({
 
     const add=(record:any)=>{
       modalVisible.value=true;
-      ebook.value={};
+      category.value={};
     }
     const edit=(record:any)=>{
       modalVisible.value=true;
-      ebook.value=Tool.copy(record);
+      category.value=Tool.copy(record);
     }
 
     const del=(id:number)=>{
-      axios.delete("/ebook/delete/"+id).then((res)=>{
+      axios.delete("/category/delete/"+id).then((res)=>{
         const data=res.data;
         if(data.success){
           handleQuery({
@@ -235,7 +212,7 @@ export default defineComponent({
 
 
     return {
-      ebooks,
+      categorys,
       pagination,
       loading,
       columns,
@@ -246,7 +223,7 @@ export default defineComponent({
       modalVisible,
       modalLoading,
       handleModalOk,
-      ebook,
+      category,
       param,
       handleQuery
     };
