@@ -5,9 +5,27 @@
           :style="{ background: '#fff', padding: '24px', margin: 0, minHeight: '280px' }"
       >
         <p>
-          <a-button type="primary" @click="add()" size="large">
-            新增
-          </a-button>
+          <a-form
+              layout="inline"
+              :model="param"
+          >
+            <a-form-item>
+              <a-input v-model:value="param.name" placeholder="请输入查询名称"/>
+            </a-form-item>
+            <a-form-item>
+              <a-button
+                  type="primary"
+                  @click="handleQuery({page:1,size:pagination.pageSize})"
+              >
+                查询
+              </a-button>
+            </a-form-item>
+            <a-form-item>
+              <a-button type="primary" @click="add()">
+                新增
+              </a-button>
+            </a-form-item>
+          </a-form>
         </p>
         <a-table :columns="columns"
                  :data-source="ebooks"
@@ -74,10 +92,13 @@
 import axios from "axios";
 import { defineComponent, ref ,onMounted} from 'vue';
 import {message} from "ant-design-vue";
+import {Tool} from '@/util/tool.ts';
 
 export default defineComponent({
   name: 'AdminEbook',
   setup() {
+    const param=ref();
+    param.value={};
     const ebooks = ref();
     const pagination =ref({
       current : 1 ,
@@ -102,7 +123,7 @@ export default defineComponent({
       },
       {
         title: '分类2',
-        dataIndex: 'category1Id'
+        dataIndex: 'category2Id'
       },
       {
         title: '文档数',
@@ -128,7 +149,8 @@ export default defineComponent({
       axios.get("/ebook/list",{
         params:{
           page:params.page,
-          size:params.size
+          size:params.size,
+          name:param.value.name
         }
       }).then((res)=>{
         loading.value=false;
@@ -165,16 +187,18 @@ export default defineComponent({
     const handleModalOk = () => {
       modalLoading.value = true;
       axios.post("/ebook/save",ebook.value).then((res)=>{
+        modalLoading.value=false;
         const data=res.data;
         if(data.success){
           modalVisible.value=false;
-          modalLoading.value=false;
 
           //重新加载数据
           handleQuery({
             page:pagination.value.current,
-            size:pagination.value.pageSize
-          })
+            size:pagination.value.pageSize,
+          });
+        }else{
+          message.error(data.message);
         }
       })
     };
@@ -185,7 +209,7 @@ export default defineComponent({
     }
     const edit=(record:any)=>{
       modalVisible.value=true;
-      ebook.value=record;
+      ebook.value=Tool.copy(record);
     }
 
     const del=(id:number)=>{
@@ -222,7 +246,9 @@ export default defineComponent({
       modalVisible,
       modalLoading,
       handleModalOk,
-      ebook
+      ebook,
+      param,
+      handleQuery
     };
   },
 });
