@@ -242,7 +242,11 @@ export default defineComponent({
               console.log("原始数组：",categorys);
               level1.value=[];
               level1.value=Tool.array2Tree(categorys,0);
-              console.log("树形结构：",level1);
+              console.log("树形结构：",level1.value);
+              handleQuery({
+                page: 1,
+                size: pagination.value.pageSize
+              });
             }else{
               message.error(data.message);
             }
@@ -262,10 +266,7 @@ export default defineComponent({
 
     onMounted(()=>{
       handleQueryCategory();
-      handleQuery({
-        page: 1,
-        size: pagination.value.pageSize
-      });
+
     });
 
 
