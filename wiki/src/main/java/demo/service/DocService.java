@@ -99,7 +99,10 @@ public class DocService {
     public String listContent(Long id){
         //这里查询已经是全部字段，包括大字段
         Content content = contentMapper.selectByPrimaryKey(id);
-        String content1 = content.getContent();
-        return content1;
+        //如果直接getContent，属性为空时报异常
+        if(ObjectUtils.isEmpty(content)){
+            return "";
+        }
+        return content.getContent();
     }
 }
