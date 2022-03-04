@@ -8,7 +8,8 @@
             :tree-data="level1"
             @select="onSelect"
             :replaceFields="{title:'name',key:'id',value:'id'}"
-            :defaultExpandAll="true">
+            :defaultExpandAll="true"
+            :defaultSelectedKeys="defaultSelectedKeys">
 
           </a-tree>
         </a-col>
@@ -90,6 +91,23 @@
       const route=useRoute();
       const docs=ref();
       const html=ref();
+      const defaultSelectedKeys=ref();
+      defaultSelectedKeys.value=[];
+
+
+
+      const handleQueryContent = (id:number)=>{
+        axios.get("/doc/listContent/"+id).then((res)=>{
+              const data = res.data;
+              if(data.success){
+                html.value=data.content;
+              }else{
+                message.error(data.message);
+              }
+            }
+        )
+      };
+
 
       const level1=ref();
       level1.value=[];
@@ -102,10 +120,15 @@
               const data = res.data;
               if(data.success){
                 docs.value=data.content;
-                console.log("原始数组：",docs.value);
+                // console.log("原始数组：",docs.value);
                 level1.value=[];
                 level1.value=Tool.array2Tree(docs.value,0);
-                console.log("树形结构：",level1);
+                if(Tool.isNotEmpty(level1)){
+                  //为了在默认状态显示第一个文档的内容，选中树形结构的第一个节点
+                  defaultSelectedKeys.value=[level1.value[0].id];
+                  handleQueryContent(level1.value[0].id);
+                }
+                // console.log("树形结构：",level1);
               }else{
                 message.error(data.message);
               }
@@ -123,17 +146,7 @@
       };
 
 
-      const handleQueryContent = (id:number)=>{
-        axios.get("/doc/listContent/"+id).then((res)=>{
-              const data = res.data;
-              if(data.success){
-                html.value=data.content;
-              }else{
-                message.error(data.message);
-              }
-            }
-        )
-      };
+
 
       onMounted(()=>{
         handleQuery();
@@ -142,7 +155,8 @@
       return{
         level1,
         html,
-        onSelect
+        onSelect,
+        defaultSelectedKeys
       }
     }
   });
