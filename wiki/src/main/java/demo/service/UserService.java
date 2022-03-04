@@ -7,13 +7,17 @@ import demo.domain.UserExample;
 import demo.exception.BusinessException;
 import demo.exception.BusinessExceptionCode;
 import demo.mapper.UserMapper;
+import demo.req.UserLoginReq;
 import demo.req.UserQueryReq;
 import demo.req.UserResetPasswordReq;
 import demo.req.UserSaveReq;
+import demo.resp.UserLoginResp;
 import demo.resp.UserQueryResp;
 import demo.resp.PageResp;
 import demo.utils.CopyUtils;
 import demo.utils.SnowFlake;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
@@ -23,6 +27,8 @@ import java.util.List;
 
 @Service
 public class UserService {
+    private static final Logger Log= LoggerFactory.getLogger(UserService.class);
+
     @Autowired
     private UserMapper userMapper;
     @Autowired
@@ -95,5 +101,24 @@ public class UserService {
         User user=CopyUtils.copy(userResetPasswordReq,User.class);
         //因为参数只有id和password，id在前端被隐藏无法更改，就只能更改password
         userMapper.updateByPrimaryKeySelective(user);
+    }
+
+    public UserLoginResp Login(UserLoginReq userLoginReq){
+        User userdb = selectByLoginName(userLoginReq.getLoginName());
+        if(ObjectUtils.isEmpty(userdb)){
+            Log.info("用户名不存在,{}",userLoginReq.getLoginName());
+            //用户名不存在
+            throw new BusinessException(BusinessExceptionCode.LOGIN_USER_ERROR);
+        }else{
+          if(userdb.getPassword().equals(userLoginReq.getPassword())){
+              //登录成功
+              UserLoginResp loginResp = CopyUtils.copy(userdb, UserLoginResp.class);
+              return loginResp;
+          }else{
+              //密码错误
+              Log.info("密码错误，输入密码：{}，数据库密码：{}",userLoginReq.getPassword(),userdb.getPassword());
+              throw new BusinessException(BusinessExceptionCode.LOGIN_USER_ERROR);
+          }
+        }
     }
 }

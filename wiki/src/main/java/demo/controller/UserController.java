@@ -1,9 +1,11 @@
 package demo.controller;
 
+import demo.req.UserLoginReq;
 import demo.req.UserQueryReq;
 import demo.req.UserResetPasswordReq;
 import demo.req.UserSaveReq;
 import demo.resp.CommonResp;
+import demo.resp.UserLoginResp;
 import demo.resp.UserQueryResp;
 import demo.resp.PageResp;
 import demo.service.UserService;
@@ -55,6 +57,16 @@ public class UserController {
         userResetPasswordReq.setPassword(DigestUtils.md5DigestAsHex(userResetPasswordReq.getPassword().getBytes()));
         CommonResp commonResp=new CommonResp();
         userService.resetPassword(userResetPasswordReq);
+        return commonResp;
+    }
+
+    @PostMapping("/login")
+    public CommonResp login(@Valid @RequestBody UserLoginReq userLoginReq){
+        //密码通过md5加密
+        userLoginReq.setPassword(DigestUtils.md5DigestAsHex(userLoginReq.getPassword().getBytes()));
+        CommonResp<UserLoginResp> commonResp=new CommonResp();
+        UserLoginResp userLoginResp=userService.Login(userLoginReq);
+        commonResp.setContent(userLoginResp);
         return commonResp;
     }
 }
