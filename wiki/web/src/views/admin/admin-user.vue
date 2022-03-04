@@ -45,6 +45,9 @@
 <!--                <router-link :to="'/admin/doc?userId='+record.id">-->
 <!--                  <a-button type="primary">文档管理</a-button>-->
 <!--                </router-link>-->
+              <a-button type="primary" @click="resetPassword(record)">
+                重置密码
+              </a-button>
               <a-button type="primary" @click="edit(record)">
                 编辑
               </a-button>
@@ -71,7 +74,8 @@
 <!--                                :options="level1"-->
 <!--                                placeholder="Please select" />-->
 <!--                  </a-form-item>-->
-                  <a-form-item label="密码">
+                  <a-form-item label="密码"  v-show="!user.id">
+                    <!--这里表示有id时也就是编辑不显示，没有id新增显示-->
                     <a-input v-model:value="user.password"/>
 <!--                    <a-textarea v-model:value="user.description" type="text" />-->
                   </a-form-item>
@@ -88,6 +92,23 @@
                 </a-button>
               </a-popconfirm>
 
+              <a-modal
+                  v-model:visible="resetModalVisible"
+                  title="重置密码"
+                  :confirm-loading="resetModalLoading"
+                  @ok="handleResetModalOk"
+              >
+                <a-form
+                    :model="user"
+                    :label-col="{span:6}"
+                >
+                  <a-form-item label="新密码">
+                    <!--这里表示有id时也就是编辑不显示，没有id新增显示-->
+                    <a-input v-model:value="user.password"/>
+                    <!--                    <a-textarea v-model:value="user.description" type="text" />-->
+                  </a-form-item>
+                </a-form>
+              </a-modal>
             </a-space>
           </template>
         </a-table>
@@ -176,9 +197,9 @@ export default defineComponent({
     const modalVisible = ref<boolean>(false);
     const modalLoading = ref<boolean>(false);
 
-    const showModal = () => {
-      modalVisible.value = true;
-    };
+    // const showModal = () => {
+    //   modalVisible.value = true;
+    // };
 
     const handleModalOk = () => {
       modalLoading.value = true;
@@ -260,6 +281,39 @@ export default defineComponent({
       return result;
     };
 
+    const resetModalVisible = ref<boolean>(false);
+    const resetModalLoading = ref<boolean>(false);
+
+
+    const handleResetModalOk = () => {
+      resetModalLoading.value = true;
+      // user.value.category1Id=categoryIds.value[0];
+      // user.value.category2Id=categoryIds.value[1];
+
+      user.value.password=hexMd5(user.value.password+KEY);
+      axios.post("/user/resetpassword",user.value).then((res)=>{
+        resetModalLoading.value=false;
+        const data=res.data;
+        if(data.success){
+          resetModalVisible.value=false;
+          //重新加载数据
+          handleQuery({
+            page:pagination.value.current,
+            size:pagination.value.pageSize,
+          });
+        }else{
+          message.error(data.message);
+        }
+      })
+    };
+
+    const resetPassword=(record:any)=>{
+      resetModalVisible.value=true;
+      user.value=Tool.copy(record);
+      // categoryIds.value=[user.value.category1Id,user.value.category2Id];
+      user.value.password=null;
+    }
+
     onMounted(()=>{
       handleQueryCategory();
 
@@ -284,7 +338,11 @@ export default defineComponent({
       handleQuery,
       categoryIds,
       level1,
-      getCategoryName
+      getCategoryName,
+      resetModalVisible,
+      resetModalLoading,
+      handleResetModalOk,
+      resetPassword
     };
   },
 });

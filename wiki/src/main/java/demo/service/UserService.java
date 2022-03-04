@@ -8,6 +8,7 @@ import demo.exception.BusinessException;
 import demo.exception.BusinessExceptionCode;
 import demo.mapper.UserMapper;
 import demo.req.UserQueryReq;
+import demo.req.UserResetPasswordReq;
 import demo.req.UserSaveReq;
 import demo.resp.UserQueryResp;
 import demo.resp.PageResp;
@@ -66,6 +67,8 @@ public class UserService {
             //因为前端代码是可以根据浏览器进行绕过检验的
             // 为了进一步保证编辑时用户名安全不被修改，直接设为null，保证更新不会更新到用户名
             user.setLoginName(null);
+            //同样的密码编辑时也不能修改
+            user.setPassword(null);
             //updateByPrimaryKeySelective表示user有值才更新，没值就不更新
             userMapper.updateByPrimaryKeySelective(user);
         }
@@ -86,5 +89,11 @@ public class UserService {
             User user = users.get(0);
             return user;
         }
+    }
+
+    public void resetPassword(UserResetPasswordReq userResetPasswordReq){
+        User user=CopyUtils.copy(userResetPasswordReq,User.class);
+        //因为参数只有id和password，id在前端被隐藏无法更改，就只能更改password
+        userMapper.updateByPrimaryKeySelective(user);
     }
 }

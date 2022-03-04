@@ -1,6 +1,7 @@
 package demo.controller;
 
 import demo.req.UserQueryReq;
+import demo.req.UserResetPasswordReq;
 import demo.req.UserSaveReq;
 import demo.resp.CommonResp;
 import demo.resp.UserQueryResp;
@@ -45,6 +46,15 @@ public class UserController {
     public CommonResp delete(@PathVariable Long id){
         CommonResp commonResp=new CommonResp();
         userService.delete(id);
+        return commonResp;
+    }
+
+    @PostMapping("/resetpassword")
+    public CommonResp resetPassword(@Valid @RequestBody UserResetPasswordReq userResetPasswordReq){
+        //密码通过md5加密
+        userResetPasswordReq.setPassword(DigestUtils.md5DigestAsHex(userResetPasswordReq.getPassword().getBytes()));
+        CommonResp commonResp=new CommonResp();
+        userService.resetPassword(userResetPasswordReq);
         return commonResp;
     }
 }
