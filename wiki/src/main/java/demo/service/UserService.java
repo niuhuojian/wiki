@@ -61,6 +61,7 @@ public class UserService {
                 throw new BusinessException(BusinessExceptionCode.USER_LOGIN_NAME_EXIST);
             }
         }else{
+
             //更新
             //因为前端代码是可以根据浏览器进行绕过检验的
             // 为了进一步保证编辑时用户名安全不被修改，直接设为null，保证更新不会更新到用户名

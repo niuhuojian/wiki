@@ -183,7 +183,7 @@ export default defineComponent({
       category.value=Tool.copy(record);
     }
 
-    const del=(id:number)=>{
+    const del=(id:string)=>{
       axios.delete("/category/delete/"+id).then((res)=>{
         const data=res.data;
         if(data.success){

@@ -313,7 +313,7 @@ export default defineComponent({
 
     }
 
-    const del=(id:number)=>{
+    const del=(id:string)=>{
       //level1为整个树的数据
       //id则为当前选择的目标节点
       ids.splice(0,ids.length);

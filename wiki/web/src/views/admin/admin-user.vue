@@ -72,7 +72,7 @@
 <!--                                placeholder="Please select" />-->
 <!--                  </a-form-item>-->
                   <a-form-item label="密码">
-                    <a-input v-model:value="user.password" type="password"/>
+                    <a-input v-model:value="user.password"/>
 <!--                    <a-textarea v-model:value="user.description" type="text" />-->
                   </a-form-item>
                 </a-form>
@@ -101,6 +101,10 @@ import axios from "axios";
 import { defineComponent, ref ,onMounted} from 'vue';
 import {message} from "ant-design-vue";
 import {Tool} from '@/util/tool.ts';
+
+//因为typescript无法识别第三方js，就直接定义个变量防止异常
+declare let hexMd5:any;
+declare let KEY:any;
 
 export default defineComponent({
   name: 'AdminUser',
@@ -180,12 +184,13 @@ export default defineComponent({
       modalLoading.value = true;
       // user.value.category1Id=categoryIds.value[0];
       // user.value.category2Id=categoryIds.value[1];
+
+      user.value.password=hexMd5(user.value.password+KEY);
       axios.post("/user/save",user.value).then((res)=>{
         modalLoading.value=false;
         const data=res.data;
         if(data.success){
           modalVisible.value=false;
-
           //重新加载数据
           handleQuery({
             page:pagination.value.current,
@@ -207,7 +212,7 @@ export default defineComponent({
       // categoryIds.value=[user.value.category1Id,user.value.category2Id];
     }
 
-    const del=(id:number)=>{
+    const del=(id:string)=>{
       axios.delete("/user/delete/"+id).then((res)=>{
         const data=res.data;
         if(data.success){

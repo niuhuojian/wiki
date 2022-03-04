@@ -1,6 +1,9 @@
 package demo.domain;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 public class Content {
+    @JsonFormat(shape = JsonFormat.Shape.STRING)
     private Long id;
 
     private String content;

@@ -6,7 +6,10 @@ import demo.resp.CommonResp;
 import demo.resp.UserQueryResp;
 import demo.resp.PageResp;
 import demo.service.UserService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -14,6 +17,8 @@ import javax.validation.Valid;
 @RestController
 @RequestMapping("/user")
 public class UserController {
+    private static final Logger Log= LoggerFactory.getLogger(UserController.class);
+
     @Autowired
     private UserService userService;
 
@@ -29,6 +34,8 @@ public class UserController {
 
     @PostMapping("/save")
     public CommonResp save(@Valid @RequestBody UserSaveReq userSaveReq){
+        //密码通过md5加密
+        userSaveReq.setPassword(DigestUtils.md5DigestAsHex(userSaveReq.getPassword().getBytes()));
         CommonResp commonResp=new CommonResp();
         userService.save(userSaveReq);
         return commonResp;
@@ -40,6 +47,4 @@ public class UserController {
         userService.delete(id);
         return commonResp;
     }
-
-
 }

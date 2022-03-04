@@ -219,7 +219,7 @@ export default defineComponent({
       categoryIds.value=[ebook.value.category1Id,ebook.value.category2Id];
     }
 
-    const del=(id:number)=>{
+    const del=(id:string)=>{
       axios.delete("/ebook/delete/"+id).then((res)=>{
         const data=res.data;
         if(data.success){
