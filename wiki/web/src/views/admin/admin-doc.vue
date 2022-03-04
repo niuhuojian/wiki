@@ -175,10 +175,9 @@ export default defineComponent({
       }
     )
   };
-    const handleQueryContent = ()=>{
+    const handleQueryContent = (id:number)=>{
       axios.get("/doc/listContent/"+doc.value.id).then((res)=>{
         const data = res.data;
-
         if(data.success){
           editor.txt.html(data.content)
         }else{

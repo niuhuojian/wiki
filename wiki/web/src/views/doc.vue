@@ -13,7 +13,7 @@
           </a-tree>
         </a-col>
         <a-col :span="18">
-
+          <div :innerHTML="html"></div>
         </a-col>
       </a-row>
     </a-layout-content>
@@ -31,6 +31,7 @@
     setup(){
       const route=useRoute();
       const docs=ref();
+      const html=ref();
 
       const level1=ref();
       level1.value=[];
@@ -54,12 +55,36 @@
         )
       };
 
+      //树形组件支持多选，selectedKeys就代表选中的id数组
+      const onSelect=(selectedKeys:any, info:any)=>{
+        console.log('selected',selectedKeys,info);
+        if(Tool.isNotEmpty(selectedKeys)){
+          //而因为显示内容时只能显示一个，选中第一个进行展示
+          handleQueryContent(selectedKeys[0]);
+        }
+      };
+
+
+      const handleQueryContent = (id:number)=>{
+        axios.get("/doc/listContent/"+doc.value.id).then((res)=>{
+              const data = res.data;
+              if(data.success){
+                html.value=data.content;
+              }else{
+                message.error(data.message);
+              }
+            }
+        )
+      };
+
       onMounted(()=>{
         handleQuery();
       })
 
       return{
-        level1
+        level1,
+        html,
+        onSelect
       }
     }
   });
