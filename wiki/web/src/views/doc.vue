@@ -124,7 +124,7 @@
 
 
       const handleQueryContent = (id:number)=>{
-        axios.get("/doc/listContent/"+doc.value.id).then((res)=>{
+        axios.get("/doc/listContent/"+id).then((res)=>{
               const data = res.data;
               if(data.success){
                 html.value=data.content;
