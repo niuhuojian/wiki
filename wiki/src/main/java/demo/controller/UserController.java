@@ -21,7 +21,6 @@ public class UserController {
 
     @RequestMapping("/list")
     public CommonResp list(@Valid UserQueryReq userReq){
-        System.out.println(userReq);
         CommonResp<PageResp<UserQueryResp>> resp=new CommonResp<>();
         PageResp<UserQueryResp> list = userService.list(userReq);
         resp.setContent(list);

@@ -4,6 +4,8 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import demo.domain.User;
 import demo.domain.UserExample;
+import demo.exception.BusinessException;
+import demo.exception.BusinessExceptionCode;
 import demo.mapper.UserMapper;
 import demo.req.UserQueryReq;
 import demo.req.UserSaveReq;
@@ -13,6 +15,7 @@ import demo.utils.CopyUtils;
 import demo.utils.SnowFlake;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 import org.springframework.util.ObjectUtils;
 
 import java.util.List;
@@ -48,17 +51,39 @@ public class UserService {
     public void save(UserSaveReq userSaveReq){
         User user=CopyUtils.copy(userSaveReq,User.class);
         if(ObjectUtils.isEmpty(userSaveReq.getId())){
-            //新增
-            long l = snowFlake.nextId();
-            user.setId(l);
-            userMapper.insert(user);
+            if(ObjectUtils.isEmpty(selectByLoginName(userSaveReq.getLoginName()))){
+                //新增
+                long l = snowFlake.nextId();
+                user.setId(l);
+                userMapper.insert(user);
+            }else{
+                //用户名已存在
+                throw new BusinessException(BusinessExceptionCode.USER_LOGIN_NAME_EXIST);
+            }
         }else{
             //更新
-            userMapper.updateByPrimaryKey(user);
+            //因为前端代码是可以根据浏览器进行绕过检验的
+            // 为了进一步保证编辑时用户名安全不被修改，直接设为null，保证更新不会更新到用户名
+            user.setLoginName(null);
+            //updateByPrimaryKeySelective表示user有值才更新，没值就不更新
+            userMapper.updateByPrimaryKeySelective(user);
         }
     }
 
     public void delete(Long id){
         userMapper.deleteByPrimaryKey(id);
+    }
+
+    public User selectByLoginName(String LoginName){
+        UserExample userExample=new UserExample();
+        UserExample.Criteria criteria = userExample.createCriteria();
+        criteria.andLoginNameEqualTo(LoginName);
+        List<User> users = userMapper.selectByExample(userExample);
+        if(CollectionUtils.isEmpty(users)){
+            return null;
+        }else{
+            User user = users.get(0);
+            return user;
+        }
     }
 }

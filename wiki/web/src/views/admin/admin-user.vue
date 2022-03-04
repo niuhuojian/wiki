@@ -59,7 +59,8 @@
                     :label-col="{span:6}"
                 >
                   <a-form-item  label="用户名">
-                    <a-input v-model:value="user.loginName" />
+                    <!--disabled属性限制了编辑时用户名被修改，但新增还是需要输入，因此id作为判断条件，有id就隐藏，没有id就新增编辑-->
+                    <a-input v-model:value="user.loginName" :disabled="!!user.id"/>
                   </a-form-item>
                   <a-form-item label="昵称">
                     <a-input v-model:value="user.name" />
