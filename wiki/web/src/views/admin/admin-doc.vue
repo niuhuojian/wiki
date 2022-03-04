@@ -201,7 +201,9 @@ export default defineComponent({
     //因为使用数选择组件的话，会随当前编辑的节点而变化，所以另外声明一个响应式变量
 
     const doc=ref();
-    doc.value={};
+    doc.value={
+      ebookId:route.query.ebookId
+    };
     // const modalVisible = ref<boolean>(false);
     // const modalLoading = ref<boolean>(false);
 
