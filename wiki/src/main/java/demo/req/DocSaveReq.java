@@ -1,9 +1,11 @@
 package demo.req;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import javax.validation.constraints.NotNull;
 
 public class DocSaveReq {
-
+    @JsonFormat(shape = JsonFormat.Shape.STRING)
     private Long id;
     @NotNull(message = "电子书id不能为空")
     private Long ebookId;

@@ -24,10 +24,10 @@
       </a-menu-item>
       <a-menu-item>
         <a class="login-menu" v-show="user.id">
-          <span>您好:{{ user.name }}</span>
+          您好:{{ user.name }}
         </a>
-        <a class="login-menu" @click="showLoginModal" v-show="!user.id">
-          <span>登录</span>
+        <a  class="login-menu" @click="showLoginModal" v-show="!user.id">
+          登录
         </a>
       </a-menu-item>
       <a-menu-item>
@@ -38,7 +38,7 @@
             @confirm="logout()"
         >
           <a class="login-menu" v-show="user.id">
-            <span>退出登录</span>
+            退出登录
           </a>
         </a-popconfirm>
       </a-menu-item>
@@ -80,8 +80,8 @@ export default defineComponent({
 
     //登陆用
     const loginUser=ref({
-      loginName:"test",
-      password:"test"
+      loginName:"",
+      password:""
     });
 
     const loginModalVisible=ref(false);

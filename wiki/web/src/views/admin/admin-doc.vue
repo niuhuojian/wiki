@@ -40,7 +40,7 @@
                      :defaultExpandAllRows="true"
             >
               <template #name="{text,record}">
-                {{record.sort}}{{text}}
+                {{record.sort}}、{{text}}
               </template>
               <template v-slot:action="{text, record}">
                 <a-space size="small">
@@ -177,7 +177,7 @@ export default defineComponent({
           console.log("树形结构：",level1);
 
           //父文档下拉框初始化，相当于点击新增
-          treeSelectData.value=Tool.copy(level1.value);
+          treeSelectData.value=Tool.copy(level1.value)||[];
           //为选择添加无选项
           treeSelectData.value.unshift({id:0,name:'无'});
         }else{
@@ -202,7 +202,8 @@ export default defineComponent({
 
     const doc=ref();
     doc.value={
-      ebookId:route.query.ebookId
+      ebookId:route.query.ebookIda,
+      id:route.query.id
     };
     // const modalVisible = ref<boolean>(false);
     // const modalLoading = ref<boolean>(false);
@@ -234,10 +235,10 @@ export default defineComponent({
       editor.txt.html("");
       // modalVisible.value=true;
       doc.value={
-        ebookId:route.query.ebookId
+        ebookId:route.query.ebookId,
       };
 
-      treeSelectData.value=Tool.copy(level1.value);
+      treeSelectData.value=Tool.copy(level1.value)||[];
       treeSelectData.value.unshift({id:0,name:'无'});
 
 

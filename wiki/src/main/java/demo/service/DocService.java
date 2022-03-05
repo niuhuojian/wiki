@@ -7,6 +7,7 @@ import demo.domain.Doc;
 import demo.domain.DocExample;
 import demo.mapper.ContentMapper;
 import demo.mapper.DocMapper;
+import demo.mapper.MyDocMapper;
 import demo.req.DocQueryReq;
 import demo.req.DocSaveReq;
 import demo.resp.DocQueryResp;
@@ -32,6 +33,9 @@ public class DocService {
 
     @Autowired
     private ContentMapper contentMapper;
+
+    @Autowired
+    private MyDocMapper myDocMapper;
 
     public PageResp<DocQueryResp> list(DocQueryReq docReq){
 
@@ -59,6 +63,10 @@ public class DocService {
             //新增
             long l = snowFlake.nextId();
             doc.setId(l);
+            //因为generator生成的sql语句将null值默认置给了对象，所以更改时不起作用
+            //在插入时置0
+            doc.setViewCount(0);
+            doc.setVoteCount(0);
             docMapper.insert(doc);
             content.setId(doc.getId());
             contentMapper.insert(content);
@@ -99,6 +107,8 @@ public class DocService {
     public String listContent(Long id){
         //这里查询已经是全部字段，包括大字段
         Content content = contentMapper.selectByPrimaryKey(id);
+        //文档阅读数加1
+        myDocMapper.increaseViewCount(id);
         //如果直接getContent，属性为空时报异常
         if(ObjectUtils.isEmpty(content)){
             return "";

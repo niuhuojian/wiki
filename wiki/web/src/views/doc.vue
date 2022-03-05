@@ -97,7 +97,7 @@
 
 
 
-      const handleQueryContent = (id:number)=>{
+      const handleQueryContent = (id:string)=>{
         axios.get("/doc/listContent/"+id).then((res)=>{
               const data = res.data;
               if(data.success){
