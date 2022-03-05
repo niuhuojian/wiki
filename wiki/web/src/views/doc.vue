@@ -15,6 +15,14 @@
           </a-tree>
         </a-col>
         <a-col :span="18">
+          <div>
+            <h2>{{doc.name}}</h2>
+            <div>
+              <span>阅读数：{{doc.viewCount}}</span> &nbsp;&nbsp;
+              <span>点赞数：{{doc.voteCount}}</span>
+            </div>
+            <a-divider style="height:2px;background-color: #9999cc"/>
+          </div>
           <div class="wangeditor" :innerHTML="html"></div>
         </a-col>
       </a-row>
@@ -94,8 +102,8 @@
       const html=ref();
       const defaultSelectedKeys=ref();
       defaultSelectedKeys.value=[];
-
-
+      const doc=ref();
+      doc.value={};
 
       const handleQueryContent = (id:string)=>{
         axios.get("/doc/listContent/"+id).then((res)=>{
@@ -128,6 +136,8 @@
                   //为了在默认状态显示第一个文档的内容，选中树形结构的第一个节点
                   defaultSelectedKeys.value=[level1.value[0].id];
                   handleQueryContent(level1.value[0].id);
+                  //初始显示文档信息
+                  doc.value=level1.value[0];
                 }
                 // console.log("树形结构：",level1);
               }else{
@@ -141,6 +151,9 @@
       const onSelect=(selectedKeys:any, info:any)=>{
         console.log('selected',selectedKeys,info);
         if(Tool.isNotEmpty(selectedKeys)){
+          //选中某个节点时，加载该节点的文档信息
+          //一个节点的props就对应一行数据
+          doc.value=info.selectedNodes[0].props;
           //而因为显示内容时只能显示一个，选中第一个进行展示
           handleQueryContent(selectedKeys[0]);
         }
@@ -157,7 +170,8 @@
         level1,
         html,
         onSelect,
-        defaultSelectedKeys
+        defaultSelectedKeys,
+        doc
       }
     }
   });
