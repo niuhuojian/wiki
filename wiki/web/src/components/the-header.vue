@@ -22,9 +22,16 @@
       <a-menu-item key="about">
         <router-link to="/about">关于我们</router-link>
       </a-menu-item>
-      <a class="login-menu" @click="showLoginModal" :style="{float:right,color:white}">
-        <span>登录</span>
-      </a>
+      <a-menu-item>
+        <a class="login-menu" v-show="user.id">
+          <span>您好:{{ user.name }}</span>
+        </a>
+      </a-menu-item>
+      <a-menu-item>
+        <a class="login-menu" @click="showLoginModal" v-show="!user.id">
+          <span>登录</span>
+        </a>
+      </a-menu-item>
     </a-menu>
 
     <a-modal title="登录"
@@ -55,10 +62,16 @@ declare let KEY:any;
 export default defineComponent({
   name: 'the-header',
   setup(){
+    //登陆后显示用
+    const user=ref();
+    user.value={};
+
+    //登陆用
     const loginUser=ref({
       loginName:"test",
       password:"test"
     });
+
     const loginModalVisible=ref(false);
     const loginModalLoading=ref(false);
     const showLoginModal=()=>{
@@ -76,6 +89,7 @@ export default defineComponent({
         if(data.success){
           loginModalVisible.value=false;
           message.success("登陆成功");
+          user.value=data.content;
         }else{
           message.error(data.message);
         }
@@ -87,7 +101,8 @@ export default defineComponent({
       loginModalLoading,
       showLoginModal,
       login,
-      loginUser
+      loginUser,
+      user
     }
   },
 
@@ -95,8 +110,9 @@ export default defineComponent({
 </script>
 
 <style>
-.login-menu{
+.login-menu {
+  float: right;
+  color: white;
   padding-left: 10px;
-  padding-right: 10px;
 }
 </style>
