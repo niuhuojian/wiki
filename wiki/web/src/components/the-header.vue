@@ -26,11 +26,21 @@
         <a class="login-menu" v-show="user.id">
           <span>您好:{{ user.name }}</span>
         </a>
-      </a-menu-item>
-      <a-menu-item>
         <a class="login-menu" @click="showLoginModal" v-show="!user.id">
           <span>登录</span>
         </a>
+      </a-menu-item>
+      <a-menu-item>
+        <a-popconfirm
+            title="确认是否退出?"
+            ok-text="是"
+            cancel-text="否"
+            @confirm="logout()"
+        >
+          <a class="login-menu" v-show="user.id">
+            <span>退出登录</span>
+          </a>
+        </a-popconfirm>
       </a-menu-item>
     </a-menu>
 
@@ -103,13 +113,32 @@ export default defineComponent({
       });
     };
 
+    const logout=()=>{
+      console.log("退出登录");
+      axios.get('/user/logout/'+user.value.token).then((res)=>{
+        const data=res.data;
+        if(data.success){
+          message.success("退出登录成功");
+
+          //通过commit触发mutation内部的方法
+          //state为内部变量不需要传入，user则是传入外部的user值
+          //在这里发现直接传入user.value无法获取，原因是把user的定义给变化了，不再是ref响应
+          //所以根据返回的data，改为data.content
+          store.commit("setUser", {});
+        }else{
+          message.error(data.message);
+        }
+      });
+    };
+
     return{
       loginModalVisible,
       loginModalLoading,
       showLoginModal,
       login,
       loginUser,
-      user
+      user,
+      logout
     }
   },
 
