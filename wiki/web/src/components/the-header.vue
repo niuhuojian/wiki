@@ -10,13 +10,13 @@
       <a-menu-item key="home">
         <router-link to="/">首页</router-link>
       </a-menu-item>
-      <a-menu-item key="/admin/user">
+      <a-menu-item key="/admin/user" :disabled="!user.id">
         <router-link to="/admin/user">用户管理</router-link>
       </a-menu-item>
-      <a-menu-item key="AdminEbook" >
+      <a-menu-item key="AdminEbook" :disabled="!user.id">
         <router-link to="/admin/ebook">电子书管理</router-link>
       </a-menu-item>
-      <a-menu-item key="AdminCategory" >
+      <a-menu-item key="AdminCategory" :disabled="!user.id">
         <router-link to="/admin/category">分类管理</router-link>
       </a-menu-item>
       <a-menu-item key="about">
