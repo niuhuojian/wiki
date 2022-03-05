@@ -1,5 +1,6 @@
 package demo.controller;
 
+import com.alibaba.fastjson.JSONObject;
 import demo.req.UserLoginReq;
 import demo.req.UserQueryReq;
 import demo.req.UserResetPasswordReq;
@@ -80,7 +81,7 @@ public class UserController {
         Log.info("生成单点登录的token:{}，放入redis中",token);
         userLoginResp.setToken(token.toString());
         //以token作为key，以userLoginResp作为value
-        redisTemplate.opsForValue().set(token,userLoginResp,3600*24, TimeUnit.SECONDS);
+        redisTemplate.opsForValue().set(token.toString(), JSONObject.toJSONString(userLoginResp),3600*24, TimeUnit.SECONDS);
         commonResp.setContent(userLoginResp);
         return commonResp;
     }
