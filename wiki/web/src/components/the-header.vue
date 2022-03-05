@@ -53,8 +53,9 @@
 
 <script lang="ts">
 import axios from 'axios';
-import {defineComponent, ref} from 'vue';
+import {computed, defineComponent, ref} from 'vue';
 import {message} from "ant-design-vue";
+import store from "@/store";
 
 declare let hexMd5:any;
 declare let KEY:any;
@@ -63,8 +64,9 @@ export default defineComponent({
   name: 'the-header',
   setup(){
     //登陆后显示用
-    const user=ref();
-    user.value={};
+    const user=computed(()=>
+        store.state.user
+    );
 
     //登陆用
     const loginUser=ref({
@@ -89,7 +91,12 @@ export default defineComponent({
         if(data.success){
           loginModalVisible.value=false;
           message.success("登陆成功");
-          user.value=data.content;
+
+          //通过commit触发mutation内部的方法
+          //state为内部变量不需要传入，user则是传入外部的user值
+          //在这里发现直接传入user.value无法获取，原因是把user的定义给变化了，不再是ref响应
+          //所以根据返回的data，改为data.content
+          store.commit("setUser",data.content);
         }else{
           message.error(data.message);
         }
