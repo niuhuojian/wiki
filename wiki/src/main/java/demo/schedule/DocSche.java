@@ -22,6 +22,9 @@ public class DocSche {
     //每30秒更新电子书信息
     @Scheduled(cron = "1/5 * * * * ?")
     public void cron() throws InterruptedException{
+        Log.info("更新电子书信息开始");
+        long start = System.currentTimeMillis();
         docService.updateEbookInfo();
+        Log.info("更新电子书信息结束，耗时：{}",System.currentTimeMillis()-start);
     }
 }
