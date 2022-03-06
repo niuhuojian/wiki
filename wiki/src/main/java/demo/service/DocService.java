@@ -5,6 +5,8 @@ import com.github.pagehelper.PageInfo;
 import demo.domain.Content;
 import demo.domain.Doc;
 import demo.domain.DocExample;
+import demo.exception.BusinessException;
+import demo.exception.BusinessExceptionCode;
 import demo.mapper.ContentMapper;
 import demo.mapper.DocMapper;
 import demo.mapper.MyDocMapper;
@@ -13,6 +15,8 @@ import demo.req.DocSaveReq;
 import demo.resp.DocQueryResp;
 import demo.resp.PageResp;
 import demo.utils.CopyUtils;
+import demo.utils.RedisUtil;
+import demo.utils.RequestContext;
 import demo.utils.SnowFlake;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,6 +40,9 @@ public class DocService {
 
     @Autowired
     private MyDocMapper myDocMapper;
+
+    @Autowired
+    private RedisUtil redisUtil;
 
     public PageResp<DocQueryResp> list(DocQueryReq docReq){
 
@@ -117,6 +124,17 @@ public class DocService {
     }
 
     public void vote(Long id){
-        myDocMapper.increaseVoteCount(id);
+        //使用远程IP+文档IP作为唯一key，来保证24小时内不能重复
+        String ip= RequestContext.getRemoteAddr();
+        //一天只能点赞该文档一次
+        if(redisUtil.validateRepeat("DOC_VOTE_"+id+"_"+ip,3600*24)){
+            myDocMapper.increaseVoteCount(id);
+        }else{
+            throw new BusinessException(BusinessExceptionCode.VOTE_REPEAT);
+        }
+    }
+
+    public void updateEbookInfo(){
+        myDocMapper.updateEbookInfo();
     }
 }
