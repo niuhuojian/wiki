@@ -11,7 +11,7 @@ import javax.annotation.Resources;
 
 @Configuration
 public class SpringMVCConfig implements WebMvcConfigurer {
-    @Resource
+    @Autowired
     LoginInterceptor loginInterceptor;
 
 

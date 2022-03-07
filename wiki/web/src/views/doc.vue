@@ -89,6 +89,10 @@
   font-size: 16px !important;
   font-weight: 600;
 }
+.wangeditor img{
+  max-width: 100%;
+  height: auto;
+}
 </style>
 
 

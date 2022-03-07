@@ -238,6 +238,7 @@ export default defineComponent({
         ebookId:route.query.ebookId,
       };
 
+      //避免空指针报错
       treeSelectData.value=Tool.copy(level1.value)||[];
       treeSelectData.value.unshift({id:0,name:'无'});
 

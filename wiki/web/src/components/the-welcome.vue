@@ -96,9 +96,7 @@
 
 <script lang="ts">
 import axios from 'axios';
-import {computed, defineComponent, onMounted, ref} from 'vue';
-import {message} from "ant-design-vue";
-import store from "@/store";
+import { defineComponent, onMounted, ref} from 'vue';
 
 declare let echarts:any;
 
@@ -107,6 +105,7 @@ export default defineComponent({
   setup() {
     const statistic = ref();
     statistic.value = {};
+
     const getData = () => {
       axios.get('/snapshot/getdata').then((res) => {
         const data = res.data;
@@ -115,10 +114,10 @@ export default defineComponent({
           //返回的resp是一个list，也就看作是个数组
           //0表示昨天的数据，1表示今天的数据
           //获取今日数据
-          statistic.value.viewCount = statisticResp[1].viewCount;
-          statistic.value.voteCount = statisticResp[1].voteCount;
-          statistic.value.todayViewCount = statisticResp[1].viewIncrease;
-          statistic.value.todayVoteCount = statisticResp[1].voteIncrease;
+          statistic.value.viewCount = statisticResp[0].viewCount;
+          statistic.value.voteCount = statisticResp[0].voteCount;
+          statistic.value.todayViewCount = statisticResp[0].viewIncrease;
+          statistic.value.todayVoteCount = statisticResp[0].voteIncrease;
 
           // 按分钟计算当前时间点，占一天的百分比
           const now = new Date();
@@ -206,7 +205,10 @@ export default defineComponent({
     });
 
     return{
-      statistic
+      statistic,
+      getData,
+      get30Data,
+      get30Echarts
     }
   },
 });
