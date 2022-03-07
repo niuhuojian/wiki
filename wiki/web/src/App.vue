@@ -12,11 +12,13 @@
 import { defineComponent } from 'vue';
 import theHeader from '@/components/the-header.vue';
 import theFooter from '@/components/the-footer.vue';
+import theWelcome from '@/components/the-welcome.vue'
 export default defineComponent({
   name: 'app',
   components:{
     theHeader,
     theFooter,
+    theWelcome
   }
 });
 </script>
