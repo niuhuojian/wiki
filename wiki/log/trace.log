@@ -3869,3 +3869,309 @@ Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL synta
 2022-03-07 12:11:20.064 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890032341815296[0;39m 生成今日电子书快照结束，耗时56秒
 2022-03-07 12:11:25.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890053292363776[0;39m 生成今日电子书快照开始
 2022-03-07 12:11:25.062 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890053292363776[0;39m 生成今日电子书快照结束，耗时59秒
+2022-03-07 12:11:30.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890074289049600[0;39m 生成今日电子书快照开始
+2022-03-07 12:11:30.060 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890074289049600[0;39m 生成今日电子书快照结束，耗时52秒
+2022-03-07 12:11:35.011 INFO  demo.schedule.DocSche                             :32   [32m155890095273152512[0;39m 更新电子书信息开始
+2022-03-07 12:11:35.067 INFO  demo.schedule.DocSche                             :35   [32m155890095273152512[0;39m 更新电子书信息结束，耗时：56
+2022-03-07 12:11:35.068 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890095512227840[0;39m 生成今日电子书快照开始
+2022-03-07 12:11:35.106 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890095512227840[0;39m 生成今日电子书快照结束，耗时38秒
+2022-03-07 12:11:40.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890116248866816[0;39m 生成今日电子书快照开始
+2022-03-07 12:11:40.071 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890116248866816[0;39m 生成今日电子书快照结束，耗时59秒
+2022-03-07 12:11:45.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890137224581120[0;39m 生成今日电子书快照开始
+2022-03-07 12:11:45.065 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890137224581120[0;39m 生成今日电子书快照结束，耗时52秒
+2022-03-07 12:11:50.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890158196101120[0;39m 生成今日电子书快照开始
+2022-03-07 12:11:50.072 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890158196101120[0;39m 生成今日电子书快照结束，耗时59秒
+2022-03-07 12:11:55.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890179150843904[0;39m 生成今日电子书快照开始
+2022-03-07 12:11:55.071 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890179150843904[0;39m 生成今日电子书快照结束，耗时62秒
+2022-03-07 12:12:00.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890200126558208[0;39m 生成今日电子书快照开始
+2022-03-07 12:12:00.064 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890200126558208[0;39m 生成今日电子书快照结束，耗时54秒
+2022-03-07 12:12:05.007 INFO  demo.schedule.DocSche                             :32   [32m155890221085495296[0;39m 更新电子书信息开始
+2022-03-07 12:12:05.059 INFO  demo.schedule.DocSche                             :35   [32m155890221085495296[0;39m 更新电子书信息结束，耗时：52
+2022-03-07 12:12:05.060 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890221303599104[0;39m 生成今日电子书快照开始
+2022-03-07 12:12:05.099 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890221303599104[0;39m 生成今日电子书快照结束，耗时39秒
+2022-03-07 12:12:10.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890242052820992[0;39m 生成今日电子书快照开始
+2022-03-07 12:12:10.060 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890242052820992[0;39m 生成今日电子书快照结束，耗时54秒
+2022-03-07 12:12:15.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890263057895424[0;39m 生成今日电子书快照开始
+2022-03-07 12:12:15.068 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890263057895424[0;39m 生成今日电子书快照结束，耗时54秒
+2022-03-07 12:12:20.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890283987472384[0;39m 生成今日电子书快照开始
+2022-03-07 12:12:20.064 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890283987472384[0;39m 生成今日电子书快照结束，耗时60秒
+2022-03-07 12:12:25.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890304984158208[0;39m 生成今日电子书快照开始
+2022-03-07 12:12:25.064 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890304984158208[0;39m 生成今日电子书快照结束，耗时54秒
+2022-03-07 12:12:30.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890325964066816[0;39m 生成今日电子书快照开始
+2022-03-07 12:12:30.068 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890325964066816[0;39m 生成今日电子书快照结束，耗时56秒
+2022-03-07 12:12:35.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890346910420992[0;39m 生成今日电子书快照开始
+2022-03-07 12:12:35.062 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890346910420992[0;39m 生成今日电子书快照结束，耗时56秒
+2022-03-07 12:12:35.063 INFO  demo.schedule.DocSche                             :32   [32m155890347149496320[0;39m 更新电子书信息开始
+2022-03-07 12:12:35.097 INFO  demo.schedule.DocSche                             :35   [32m155890347149496320[0;39m 更新电子书信息结束，耗时：34
+2022-03-07 12:12:40.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890367881940992[0;39m 生成今日电子书快照开始
+2022-03-07 12:12:40.062 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890367881940992[0;39m 生成今日电子书快照结束，耗时56秒
+2022-03-07 12:12:45.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890388836683776[0;39m 生成今日电子书快照开始
+2022-03-07 12:12:45.061 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890388836683776[0;39m 生成今日电子书快照结束，耗时59秒
+2022-03-07 12:12:50.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890409854341120[0;39m 生成今日电子书快照开始
+2022-03-07 12:12:50.123 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890409854341120[0;39m 生成今日电子书快照结束，耗时110秒
+2022-03-07 12:12:55.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890430779723776[0;39m 生成今日电子书快照开始
+2022-03-07 12:12:55.110 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890430779723776[0;39m 生成今日电子书快照结束，耗时108秒
+2022-03-07 12:13:00.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890451801575424[0;39m 生成今日电子书快照开始
+2022-03-07 12:13:00.070 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890451801575424[0;39m 生成今日电子书快照结束，耗时56秒
+2022-03-07 12:13:05.011 INFO  demo.schedule.DocSche                             :32   [32m155890472760512512[0;39m 更新电子书信息开始
+2022-03-07 12:13:05.067 INFO  demo.schedule.DocSche                             :35   [32m155890472760512512[0;39m 更新电子书信息结束，耗时：56
+2022-03-07 12:13:05.068 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890472999587840[0;39m 生成今日电子书快照开始
+2022-03-07 12:13:05.105 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890472999587840[0;39m 生成今日电子书快照结束，耗时37秒
+2022-03-07 12:13:10.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890493736226816[0;39m 生成今日电子书快照开始
+2022-03-07 12:13:10.073 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890493736226816[0;39m 生成今日电子书快照结束，耗时61秒
+2022-03-07 12:13:15.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890514707746816[0;39m 生成今日电子书快照开始
+2022-03-07 12:13:15.128 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890514707746816[0;39m 生成今日电子书快照结束，耗时116秒
+2022-03-07 12:13:20.011 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890535675072512[0;39m 生成今日电子书快照开始
+2022-03-07 12:13:20.076 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890535675072512[0;39m 生成今日电子书快照结束，耗时65秒
+2022-03-07 12:13:25.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890556650786816[0;39m 生成今日电子书快照开始
+2022-03-07 12:13:25.585 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890556650786816[0;39m 生成今日电子书快照结束，耗时573秒
+2022-03-07 12:13:30.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890577592946688[0;39m 生成今日电子书快照开始
+2022-03-07 12:13:30.179 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890577592946688[0;39m 生成今日电子书快照结束，耗时174秒
+2022-03-07 12:13:35.002 INFO  demo.schedule.DocSche                             :32   [32m155890598551883776[0;39m 更新电子书信息开始
+2022-03-07 12:13:35.512 INFO  demo.schedule.DocSche                             :35   [32m155890598551883776[0;39m 更新电子书信息结束，耗时：510
+2022-03-07 12:13:35.513 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890600695173120[0;39m 生成今日电子书快照开始
+2022-03-07 12:13:35.566 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890600695173120[0;39m 生成今日电子书快照结束，耗时53秒
+2022-03-07 12:13:40.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890619527598080[0;39m 生成今日电子书快照开始
+2022-03-07 12:13:40.417 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890619527598080[0;39m 生成今日电子书快照结束，耗时414秒
+2022-03-07 12:13:45.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890640536866816[0;39m 生成今日电子书快照开始
+2022-03-07 12:13:45.354 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890640536866816[0;39m 生成今日电子书快照结束，耗时342秒
+2022-03-07 12:13:50.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890661508386816[0;39m 生成今日电子书快照开始
+2022-03-07 12:13:50.322 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890661508386816[0;39m 生成今日电子书快照结束，耗时310秒
+2022-03-07 12:13:55.015 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890682492489728[0;39m 生成今日电子书快照开始
+2022-03-07 12:13:55.596 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890682492489728[0;39m 生成今日电子书快照结束，耗时581秒
+2022-03-07 12:14:00.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890703438843904[0;39m 生成今日电子书快照开始
+2022-03-07 12:14:00.442 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890703438843904[0;39m 生成今日电子书快照结束，耗时433秒
+2022-03-07 12:14:05.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890724431335424[0;39m 生成今日电子书快照开始
+2022-03-07 12:14:05.555 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890724431335424[0;39m 生成今日电子书快照结束，耗时541秒
+2022-03-07 12:14:05.556 INFO  demo.schedule.DocSche                             :32   [32m155890726704648192[0;39m 更新电子书信息开始
+2022-03-07 12:14:05.973 INFO  demo.schedule.DocSche                             :35   [32m155890726704648192[0;39m 更新电子书信息结束，耗时：417
+2022-03-07 12:14:10.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890745348329472[0;39m 生成今日电子书快照开始
+2022-03-07 12:14:10.613 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890745348329472[0;39m 生成今日电子书快照结束，耗时612秒
+2022-03-07 12:14:15.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890766345015296[0;39m 生成今日电子书快照开始
+2022-03-07 12:14:15.502 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890766345015296[0;39m 生成今日电子书快照结束，耗时495秒
+2022-03-07 12:14:20.015 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890787350089728[0;39m 生成今日电子书快照开始
+2022-03-07 12:14:20.558 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890787350089728[0;39m 生成今日电子书快照结束，耗时543秒
+2022-03-07 12:14:25.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890808309026816[0;39m 生成今日电子书快照开始
+2022-03-07 12:14:25.620 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890808309026816[0;39m 生成今日电子书快照结束，耗时608秒
+2022-03-07 12:14:30.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890829246992384[0;39m 生成今日电子书快照开始
+2022-03-07 12:14:30.586 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890829246992384[0;39m 生成今日电子书快照结束，耗时582秒
+2022-03-07 12:14:35.003 INFO  demo.schedule.DocSche                             :32   [32m155890850214318080[0;39m 更新电子书信息开始
+2022-03-07 12:14:35.620 INFO  demo.schedule.DocSche                             :35   [32m155890850214318080[0;39m 更新电子书信息结束，耗时：617
+2022-03-07 12:14:35.620 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890852802203648[0;39m 生成今日电子书快照开始
+2022-03-07 12:14:36.039 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890852802203648[0;39m 生成今日电子书快照结束，耗时419秒
+2022-03-07 12:14:40.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890871181643776[0;39m 生成今日电子书快照开始
+2022-03-07 12:14:40.593 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890871181643776[0;39m 生成今日电子书快照结束，耗时591秒
+2022-03-07 12:14:45.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890892148969472[0;39m 生成今日电子书快照开始
+2022-03-07 12:14:45.498 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890892148969472[0;39m 生成今日电子书快照结束，耗时497秒
+2022-03-07 12:14:50.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890913149849600[0;39m 生成今日电子书快照开始
+2022-03-07 12:14:50.631 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890913149849600[0;39m 生成今日电子书快照结束，耗时623秒
+2022-03-07 12:14:55.011 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890934133952512[0;39m 生成今日电子书快照开始
+2022-03-07 12:14:55.485 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890934133952512[0;39m 生成今日电子书快照结束，耗时474秒
+2022-03-07 12:15:00.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890955113861120[0;39m 生成今日电子书快照开始
+2022-03-07 12:15:00.624 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890955113861120[0;39m 生成今日电子书快照结束，耗时611秒
+2022-03-07 12:15:05.005 INFO  demo.schedule.DocSche                             :32   [32m155890976051826688[0;39m 更新电子书信息开始
+2022-03-07 12:15:05.569 INFO  demo.schedule.DocSche                             :35   [32m155890976051826688[0;39m 更新电子书信息结束，耗时：564
+2022-03-07 12:15:05.570 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890978421608448[0;39m 生成今日电子书快照开始
+2022-03-07 12:15:06.390 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890978421608448[0;39m 生成今日电子书快照结束，耗时820秒
+2022-03-07 12:15:10.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890997052706816[0;39m 生成今日电子书快照开始
+2022-03-07 12:15:10.609 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890997052706816[0;39m 生成今日电子书快照结束，耗时597秒
+2022-03-07 12:15:15.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891017990672384[0;39m 生成今日电子书快照开始
+2022-03-07 12:15:15.592 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891017990672384[0;39m 生成今日电子书快照结束，耗时588秒
+2022-03-07 12:15:20.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891038966386688[0;39m 生成今日电子书快照开始
+2022-03-07 12:15:20.542 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891038966386688[0;39m 生成今日电子书快照结束，耗时537秒
+2022-03-07 12:15:25.011 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891059963072512[0;39m 生成今日电子书快照开始
+2022-03-07 12:15:25.648 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891059963072512[0;39m 生成今日电子书快照结束，耗时637秒
+2022-03-07 12:15:30.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891080905232384[0;39m 生成今日电子书快照开始
+2022-03-07 12:15:30.522 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891080905232384[0;39m 生成今日电子书快照结束，耗时518秒
+2022-03-07 12:15:35.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891101914501120[0;39m 生成今日电子书快照开始
+2022-03-07 12:15:35.660 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891101914501120[0;39m 生成今日电子书快照结束，耗时647秒
+2022-03-07 12:15:35.660 INFO  demo.schedule.DocSche                             :32   [32m155891104628215808[0;39m 更新电子书信息开始
+2022-03-07 12:15:36.072 INFO  demo.schedule.DocSche                             :35   [32m155891104628215808[0;39m 更新电子书信息结束，耗时：412
+2022-03-07 12:15:40.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891122848272384[0;39m 生成今日电子书快照开始
+2022-03-07 12:15:40.642 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891122848272384[0;39m 生成今日电子书快照结束，耗时638秒
+2022-03-07 12:15:45.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891143844958208[0;39m 生成今日电子书快照开始
+2022-03-07 12:15:46.219 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891143844958208[0;39m 生成今日电子书快照结束，耗时1209秒
+2022-03-07 12:15:50.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891164808089600[0;39m 生成今日电子书快照开始
+2022-03-07 12:15:50.613 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891164808089600[0;39m 生成今日电子书快照结束，耗时605秒
+2022-03-07 12:15:55.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891185779609600[0;39m 生成今日电子书快照开始
+2022-03-07 12:15:55.645 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891185779609600[0;39m 生成今日电子书快照结束，耗时637秒
+2022-03-07 12:16:00.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891206738546688[0;39m 生成今日电子书快照开始
+2022-03-07 12:16:00.606 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891206738546688[0;39m 生成今日电子书快照结束，耗时601秒
+2022-03-07 12:16:05.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891227739426816[0;39m 生成今日电子书快照开始
+2022-03-07 12:16:05.611 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891227739426816[0;39m 生成今日电子书快照结束，耗时599秒
+2022-03-07 12:16:05.612 INFO  demo.schedule.DocSche                             :32   [32m155891230256009216[0;39m 更新电子书信息开始
+2022-03-07 12:16:06.015 INFO  demo.schedule.DocSche                             :35   [32m155891230256009216[0;39m 更新电子书信息结束，耗时：403
+2022-03-07 12:16:10.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891248681586688[0;39m 生成今日电子书快照开始
+2022-03-07 12:16:10.588 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891248681586688[0;39m 生成今日电子书快照结束，耗时583秒
+2022-03-07 12:16:15.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891269657300992[0;39m 生成今日电子书快照开始
+2022-03-07 12:16:15.593 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891269657300992[0;39m 生成今日电子书快照结束，耗时587秒
+2022-03-07 12:16:20.016 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891290670764032[0;39m 生成今日电子书快照开始
+2022-03-07 12:16:20.974 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891290670764032[0;39m 生成今日电子书快照结束，耗时958秒
+2022-03-07 12:16:25.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891311604535296[0;39m 生成今日电子书快照开始
+2022-03-07 12:16:25.824 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891311604535296[0;39m 生成今日电子书快照结束，耗时817秒
+2022-03-07 12:16:30.016 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891332613804032[0;39m 生成今日电子书快照开始
+2022-03-07 12:16:30.650 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891332613804032[0;39m 生成今日电子书快照结束，耗时634秒
+2022-03-07 12:16:35.008 INFO  demo.schedule.DocSche                             :32   [32m155891353551769600[0;39m 更新电子书信息开始
+2022-03-07 12:16:35.118 INFO  demo.schedule.DocSche                             :35   [32m155891353551769600[0;39m 更新电子书信息结束，耗时：110
+2022-03-07 12:16:35.118 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891354013143040[0;39m 生成今日电子书快照开始
+2022-03-07 12:16:35.294 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891354013143040[0;39m 生成今日电子书快照结束，耗时175秒
+2022-03-07 12:16:40.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891374548455424[0;39m 生成今日电子书快照开始
+2022-03-07 12:16:40.151 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891374548455424[0;39m 生成今日电子书快照结束，耗时137秒
+2022-03-07 12:16:45.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891395499003904[0;39m 生成今日电子书快照开始
+2022-03-07 12:16:45.259 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891395499003904[0;39m 生成今日电子书快照结束，耗时250秒
+2022-03-07 12:16:50.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891416441163776[0;39m 生成今日电子书快照开始
+2022-03-07 12:16:50.063 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891416441163776[0;39m 生成今日电子书快照结束，耗时61秒
+2022-03-07 12:16:55.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891437412683776[0;39m 生成今日电子书快照开始
+2022-03-07 12:16:55.058 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891437412683776[0;39m 生成今日电子书快照结束，耗时56秒
+2022-03-07 12:16:58.521 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :216  [32m                  [0;39m container destroyed, DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:16:58.523 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 12:16:58.525 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:16:58.526 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-03-07 12:16:58.543 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2022-03-07 12:16:58.563 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:16:58.564 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10909] result: true
+2022-03-07 12:16:58.564 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:16:58.565 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:16:58.565 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:16:58.653 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 1700 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 12:16:58.654 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 12:16:58.869 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 12:16:58.870 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 12:16:58.884 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2022-03-07 12:16:58.933 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$bccf25d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:58.937 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.270 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.271 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.271 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.272 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.273 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.274 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.274 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.274 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.275 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.277 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.278 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.278 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.278 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.279 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.806 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.806 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:16:59.877 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 12:16:59.878 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:16:59.878 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 12:16:59.878 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 12:16:59.904 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 12:16:59.904 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1246 ms
+2022-03-07 12:17:00.163 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:17:00.312 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 12:17:00.345 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 12:17:00.632 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :243  [32m                  [0;39m running container: DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:17:00.633 INFO  o.a.r.s.a.ListenerContainerConfiguration          :107  [32m                  [0;39m Register the listener to container, listenerBeanName:voteTopicConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2022-03-07 12:17:00.637 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:17:00.641 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 12:17:00.646 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 2.022 seconds (JVM running for 419.907)
+2022-03-07 12:17:00.647 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 12:17:05.007 INFO  demo.schedule.DocSche                             :32   [32m155891479376695296[0;39m 更新电子书信息开始
+2022-03-07 12:17:05.011 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155891479376695296[0;39m HikariPool-2 - Starting...
+2022-03-07 12:17:05.257 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155891479376695296[0;39m HikariPool-2 - Start completed.
+2022-03-07 12:17:05.296 INFO  demo.schedule.DocSche                             :35   [32m155891479376695296[0;39m 更新电子书信息结束，耗时：288
+2022-03-07 12:17:05.296 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891480588849152[0;39m 生成今日电子书快照开始
+2022-03-07 12:17:05.335 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891480588849152[0;39m 生成今日电子书快照结束，耗时38秒
+2022-03-07 12:17:10.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155891500339826688[0;39m 生成今日电子书快照开始
+2022-03-07 12:17:10.061 INFO  demo.schedule.EbookSnapSche                       :31   [32m155891500339826688[0;39m 生成今日电子书快照结束，耗时56秒
+2022-03-07 12:17:10.138 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :216  [32m                  [0;39m container destroyed, DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:17:10.139 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 12:17:10.139 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:17:10.140 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2022-03-07 12:17:10.143 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2022-03-07 12:17:10.148 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:17:10.149 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10909] result: true
+2022-03-07 12:17:10.149 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:17:10.150 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:17:10.151 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:17:10.211 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 1700 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 12:17:10.211 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 12:17:10.333 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 12:17:10.333 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 12:17:10.343 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2022-03-07 12:17:10.368 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$bccf25d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:10.371 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:10.623 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:10.624 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:10.624 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:10.625 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:10.626 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:10.627 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:10.627 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:10.627 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:10.628 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:10.630 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:10.631 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:10.631 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:10.631 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:10.632 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:11.137 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:11.138 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:17:11.193 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 12:17:11.194 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:17:11.194 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 12:17:11.194 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 12:17:11.210 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 12:17:11.210 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 997 ms
+2022-03-07 12:17:11.346 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookSnapSche' defined in file [D:\imoocJavaTest\wiki\target\classes\demo\schedule\EbookSnapSche.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [demo.schedule.EbookSnapSche] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@24bfce57]
+2022-03-07 12:17:11.351 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:17:11.353 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:17:11.356 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:17:11.356 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:17:11.356 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-03-07 12:17:11.360 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-07 12:17:11.365 ERROR org.springframework.boot.SpringApplication        :837  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ebookSnapSche' defined in file [D:\imoocJavaTest\wiki\target\classes\demo\schedule\EbookSnapSche.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [demo.schedule.EbookSnapSche] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@24bfce57]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at demo.WikiApplication.main(WikiApplication.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [demo.schedule.EbookSnapSche] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@24bfce57]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:666)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:568)
+	... 21 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Ldemo/mapper/MyEbookSnapshotMapper;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3062)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2249)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:729)
+	... 27 common frames omitted
+Caused by: java.lang.ClassNotFoundException: demo.mapper.MyEbookSnapshotMapper
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 31 common frames omitted
