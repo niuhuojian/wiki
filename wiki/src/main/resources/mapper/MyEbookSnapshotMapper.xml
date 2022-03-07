@@ -25,7 +25,7 @@
 
     </update>
 
-    <select id="getData" resultType="demo.resp.DataResp">
+    <select id="getData" resultType="demo.resp.StatisticResp">
         select
             t1.`date` as `date`,
             sum(t1.view_count) as viewCount,

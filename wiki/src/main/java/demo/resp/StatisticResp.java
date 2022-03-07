@@ -2,7 +2,7 @@ package demo.resp;
 
 import java.util.Date;
 
-public class DataResp {
+public class StatisticResp {
     private Date date;
 
     private int viewCount;

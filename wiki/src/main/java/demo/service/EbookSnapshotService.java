@@ -1,7 +1,7 @@
 package demo.service;
 
 import demo.mapper.MyEbookSnapshotMapper;
-import demo.resp.DataResp;
+import demo.resp.StatisticResp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +15,7 @@ public class EbookSnapshotService {
         mapper.genSnapshot();
     }
 
-    public List<DataResp> getData(){
+    public List<StatisticResp> getData(){
         return mapper.getData();
     }
 }

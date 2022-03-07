@@ -1,11 +1,11 @@
 package demo.mapper;
 
-import demo.resp.DataResp;
+import demo.resp.StatisticResp;
 
 import java.util.List;
 
 public interface MyEbookSnapshotMapper {
     public void genSnapshot();
 
-    public List<DataResp> getData();
+    public List<StatisticResp> getData();
 }

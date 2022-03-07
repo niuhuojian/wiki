@@ -1,7 +1,7 @@
 package demo.controller;
 
 import demo.resp.CommonResp;
-import demo.resp.DataResp;
+import demo.resp.StatisticResp;
 import demo.service.EbookSnapshotService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,9 +18,9 @@ public class EbookSnapshotController {
 
     @RequestMapping("/getdata")
     public CommonResp getData(){
-        List<DataResp> dataRespList=ebookSnapshotService.getData();
-        CommonResp<List<DataResp>> commonResp=new CommonResp<>();
-        commonResp.setContent(dataRespList);
+        List<StatisticResp> statisticRespList =ebookSnapshotService.getData();
+        CommonResp<List<StatisticResp>> commonResp=new CommonResp<>();
+        commonResp.setContent(statisticRespList);
         return commonResp;
     }
 }

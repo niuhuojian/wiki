@@ -52,8 +52,8 @@ public class DocService {
     @Autowired
     private WsService wsService;
 
-    @Autowired
-    private RocketMQTemplate rocketMQTemplate;
+//    @Autowired
+//    private RocketMQTemplate rocketMQTemplate;
 
     public PageResp<DocQueryResp> list(DocQueryReq docReq){
 
@@ -149,10 +149,10 @@ public class DocService {
         //推送消息
         Doc docDb = docMapper.selectByPrimaryKey(id);
         String log_id = MDC.get("LOG_ID");
-//        wsService.sendInfo(docDb.getName()+"被点赞!",log_id);
+        wsService.sendInfo(docDb.getName()+"被点赞!",log_id);
         //参数1：主题topic
         //参数2：消息内容
-        rocketMQTemplate.convertAndSend("VOTE_TOPIC",docDb.getName()+"被点赞!");
+//        rocketMQTemplate.convertAndSend("VOTE_TOPIC",docDb.getName()+"被点赞!");
     }
 
 
