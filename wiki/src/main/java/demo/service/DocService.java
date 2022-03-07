@@ -21,6 +21,7 @@ import demo.utils.SnowFlake;
 import demo.websocket.WebSocketServer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.slf4j.MDC;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
@@ -140,7 +141,8 @@ public class DocService {
 
         //推送消息
         Doc docDb = docMapper.selectByPrimaryKey(id);
-        wsService.sendInfo(docDb.getName()+"被点赞!");
+        String log_id = MDC.get("LOG_ID");
+        wsService.sendInfo(docDb.getName()+"被点赞!",log_id);
     }
 
 
