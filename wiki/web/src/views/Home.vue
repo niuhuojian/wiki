@@ -32,9 +32,17 @@
             <template #renderItem="{ item }">
               <a-list-item key="item.name">
                 <template #actions>
-                  <span v-for="{ type, text } in actions" :key="type">
-                    <component :is="type" style="margin-right: 8px" />
-                    {{ text }}
+                  <span>
+                    <component :is="'FileOutlined'" style="margin-right: 8px" />
+                    {{ item.docCount }}
+                  </span>
+                  <span>
+                    <component :is="'UserOutlined'" style="margin-right: 8px" />
+                    {{ item.viewCount }}
+                  </span>
+                  <span>
+                    <component :is="'LikeOutlined'" style="margin-right: 8px" />
+                    {{ item.voteCount }}
                   </span>
                 </template>
                 <a-list-item-meta :description="item.description">
@@ -69,6 +77,7 @@ import { defineComponent,onMounted,ref } from 'vue';
 import axios from 'axios';
 import {message} from "ant-design-vue";
 import {Tool} from "@/util/tool";
+import {LikeOutlined} from "@ant-design/icons-vue";
 
 export default defineComponent({
   name: 'Home',
