@@ -2714,3 +2714,1158 @@ See http://rocketmq.apache.org/docs/faq/ for further details.]
 2022-03-07 11:58:05.067 INFO  demo.schedule.DocSche                             :35   [32m155886697865940992[0;39m 更新电子书信息结束，耗时：61
 2022-03-07 11:58:35.010 INFO  demo.schedule.DocSche                             :32   [32m155886823711838208[0;39m 更新电子书信息开始
 2022-03-07 11:58:35.060 INFO  demo.schedule.DocSche                             :35   [32m155886823711838208[0;39m 更新电子书信息结束，耗时：50
+2022-03-07 11:59:05.005 INFO  demo.schedule.DocSche                             :32   [32m155886949519986688[0;39m 更新电子书信息开始
+2022-03-07 11:59:05.055 INFO  demo.schedule.DocSche                             :35   [32m155886949519986688[0;39m 更新电子书信息结束，耗时：50
+2022-03-07 11:59:35.011 INFO  demo.schedule.DocSche                             :32   [32m155887075374272512[0;39m 更新电子书信息开始
+2022-03-07 11:59:35.062 INFO  demo.schedule.DocSche                             :35   [32m155887075374272512[0;39m 更新电子书信息结束，耗时：51
+2022-03-07 12:00:05.010 INFO  demo.schedule.DocSche                             :32   [32m155887201199198208[0;39m 更新电子书信息开始
+2022-03-07 12:00:05.062 INFO  demo.schedule.DocSche                             :35   [32m155887201199198208[0;39m 更新电子书信息结束，耗时：52
+2022-03-07 12:00:35.007 INFO  demo.schedule.DocSche                             :32   [32m155887327015735296[0;39m 更新电子书信息开始
+2022-03-07 12:00:35.060 INFO  demo.schedule.DocSche                             :35   [32m155887327015735296[0;39m 更新电子书信息结束，耗时：53
+2022-03-07 12:01:05.003 INFO  demo.schedule.DocSche                             :32   [32m155887452828078080[0;39m 更新电子书信息开始
+2022-03-07 12:01:05.051 INFO  demo.schedule.DocSche                             :35   [32m155887452828078080[0;39m 更新电子书信息结束，耗时：48
+2022-03-07 12:01:35.001 INFO  demo.schedule.DocSche                             :32   [32m155887578648809472[0;39m 更新电子书信息开始
+2022-03-07 12:01:35.049 INFO  demo.schedule.DocSche                             :35   [32m155887578648809472[0;39m 更新电子书信息结束，耗时：48
+2022-03-07 12:01:42.866 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :216  [32m                  [0;39m container destroyed, DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:01:42.866 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 12:01:42.867 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:01:42.867 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2022-03-07 12:01:42.869 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2022-03-07 12:01:42.872 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10909] result: true
+2022-03-07 12:01:42.873 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:01:42.873 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:01:42.874 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:01:42.875 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:01:42.933 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 13108 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 12:01:42.934 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 12:01:43.043 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 12:01:43.043 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 12:01:43.052 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-03-07 12:01:43.077 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$40de90d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.079 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.319 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.320 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.321 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.322 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.323 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.323 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.324 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.324 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.324 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.326 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.327 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.327 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.327 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.328 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.808 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.808 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:01:43.862 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 12:01:43.863 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:01:43.863 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 12:01:43.863 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 12:01:43.877 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 12:01:43.877 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 942 ms
+2022-03-07 12:01:44.049 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:01:44.172 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 12:01:44.198 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 12:01:44.448 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :243  [32m                  [0;39m running container: DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:01:44.448 INFO  o.a.r.s.a.ListenerContainerConfiguration          :107  [32m                  [0;39m Register the listener to container, listenerBeanName:voteTopicConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2022-03-07 12:01:44.451 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:01:44.454 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 12:01:44.457 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 1.544 seconds (JVM running for 3051.414)
+2022-03-07 12:01:44.458 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 12:02:05.002 INFO  demo.schedule.DocSche                             :32   [32m155887704482123776[0;39m 更新电子书信息开始
+2022-03-07 12:02:05.005 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155887704482123776[0;39m HikariPool-3 - Starting...
+2022-03-07 12:02:05.226 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155887704482123776[0;39m HikariPool-3 - Start completed.
+2022-03-07 12:02:05.261 INFO  demo.schedule.DocSche                             :35   [32m155887704482123776[0;39m 更新电子书信息结束，耗时：258
+2022-03-07 12:02:05.261 INFO  demo.schedule.EbookSnapSche                       :28   [32m155887705568448512[0;39m 更新电子书信息开始
+2022-03-07 12:02:05.295 INFO  demo.schedule.EbookSnapSche                       :31   [32m155887705568448512[0;39m 更新电子书信息结束，耗时：34
+2022-03-07 12:02:35.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155887830315438080[0;39m 更新电子书信息开始
+2022-03-07 12:02:35.054 INFO  demo.schedule.EbookSnapSche                       :31   [32m155887830315438080[0;39m 更新电子书信息结束，耗时：51
+2022-03-07 12:02:35.054 INFO  demo.schedule.DocSche                             :32   [32m155887830529347584[0;39m 更新电子书信息开始
+2022-03-07 12:02:35.087 INFO  demo.schedule.DocSche                             :35   [32m155887830529347584[0;39m 更新电子书信息结束，耗时：32
+2022-03-07 12:03:05.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155887956148752384[0;39m 更新电子书信息开始
+2022-03-07 12:03:05.058 INFO  demo.schedule.EbookSnapSche                       :31   [32m155887956148752384[0;39m 更新电子书信息结束，耗时：54
+2022-03-07 12:03:05.059 INFO  demo.schedule.DocSche                             :32   [32m155887956379439104[0;39m 更新电子书信息开始
+2022-03-07 12:03:05.095 INFO  demo.schedule.DocSche                             :35   [32m155887956379439104[0;39m 更新电子书信息结束，耗时：36
+2022-03-07 12:03:35.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155888081973678080[0;39m 更新电子书信息开始
+2022-03-07 12:03:35.050 INFO  demo.schedule.EbookSnapSche                       :31   [32m155888081973678080[0;39m 更新电子书信息结束，耗时：47
+2022-03-07 12:03:35.050 INFO  demo.schedule.DocSche                             :32   [32m155888082170810368[0;39m 更新电子书信息开始
+2022-03-07 12:03:35.085 INFO  demo.schedule.DocSche                             :35   [32m155888082170810368[0;39m 更新电子书信息结束，耗时：34
+2022-03-07 12:04:05.010 INFO  demo.schedule.DocSche                             :32   [32m155888207832158208[0;39m 更新电子书信息开始
+2022-03-07 12:04:05.064 INFO  demo.schedule.DocSche                             :35   [32m155888207832158208[0;39m 更新电子书信息结束，耗时：54
+2022-03-07 12:04:05.065 INFO  demo.schedule.EbookSnapSche                       :28   [32m155888208062844928[0;39m 更新电子书信息开始
+2022-03-07 12:04:05.097 INFO  demo.schedule.EbookSnapSche                       :31   [32m155888208062844928[0;39m 更新电子书信息结束，耗时：32
+2022-03-07 12:04:13.661 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :216  [32m                  [0;39m container destroyed, DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:04:13.661 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 12:04:13.662 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:04:13.663 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2022-03-07 12:04:13.666 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2022-03-07 12:04:13.669 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:04:13.670 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10909] result: true
+2022-03-07 12:04:13.670 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:04:13.672 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:04:13.672 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:04:13.733 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 13108 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 12:04:13.733 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 12:04:13.856 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 12:04:13.856 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 12:04:13.867 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2022-03-07 12:04:13.894 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$40de90d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:13.897 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.157 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.158 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.159 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.160 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.162 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.162 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.163 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.163 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.163 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.166 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.167 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.167 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.167 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.169 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.662 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.663 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:04:14.716 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 12:04:14.716 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:04:14.717 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 12:04:14.717 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 12:04:14.731 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 12:04:14.731 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 996 ms
+2022-03-07 12:04:14.912 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:04:15.040 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 12:04:15.067 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 12:04:15.328 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :243  [32m                  [0;39m running container: DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:04:15.329 INFO  o.a.r.s.a.ListenerContainerConfiguration          :107  [32m                  [0;39m Register the listener to container, listenerBeanName:voteTopicConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2022-03-07 12:04:15.331 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:04:15.334 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 12:04:15.337 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 1.624 seconds (JVM running for 3202.293)
+2022-03-07 12:04:15.338 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 12:04:35.001 INFO  demo.schedule.DocSche                             :32   [32m155888333623529472[0;39m 更新电子书信息开始
+2022-03-07 12:04:35.003 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155888333623529472[0;39m HikariPool-4 - Starting...
+2022-03-07 12:04:35.236 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155888333623529472[0;39m HikariPool-4 - Start completed.
+2022-03-07 12:04:35.272 INFO  demo.schedule.DocSche                             :35   [32m155888333623529472[0;39m 更新电子书信息结束，耗时：270
+2022-03-07 12:04:35.273 INFO  demo.schedule.EbookSnapSche                       :28   [32m155888334764380160[0;39m 更新电子书信息开始
+2022-03-07 12:04:35.309 INFO  demo.schedule.EbookSnapSche                       :31   [32m155888334764380160[0;39m 更新电子书信息结束，耗时：36
+2022-03-07 12:05:05.000 INFO  demo.schedule.EbookSnapSche                       :28   [32m155888459448455168[0;39m 更新电子书信息开始
+2022-03-07 12:05:05.052 INFO  demo.schedule.EbookSnapSche                       :31   [32m155888459448455168[0;39m 更新电子书信息结束，耗时：52
+2022-03-07 12:05:05.053 INFO  demo.schedule.DocSche                             :32   [32m155888459670753280[0;39m 更新电子书信息开始
+2022-03-07 12:05:05.085 INFO  demo.schedule.DocSche                             :35   [32m155888459670753280[0;39m 更新电子书信息结束，耗时：32
+2022-03-07 12:05:35.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155888585281769472[0;39m 更新电子书信息开始
+2022-03-07 12:05:35.053 INFO  demo.schedule.EbookSnapSche                       :31   [32m155888585281769472[0;39m 更新电子书信息结束，耗时：52
+2022-03-07 12:05:35.054 INFO  demo.schedule.DocSche                             :32   [32m155888585504067584[0;39m 更新电子书信息开始
+2022-03-07 12:05:35.087 INFO  demo.schedule.DocSche                             :35   [32m155888585504067584[0;39m 更新电子书信息结束，耗时：33
+2022-03-07 12:05:41.177 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :216  [32m                  [0;39m container destroyed, DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:05:41.178 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 12:05:41.179 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:05:41.179 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-4 - Shutdown initiated...
+2022-03-07 12:05:41.183 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-4 - Shutdown completed.
+2022-03-07 12:05:41.187 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10909] result: true
+2022-03-07 12:05:41.188 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:05:41.188 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:05:41.191 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:05:41.191 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:05:41.254 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 13108 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 12:05:41.254 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 12:05:41.376 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 12:05:41.376 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 12:05:41.385 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-03-07 12:05:41.416 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$40de90d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:41.420 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:41.682 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:41.683 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:41.683 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:41.685 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:41.686 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:41.686 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:41.687 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:41.687 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:41.687 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:41.689 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:41.689 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:41.690 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:41.690 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:41.691 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:42.184 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:42.184 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:05:42.241 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 12:05:42.242 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:05:42.242 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 12:05:42.242 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 12:05:42.256 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 12:05:42.256 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 999 ms
+2022-03-07 12:05:42.431 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:05:42.557 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 12:05:42.583 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 12:05:42.834 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :243  [32m                  [0;39m running container: DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:05:42.835 INFO  o.a.r.s.a.ListenerContainerConfiguration          :107  [32m                  [0;39m Register the listener to container, listenerBeanName:voteTopicConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2022-03-07 12:05:42.837 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:05:42.844 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 12:05:42.846 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 1.617 seconds (JVM running for 3289.802)
+2022-03-07 12:05:42.847 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 12:06:05.008 INFO  demo.schedule.DocSche                             :32   [32m155888711140249600[0;39m 更新电子书信息开始
+2022-03-07 12:06:05.011 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155888711140249600[0;39m HikariPool-5 - Starting...
+2022-03-07 12:06:05.266 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155888711140249600[0;39m HikariPool-5 - Start completed.
+2022-03-07 12:06:05.300 INFO  demo.schedule.DocSche                             :35   [32m155888711140249600[0;39m 更新电子书信息结束，耗时：291
+2022-03-07 12:06:05.300 INFO  demo.schedule.EbookSnapSche                       :28   [32m155888712364986368[0;39m 更新电子书信息开始
+2022-03-07 12:06:05.337 INFO  demo.schedule.EbookSnapSche                       :31   [32m155888712364986368[0;39m 更新电子书信息结束，耗时：37
+2022-03-07 12:06:11.936 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :216  [32m                  [0;39m container destroyed, DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:06:11.937 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 12:06:11.937 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:06:11.938 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-5 - Shutdown initiated...
+2022-03-07 12:06:11.941 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-5 - Shutdown completed.
+2022-03-07 12:06:11.944 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:06:11.944 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10909] result: true
+2022-03-07 12:06:11.945 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:06:11.946 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:06:11.946 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:06:12.001 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 13108 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 12:06:12.002 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 12:06:12.108 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 12:06:12.109 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 12:06:12.118 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-03-07 12:06:12.142 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$40de90d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:12.145 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:12.415 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:12.416 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:12.417 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:12.417 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:12.419 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:12.419 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:12.420 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:12.420 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:12.421 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:12.423 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:12.423 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:12.423 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:12.424 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:12.425 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:13.051 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:13.052 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:06:13.104 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 12:06:13.104 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:06:13.104 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 12:06:13.105 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 12:06:13.119 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 12:06:13.119 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1115 ms
+2022-03-07 12:06:13.294 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:06:13.416 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 12:06:13.443 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 12:06:13.696 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :243  [32m                  [0;39m running container: DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:06:13.697 INFO  o.a.r.s.a.ListenerContainerConfiguration          :107  [32m                  [0;39m Register the listener to container, listenerBeanName:voteTopicConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2022-03-07 12:06:13.699 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:06:13.702 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 12:06:13.705 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 1.722 seconds (JVM running for 3320.661)
+2022-03-07 12:06:13.705 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 12:06:35.002 INFO  demo.schedule.DocSche                             :32   [32m155888836944203776[0;39m 更新电子书信息开始
+2022-03-07 12:06:35.004 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155888836944203776[0;39m HikariPool-6 - Starting...
+2022-03-07 12:06:35.193 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155888836944203776[0;39m HikariPool-6 - Start completed.
+2022-03-07 12:06:35.238 INFO  demo.schedule.DocSche                             :35   [32m155888836944203776[0;39m 更新电子书信息结束，耗时：235
+2022-03-07 12:06:35.238 INFO  demo.schedule.EbookSnapSche                       :28   [32m155888837934059520[0;39m 更新电子书信息开始
+2022-03-07 12:06:35.275 INFO  demo.schedule.EbookSnapSche                       :31   [32m155888837934059520[0;39m 更新电子书信息结束，耗时：37
+2022-03-07 12:07:05.008 INFO  demo.schedule.DocSche                             :32   [32m155888962798489600[0;39m 更新电子书信息开始
+2022-03-07 12:07:05.060 INFO  demo.schedule.DocSche                             :35   [32m155888962798489600[0;39m 更新电子书信息结束，耗时：52
+2022-03-07 12:07:05.060 INFO  demo.schedule.EbookSnapSche                       :28   [32m155888963016593408[0;39m 更新电子书信息开始
+2022-03-07 12:07:05.095 INFO  demo.schedule.EbookSnapSche                       :31   [32m155888963016593408[0;39m 更新电子书信息结束，耗时：35
+2022-03-07 12:07:27.485 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :216  [32m                  [0;39m container destroyed, DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:07:27.486 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 12:07:27.486 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:07:27.487 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-6 - Shutdown initiated...
+2022-03-07 12:07:27.491 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-6 - Shutdown completed.
+2022-03-07 12:07:27.496 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:07:27.496 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:07:27.497 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10909] result: true
+2022-03-07 12:07:27.498 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:07:27.499 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:07:27.570 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 13108 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 12:07:27.570 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 12:07:27.692 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 12:07:27.692 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 12:07:27.702 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-03-07 12:07:27.731 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$40de90d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:27.734 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.002 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.003 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.004 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.005 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.006 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.006 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.007 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.007 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.007 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.010 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.010 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.010 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.010 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.011 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.551 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.552 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:07:28.608 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 12:07:28.609 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:07:28.609 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 12:07:28.609 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 12:07:28.624 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 12:07:28.625 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1053 ms
+2022-03-07 12:07:28.814 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:07:28.951 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 12:07:28.989 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 12:07:29.275 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :243  [32m                  [0;39m running container: DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:07:29.275 INFO  o.a.r.s.a.ListenerContainerConfiguration          :107  [32m                  [0;39m Register the listener to container, listenerBeanName:voteTopicConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2022-03-07 12:07:29.277 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:07:29.281 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 12:07:29.284 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 1.738 seconds (JVM running for 3396.24)
+2022-03-07 12:07:29.285 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 12:07:30.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889067635118080[0;39m 生成今日电子书快照开始
+2022-03-07 12:07:35.011 INFO  demo.schedule.DocSche                             :32   [32m155889088640192512[0;39m 更新电子书信息开始
+2022-03-07 12:07:35.013 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155889088640192512[0;39m HikariPool-7 - Starting...
+2022-03-07 12:07:35.248 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155889088640192512[0;39m HikariPool-7 - Start completed.
+2022-03-07 12:07:35.281 INFO  demo.schedule.DocSche                             :35   [32m155889088640192512[0;39m 更新电子书信息结束，耗时：270
+2022-03-07 12:07:35.281 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889089772654592[0;39m 生成今日电子书快照开始
+2022-03-07 12:07:40.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889109569769472[0;39m 生成今日电子书快照开始
+2022-03-07 12:07:45.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889130566455296[0;39m 生成今日电子书快照开始
+2022-03-07 12:07:50.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889151517003776[0;39m 生成今日电子书快照开始
+2022-03-07 12:07:55.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889172534661120[0;39m 生成今日电子书快照开始
+2022-03-07 12:08:00.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889193468432384[0;39m 生成今日电子书快照开始
+2022-03-07 12:08:05.003 INFO  demo.schedule.DocSche                             :32   [32m155889214435758080[0;39m 更新电子书信息开始
+2022-03-07 12:08:05.056 INFO  demo.schedule.DocSche                             :35   [32m155889214435758080[0;39m 更新电子书信息结束，耗时：53
+2022-03-07 12:08:05.057 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889214662250496[0;39m 生成今日电子书快照开始
+2022-03-07 12:08:10.016 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889235461804032[0;39m 生成今日电子书快照开始
+2022-03-07 12:08:15.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889256387186688[0;39m 生成今日电子书快照开始
+2022-03-07 12:08:20.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889277346123776[0;39m 生成今日电子书快照开始
+2022-03-07 12:08:25.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889298330226688[0;39m 生成今日电子书快照开始
+2022-03-07 12:08:30.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889319310135296[0;39m 生成今日电子书快照开始
+2022-03-07 12:08:35.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889340256489472[0;39m 生成今日电子书快照开始
+2022-03-07 12:08:35.001 INFO  demo.schedule.DocSche                             :32   [32m155889340256489473[0;39m 更新电子书信息开始
+2022-03-07 12:08:35.408 INFO  demo.schedule.DocSche                             :35   [32m155889340256489473[0;39m 更新电子书信息结束，耗时：407
+2022-03-07 12:08:40.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889361257369600[0;39m 生成今日电子书快照开始
+2022-03-07 12:08:45.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889382228889600[0;39m 生成今日电子书快照开始
+2022-03-07 12:08:50.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889403200409600[0;39m 生成今日电子书快照开始
+2022-03-07 12:08:55.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889424167735296[0;39m 生成今日电子书快照开始
+2022-03-07 12:08:56.959 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :216  [32m                  [0;39m container destroyed, DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:08:56.960 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 12:08:56.961 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:08:56.961 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-7 - Shutdown initiated...
+2022-03-07 12:08:56.965 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-7 - Shutdown completed.
+2022-03-07 12:08:56.970 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10909] result: true
+2022-03-07 12:08:56.971 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:08:56.971 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:08:56.972 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:08:56.973 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:08:57.050 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 13108 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 12:08:57.050 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 12:08:57.178 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 12:08:57.179 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 12:08:57.189 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-03-07 12:08:57.216 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$40de90d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.219 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.466 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.467 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.468 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.469 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.470 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.470 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.471 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.471 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.471 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.473 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.474 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.474 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.474 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.475 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.975 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:57.975 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:08:58.029 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 12:08:58.029 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:08:58.030 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 12:08:58.030 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 12:08:58.055 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 12:08:58.055 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1003 ms
+2022-03-07 12:08:58.242 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:08:58.383 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 12:08:58.411 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 12:08:58.676 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :243  [32m                  [0;39m running container: DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:08:58.677 INFO  o.a.r.s.a.ListenerContainerConfiguration          :107  [32m                  [0;39m Register the listener to container, listenerBeanName:voteTopicConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2022-03-07 12:08:58.679 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:08:58.682 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 12:08:58.685 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 1.657 seconds (JVM running for 3485.641)
+2022-03-07 12:08:58.686 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 12:09:00.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889445164421120[0;39m 生成今日电子书快照开始
+2022-03-07 12:09:00.014 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155889445164421120[0;39m HikariPool-8 - Starting...
+2022-03-07 12:09:00.860 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155889445164421120[0;39m HikariPool-8 - Start completed.
+2022-03-07 12:09:00.983 ERROR o.s.s.support.TaskUtils$LoggingErrorHandler       :95   [32m155889445164421120[0;39m Unexpected error occurred in scheduled task
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+### The error may exist in file [D:\imoocJavaTest\wiki\target\classes\mapper\MyEbookSnapshotMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into ebook_snapshot(ebook_id, date, view_count, vote_count, view_increase, vote_increase)         select t1.id, curdate(),0,0,0,0         from ebook t1         where not exists(select 1 from ebook_snapshot t2 where t1.id=t2.ebook_id and t2.date=curdate());                   update ebook_snapshot t1,ebook t2         set t1.view_count=t2.view_count,t1.vote_count=t2.vote_count         where t1.date=curdate()           and t1.ebook_id=t2.id;                   update ebook_snapshot t1 left join (select ebook_id,view_count,vote_count from ebook_snapshot         where ebook_snapshot.date=date_sub(curdate(),interval 1 day )) t2         on t1.ebook_id=t2.ebook_id         set t1.view_increase=(t1.view_count-ifnull(t2.view_count,0)),         t1.vote_increase=(t1.vote_count-ifnull(t2.vote_count,0))         where t1.date=curdate();
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy90.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:288)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy222.genSnapshot(Unknown Source)
+	at demo.schedule.EbookSnapSche.cron(EbookSnapSche.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy127.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at jdk.internal.reflect.GeneratedMethodAccessor62.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 20 common frames omitted
+2022-03-07 12:09:05.001 INFO  demo.schedule.DocSche                             :32   [32m155889466085609472[0;39m 更新电子书信息开始
+2022-03-07 12:09:05.195 INFO  demo.schedule.DocSche                             :35   [32m155889466085609472[0;39m 更新电子书信息结束，耗时：194
+2022-03-07 12:09:05.195 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889466899304448[0;39m 生成今日电子书快照开始
+2022-03-07 12:09:05.409 ERROR o.s.s.support.TaskUtils$LoggingErrorHandler       :95   [32m155889466899304448[0;39m Unexpected error occurred in scheduled task
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+### The error may exist in file [D:\imoocJavaTest\wiki\target\classes\mapper\MyEbookSnapshotMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into ebook_snapshot(ebook_id, date, view_count, vote_count, view_increase, vote_increase)         select t1.id, curdate(),0,0,0,0         from ebook t1         where not exists(select 1 from ebook_snapshot t2 where t1.id=t2.ebook_id and t2.date=curdate());                   update ebook_snapshot t1,ebook t2         set t1.view_count=t2.view_count,t1.vote_count=t2.vote_count         where t1.date=curdate()           and t1.ebook_id=t2.id;                   update ebook_snapshot t1 left join (select ebook_id,view_count,vote_count from ebook_snapshot         where ebook_snapshot.date=date_sub(curdate(),interval 1 day )) t2         on t1.ebook_id=t2.ebook_id         set t1.view_increase=(t1.view_count-ifnull(t2.view_count,0)),         t1.vote_increase=(t1.vote_count-ifnull(t2.vote_count,0))         where t1.date=curdate();
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy90.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:288)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy222.genSnapshot(Unknown Source)
+	at demo.schedule.EbookSnapSche.cron(EbookSnapSche.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy127.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at jdk.internal.reflect.GeneratedMethodAccessor62.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 20 common frames omitted
+2022-03-07 12:09:10.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889487065518080[0;39m 生成今日电子书快照开始
+2022-03-07 12:09:10.644 ERROR o.s.s.support.TaskUtils$LoggingErrorHandler       :95   [32m155889487065518080[0;39m Unexpected error occurred in scheduled task
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+### The error may exist in file [D:\imoocJavaTest\wiki\target\classes\mapper\MyEbookSnapshotMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into ebook_snapshot(ebook_id, date, view_count, vote_count, view_increase, vote_increase)         select t1.id, curdate(),0,0,0,0         from ebook t1         where not exists(select 1 from ebook_snapshot t2 where t1.id=t2.ebook_id and t2.date=curdate());                   update ebook_snapshot t1,ebook t2         set t1.view_count=t2.view_count,t1.vote_count=t2.vote_count         where t1.date=curdate()           and t1.ebook_id=t2.id;                   update ebook_snapshot t1 left join (select ebook_id,view_count,vote_count from ebook_snapshot         where ebook_snapshot.date=date_sub(curdate(),interval 1 day )) t2         on t1.ebook_id=t2.ebook_id         set t1.view_increase=(t1.view_count-ifnull(t2.view_count,0)),         t1.vote_increase=(t1.vote_count-ifnull(t2.vote_count,0))         where t1.date=curdate();
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy90.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:288)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy222.genSnapshot(Unknown Source)
+	at demo.schedule.EbookSnapSche.cron(EbookSnapSche.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy127.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at jdk.internal.reflect.GeneratedMethodAccessor62.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 20 common frames omitted
+2022-03-07 12:09:15.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889508041232384[0;39m 生成今日电子书快照开始
+2022-03-07 12:09:15.600 ERROR o.s.s.support.TaskUtils$LoggingErrorHandler       :95   [32m155889508041232384[0;39m Unexpected error occurred in scheduled task
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+### The error may exist in file [D:\imoocJavaTest\wiki\target\classes\mapper\MyEbookSnapshotMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into ebook_snapshot(ebook_id, date, view_count, vote_count, view_increase, vote_increase)         select t1.id, curdate(),0,0,0,0         from ebook t1         where not exists(select 1 from ebook_snapshot t2 where t1.id=t2.ebook_id and t2.date=curdate());                   update ebook_snapshot t1,ebook t2         set t1.view_count=t2.view_count,t1.vote_count=t2.vote_count         where t1.date=curdate()           and t1.ebook_id=t2.id;                   update ebook_snapshot t1 left join (select ebook_id,view_count,vote_count from ebook_snapshot         where ebook_snapshot.date=date_sub(curdate(),interval 1 day )) t2         on t1.ebook_id=t2.ebook_id         set t1.view_increase=(t1.view_count-ifnull(t2.view_count,0)),         t1.vote_increase=(t1.vote_count-ifnull(t2.vote_count,0))         where t1.date=curdate();
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy90.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:288)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy222.genSnapshot(Unknown Source)
+	at demo.schedule.EbookSnapSche.cron(EbookSnapSche.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy127.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at jdk.internal.reflect.GeneratedMethodAccessor62.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 20 common frames omitted
+2022-03-07 12:09:20.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889529033723904[0;39m 生成今日电子书快照开始
+2022-03-07 12:09:20.950 ERROR o.s.s.support.TaskUtils$LoggingErrorHandler       :95   [32m155889529033723904[0;39m Unexpected error occurred in scheduled task
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+### The error may exist in file [D:\imoocJavaTest\wiki\target\classes\mapper\MyEbookSnapshotMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into ebook_snapshot(ebook_id, date, view_count, vote_count, view_increase, vote_increase)         select t1.id, curdate(),0,0,0,0         from ebook t1         where not exists(select 1 from ebook_snapshot t2 where t1.id=t2.ebook_id and t2.date=curdate());                   update ebook_snapshot t1,ebook t2         set t1.view_count=t2.view_count,t1.vote_count=t2.vote_count         where t1.date=curdate()           and t1.ebook_id=t2.id;                   update ebook_snapshot t1 left join (select ebook_id,view_count,vote_count from ebook_snapshot         where ebook_snapshot.date=date_sub(curdate(),interval 1 day )) t2         on t1.ebook_id=t2.ebook_id         set t1.view_increase=(t1.view_count-ifnull(t2.view_count,0)),         t1.vote_increase=(t1.vote_count-ifnull(t2.vote_count,0))         where t1.date=curdate();
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy90.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:288)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy222.genSnapshot(Unknown Source)
+	at demo.schedule.EbookSnapSche.cron(EbookSnapSche.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy127.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at jdk.internal.reflect.GeneratedMethodAccessor62.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 20 common frames omitted
+2022-03-07 12:09:25.011 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889550013632512[0;39m 生成今日电子书快照开始
+2022-03-07 12:09:25.576 ERROR o.s.s.support.TaskUtils$LoggingErrorHandler       :95   [32m155889550013632512[0;39m Unexpected error occurred in scheduled task
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+### The error may exist in file [D:\imoocJavaTest\wiki\target\classes\mapper\MyEbookSnapshotMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into ebook_snapshot(ebook_id, date, view_count, vote_count, view_increase, vote_increase)         select t1.id, curdate(),0,0,0,0         from ebook t1         where not exists(select 1 from ebook_snapshot t2 where t1.id=t2.ebook_id and t2.date=curdate());                   update ebook_snapshot t1,ebook t2         set t1.view_count=t2.view_count,t1.vote_count=t2.vote_count         where t1.date=curdate()           and t1.ebook_id=t2.id;                   update ebook_snapshot t1 left join (select ebook_id,view_count,vote_count from ebook_snapshot         where ebook_snapshot.date=date_sub(curdate(),interval 1 day )) t2         on t1.ebook_id=t2.ebook_id         set t1.view_increase=(t1.view_count-ifnull(t2.view_count,0)),         t1.vote_increase=(t1.vote_count-ifnull(t2.vote_count,0))         where t1.date=curdate();
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy90.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:288)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy222.genSnapshot(Unknown Source)
+	at demo.schedule.EbookSnapSche.cron(EbookSnapSche.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy127.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at jdk.internal.reflect.GeneratedMethodAccessor62.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 20 common frames omitted
+2022-03-07 12:09:30.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889570964180992[0;39m 生成今日电子书快照开始
+2022-03-07 12:09:30.595 ERROR o.s.s.support.TaskUtils$LoggingErrorHandler       :95   [32m155889570964180992[0;39m Unexpected error occurred in scheduled task
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+### The error may exist in file [D:\imoocJavaTest\wiki\target\classes\mapper\MyEbookSnapshotMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into ebook_snapshot(ebook_id, date, view_count, vote_count, view_increase, vote_increase)         select t1.id, curdate(),0,0,0,0         from ebook t1         where not exists(select 1 from ebook_snapshot t2 where t1.id=t2.ebook_id and t2.date=curdate());                   update ebook_snapshot t1,ebook t2         set t1.view_count=t2.view_count,t1.vote_count=t2.vote_count         where t1.date=curdate()           and t1.ebook_id=t2.id;                   update ebook_snapshot t1 left join (select ebook_id,view_count,vote_count from ebook_snapshot         where ebook_snapshot.date=date_sub(curdate(),interval 1 day )) t2         on t1.ebook_id=t2.ebook_id         set t1.view_increase=(t1.view_count-ifnull(t2.view_count,0)),         t1.vote_increase=(t1.vote_count-ifnull(t2.vote_count,0))         where t1.date=curdate();
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy90.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:288)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy222.genSnapshot(Unknown Source)
+	at demo.schedule.EbookSnapSche.cron(EbookSnapSche.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy127.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at jdk.internal.reflect.GeneratedMethodAccessor62.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 20 common frames omitted
+2022-03-07 12:09:35.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889591918923776[0;39m 生成今日电子书快照开始
+2022-03-07 12:09:35.329 ERROR o.s.s.support.TaskUtils$LoggingErrorHandler       :95   [32m155889591918923776[0;39m Unexpected error occurred in scheduled task
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+### The error may exist in file [D:\imoocJavaTest\wiki\target\classes\mapper\MyEbookSnapshotMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into ebook_snapshot(ebook_id, date, view_count, vote_count, view_increase, vote_increase)         select t1.id, curdate(),0,0,0,0         from ebook t1         where not exists(select 1 from ebook_snapshot t2 where t1.id=t2.ebook_id and t2.date=curdate());                   update ebook_snapshot t1,ebook t2         set t1.view_count=t2.view_count,t1.vote_count=t2.vote_count         where t1.date=curdate()           and t1.ebook_id=t2.id;                   update ebook_snapshot t1 left join (select ebook_id,view_count,vote_count from ebook_snapshot         where ebook_snapshot.date=date_sub(curdate(),interval 1 day )) t2         on t1.ebook_id=t2.ebook_id         set t1.view_increase=(t1.view_count-ifnull(t2.view_count,0)),         t1.vote_increase=(t1.vote_count-ifnull(t2.vote_count,0))         where t1.date=curdate();
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy90.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:288)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy222.genSnapshot(Unknown Source)
+	at demo.schedule.EbookSnapSche.cron(EbookSnapSche.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy127.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at jdk.internal.reflect.GeneratedMethodAccessor62.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 20 common frames omitted
+2022-03-07 12:09:35.330 INFO  demo.schedule.DocSche                             :32   [32m155889593294655488[0;39m 更新电子书信息开始
+2022-03-07 12:09:35.721 INFO  demo.schedule.DocSche                             :35   [32m155889593294655488[0;39m 更新电子书信息结束，耗时：391
+2022-03-07 12:09:40.011 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889612928192512[0;39m 生成今日电子书快照开始
+2022-03-07 12:09:40.627 ERROR o.s.s.support.TaskUtils$LoggingErrorHandler       :95   [32m155889612928192512[0;39m Unexpected error occurred in scheduled task
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+### The error may exist in file [D:\imoocJavaTest\wiki\target\classes\mapper\MyEbookSnapshotMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into ebook_snapshot(ebook_id, date, view_count, vote_count, view_increase, vote_increase)         select t1.id, curdate(),0,0,0,0         from ebook t1         where not exists(select 1 from ebook_snapshot t2 where t1.id=t2.ebook_id and t2.date=curdate());                   update ebook_snapshot t1,ebook t2         set t1.view_count=t2.view_count,t1.vote_count=t2.vote_count         where t1.date=curdate()           and t1.ebook_id=t2.id;                   update ebook_snapshot t1 left join (select ebook_id,view_count,vote_count from ebook_snapshot         where ebook_snapshot.date=date_sub(curdate(),interval 1 day )) t2         on t1.ebook_id=t2.ebook_id         set t1.view_increase=(t1.view_count-ifnull(t2.view_count,0)),         t1.vote_increase=(t1.vote_count-ifnull(t2.vote_count,0))         where t1.date=curdate();
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy90.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:288)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy222.genSnapshot(Unknown Source)
+	at demo.schedule.EbookSnapSche.cron(EbookSnapSche.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy127.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at jdk.internal.reflect.GeneratedMethodAccessor62.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 20 common frames omitted
+2022-03-07 12:09:45.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889633912295424[0;39m 生成今日电子书快照开始
+2022-03-07 12:09:45.489 ERROR o.s.s.support.TaskUtils$LoggingErrorHandler       :95   [32m155889633912295424[0;39m Unexpected error occurred in scheduled task
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+### The error may exist in file [D:\imoocJavaTest\wiki\target\classes\mapper\MyEbookSnapshotMapper.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: insert into ebook_snapshot(ebook_id, date, view_count, vote_count, view_increase, vote_increase)         select t1.id, curdate(),0,0,0,0         from ebook t1         where not exists(select 1 from ebook_snapshot t2 where t1.id=t2.ebook_id and t2.date=curdate());                   update ebook_snapshot t1,ebook t2         set t1.view_count=t2.view_count,t1.vote_count=t2.vote_count         where t1.date=curdate()           and t1.ebook_id=t2.id;                   update ebook_snapshot t1 left join (select ebook_id,view_count,vote_count from ebook_snapshot         where ebook_snapshot.date=date_sub(curdate(),interval 1 day )) t2         on t1.ebook_id=t2.ebook_id         set t1.view_increase=(t1.view_count-ifnull(t2.view_count,0)),         t1.vote_increase=(t1.vote_count-ifnull(t2.vote_count,0))         where t1.date=curdate();
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:91)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:441)
+	at com.sun.proxy.$Proxy90.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:288)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy222.genSnapshot(Unknown Source)
+	at demo.schedule.EbookSnapSche.cron(EbookSnapSche.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:93)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'update ebook_snapshot t1,ebook t2
+        set t1.view_count=t2.view_count,t1.vot' at line 7
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:370)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor63.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy127.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at jdk.internal.reflect.GeneratedMethodAccessor62.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	... 20 common frames omitted
+2022-03-07 12:09:48.233 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :216  [32m                  [0;39m container destroyed, DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:09:48.234 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 12:09:48.235 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:09:48.235 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-8 - Shutdown initiated...
+2022-03-07 12:09:48.240 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-8 - Shutdown completed.
+2022-03-07 12:09:48.243 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:09:48.243 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:09:48.244 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10909] result: true
+2022-03-07 12:09:48.244 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:09:48.245 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:09:48.308 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 13108 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 12:09:48.309 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 12:09:48.419 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 12:09:48.420 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 12:09:48.429 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-03-07 12:09:48.456 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$40de90d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:48.459 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:48.706 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:48.706 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:48.707 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:48.708 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:48.709 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:48.709 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:48.710 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:48.710 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:48.710 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:48.712 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:48.712 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:48.713 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:48.713 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:48.714 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:49.213 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:49.214 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:09:49.273 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 12:09:49.274 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:09:49.275 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 12:09:49.275 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 12:09:49.291 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 12:09:49.291 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 980 ms
+2022-03-07 12:09:49.481 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:09:49.613 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 12:09:49.644 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 12:09:49.909 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :243  [32m                  [0;39m running container: DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:09:49.910 INFO  o.a.r.s.a.ListenerContainerConfiguration          :107  [32m                  [0;39m Register the listener to container, listenerBeanName:voteTopicConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2022-03-07 12:09:49.914 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:09:49.918 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 12:09:49.920 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 1.631 seconds (JVM running for 3536.877)
+2022-03-07 12:09:49.921 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 12:09:50.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889654854455296[0;39m 生成今日电子书快照开始
+2022-03-07 12:09:50.008 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155889654854455296[0;39m HikariPool-9 - Starting...
+2022-03-07 12:09:50.272 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155889654854455296[0;39m HikariPool-9 - Start completed.
+2022-03-07 12:09:50.315 INFO  demo.schedule.EbookSnapSche                       :31   [32m155889654854455296[0;39m 生成今日电子书快照结束，耗时307秒
+2022-03-07 12:09:55.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889675855335424[0;39m 生成今日电子书快照开始
+2022-03-07 12:09:55.238 INFO  demo.schedule.EbookSnapSche                       :31   [32m155889675855335424[0;39m 生成今日电子书快照结束，耗时224秒
+2022-03-07 12:09:59.144 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :216  [32m                  [0;39m container destroyed, DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:09:59.144 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 12:09:59.145 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:09:59.145 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-9 - Shutdown initiated...
+2022-03-07 12:09:59.148 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-9 - Shutdown completed.
+2022-03-07 12:09:59.150 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10909] result: true
+2022-03-07 12:09:59.151 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:09:59.151 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:09:59.152 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 12:09:59.153 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 12:09:59.153 WARN  o.s.beans.factory.support.DisposableBeanAdapter   :267  [32m                  [0;39m Invocation of destroy method failed on bean with name 'rocketMQTemplate': java.lang.IllegalStateException: Shutdown in progress
+2022-03-07 12:09:59.153 WARN  o.s.beans.factory.support.DisposableBeanAdapter   :349  [32m                  [0;39m Destroy method 'shutdown' on bean with name 'defaultMQProducer' threw an exception: java.lang.IllegalStateException: Shutdown in progress
+2022-03-07 12:10:01.718 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2022-03-07 12:10:01.728 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 1700 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 12:10:01.729 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 12:10:01.761 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-07 12:10:01.761 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-07 12:10:02.174 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 12:10:02.176 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 12:10:02.200 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+2022-03-07 12:10:02.347 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$bccf25d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:02.360 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:02.627 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:02.629 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:02.630 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:02.631 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:02.634 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:02.635 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:02.636 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:02.638 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:02.639 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:02.657 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:02.658 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:02.660 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:02.661 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:02.670 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:03.402 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:03.403 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 12:10:03.713 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 12:10:03.720 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:10:03.721 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 12:10:03.721 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 12:10:03.787 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 12:10:03.787 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2025 ms
+2022-03-07 12:10:04.332 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 12:10:04.628 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 12:10:04.669 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 12:10:04.952 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :243  [32m                  [0;39m running container: DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 12:10:04.953 INFO  o.a.r.s.a.ListenerContainerConfiguration          :107  [32m                  [0;39m Register the listener to container, listenerBeanName:voteTopicConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2022-03-07 12:10:04.960 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 12:10:04.973 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 12:10:04.982 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 3.523 seconds (JVM running for 4.242)
+2022-03-07 12:10:05.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889717789986816[0;39m 生成今日电子书快照开始
+2022-03-07 12:10:05.024 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155889717789986816[0;39m HikariPool-1 - Starting...
+2022-03-07 12:10:05.347 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155889717789986816[0;39m HikariPool-1 - Start completed.
+2022-03-07 12:10:05.401 INFO  demo.schedule.EbookSnapSche                       :31   [32m155889717789986816[0;39m 生成今日电子书快照结束，耗时389秒
+2022-03-07 12:10:05.401 INFO  demo.schedule.DocSche                             :32   [32m155889719421571072[0;39m 更新电子书信息开始
+2022-03-07 12:10:05.445 INFO  demo.schedule.DocSche                             :35   [32m155889719421571072[0;39m 更新电子书信息结束，耗时：43
+2022-03-07 12:10:10.011 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889738757312512[0;39m 生成今日电子书快照开始
+2022-03-07 12:10:10.102 INFO  demo.schedule.EbookSnapSche                       :31   [32m155889738757312512[0;39m 生成今日电子书快照结束，耗时91秒
+2022-03-07 12:10:15.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889759707860992[0;39m 生成今日电子书快照开始
+2022-03-07 12:10:15.064 INFO  demo.schedule.EbookSnapSche                       :31   [32m155889759707860992[0;39m 生成今日电子书快照结束，耗时58秒
+2022-03-07 12:10:16.067 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-07 12:10:16.068 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-03-07 12:10:16.074 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 6 ms
+2022-03-07 12:10:20.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889780675186688[0;39m 生成今日电子书快照开始
+2022-03-07 12:10:20.065 INFO  demo.schedule.EbookSnapSche                       :31   [32m155889780675186688[0;39m 生成今日电子书快照结束，耗时60秒
+2022-03-07 12:10:25.015 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889801688649728[0;39m 生成今日电子书快照开始
+2022-03-07 12:10:25.073 INFO  demo.schedule.EbookSnapSche                       :31   [32m155889801688649728[0;39m 生成今日电子书快照结束，耗时58秒
+2022-03-07 12:10:30.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889822626615296[0;39m 生成今日电子书快照开始
+2022-03-07 12:10:30.068 INFO  demo.schedule.EbookSnapSche                       :31   [32m155889822626615296[0;39m 生成今日电子书快照结束，耗时61秒
+2022-03-07 12:10:35.012 INFO  demo.schedule.DocSche                             :32   [32m155889843619106816[0;39m 更新电子书信息开始
+2022-03-07 12:10:35.066 INFO  demo.schedule.DocSche                             :35   [32m155889843619106816[0;39m 更新电子书信息结束，耗时：53
+2022-03-07 12:10:35.067 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889843849793536[0;39m 生成今日电子书快照开始
+2022-03-07 12:10:35.105 INFO  demo.schedule.EbookSnapSche                       :31   [32m155889843849793536[0;39m 生成今日电子书快照结束，耗时38秒
+2022-03-07 12:10:40.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889864582238208[0;39m 生成今日电子书快照开始
+2022-03-07 12:10:40.066 INFO  demo.schedule.EbookSnapSche                       :31   [32m155889864582238208[0;39m 生成今日电子书快照结束，耗时56秒
+2022-03-07 12:10:45.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889885549563904[0;39m 生成今日电子书快照开始
+2022-03-07 12:10:45.069 INFO  demo.schedule.EbookSnapSche                       :31   [32m155889885549563904[0;39m 生成今日电子书快照结束，耗时60秒
+2022-03-07 12:10:50.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889906512695296[0;39m 生成今日电子书快照开始
+2022-03-07 12:10:50.084 INFO  demo.schedule.EbookSnapSche                       :31   [32m155889906512695296[0;39m 生成今日电子书快照结束，耗时77秒
+2022-03-07 12:10:55.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889927488409600[0;39m 生成今日电子书快照开始
+2022-03-07 12:10:55.144 INFO  demo.schedule.EbookSnapSche                       :31   [32m155889927488409600[0;39m 生成今日电子书快照结束，耗时136秒
+2022-03-07 12:11:00.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889948485095424[0;39m 生成今日电子书快照开始
+2022-03-07 12:11:00.098 INFO  demo.schedule.EbookSnapSche                       :31   [32m155889948485095424[0;39m 生成今日电子书快照结束，耗时84秒
+2022-03-07 12:11:05.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889969418866688[0;39m 生成今日电子书快照开始
+2022-03-07 12:11:05.066 INFO  demo.schedule.EbookSnapSche                       :31   [32m155889969418866688[0;39m 生成今日电子书快照结束，耗时61秒
+2022-03-07 12:11:05.066 INFO  demo.schedule.DocSche                             :32   [32m155889969674719232[0;39m 更新电子书信息开始
+2022-03-07 12:11:05.106 INFO  demo.schedule.DocSche                             :35   [32m155889969674719232[0;39m 更新电子书信息结束，耗时：39
+2022-03-07 12:11:10.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155889990407163904[0;39m 生成今日电子书快照开始
+2022-03-07 12:11:10.066 INFO  demo.schedule.EbookSnapSche                       :31   [32m155889990407163904[0;39m 生成今日电子书快照结束，耗时57秒
+2022-03-07 12:11:15.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890011349323776[0;39m 生成今日电子书快照开始
+2022-03-07 12:11:15.057 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890011349323776[0;39m 生成今日电子书快照结束，耗时55秒
+2022-03-07 12:11:20.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890032341815296[0;39m 生成今日电子书快照开始
+2022-03-07 12:11:20.064 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890032341815296[0;39m 生成今日电子书快照结束，耗时56秒
+2022-03-07 12:11:25.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155890053292363776[0;39m 生成今日电子书快照开始
+2022-03-07 12:11:25.062 INFO  demo.schedule.EbookSnapSche                       :31   [32m155890053292363776[0;39m 生成今日电子书快照结束，耗时59秒
