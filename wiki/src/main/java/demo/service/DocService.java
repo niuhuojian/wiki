@@ -19,12 +19,14 @@ import demo.utils.RedisUtil;
 import demo.utils.RequestContext;
 import demo.utils.SnowFlake;
 import demo.websocket.WebSocketServer;
+import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.ObjectUtils;
 
 import java.util.List;
@@ -50,6 +52,9 @@ public class DocService {
     @Autowired
     private WsService wsService;
 
+    @Autowired
+    private RocketMQTemplate rocketMQTemplate;
+
     public PageResp<DocQueryResp> list(DocQueryReq docReq){
 
         DocExample docExample = new DocExample();
@@ -67,6 +72,7 @@ public class DocService {
         return pageResp;
     }
 
+    @Transactional
     public void save(DocSaveReq docSaveReq){
         //要分清楚两者区别
         //Doc内只有该有的属性值，而没有content，所以需要再新增一个content对象存放内容
@@ -133,7 +139,8 @@ public class DocService {
         //使用远程IP+文档IP作为唯一key，来保证24小时内不能重复
         String ip= RequestContext.getRemoteAddr();
         //一天只能点赞该文档一次
-        if(redisUtil.validateRepeat("DOC_VOTE_"+id+"_"+ip,3600*24)){
+        //3600*24
+        if(redisUtil.validateRepeat("DOC_VOTE_"+id+"_"+ip,5000)){
             myDocMapper.increaseVoteCount(id);
         }else{
             throw new BusinessException(BusinessExceptionCode.VOTE_REPEAT);
@@ -142,8 +149,12 @@ public class DocService {
         //推送消息
         Doc docDb = docMapper.selectByPrimaryKey(id);
         String log_id = MDC.get("LOG_ID");
-        wsService.sendInfo(docDb.getName()+"被点赞!",log_id);
+//        wsService.sendInfo(docDb.getName()+"被点赞!",log_id);
+        //参数1：主题topic
+        //参数2：消息内容
+        rocketMQTemplate.convertAndSend("VOTE_TOPIC",docDb.getName()+"被点赞!");
     }
+
 
 
 

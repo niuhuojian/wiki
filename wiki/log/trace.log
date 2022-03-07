@@ -1797,3 +1797,662 @@ Caused by: java.lang.ClassNotFoundException: demo.service.DocService
 2022-03-07 09:57:13.202 INFO  demo.websocket.WebSocketServer                    :73   [32m                  [0;39m 推送消息：GcyoaA3jtJ，内容：aaa被点赞!
 2022-03-07 09:57:35.016 INFO  demo.schedule.DocSche                             :32   [32m155856373089964032[0;39m 更新电子书信息开始
 2022-03-07 09:57:35.072 INFO  demo.schedule.DocSche                             :35   [32m155856373089964032[0;39m 更新电子书信息结束，耗时：56
+2022-03-07 09:58:05.013 INFO  demo.schedule.DocSche                             :32   [32m155856498906501120[0;39m 更新电子书信息开始
+2022-03-07 09:58:05.070 INFO  demo.schedule.DocSche                             :35   [32m155856498906501120[0;39m 更新电子书信息结束，耗时：56
+2022-03-07 09:58:35.001 INFO  demo.schedule.DocSche                             :32   [32m155856624685289472[0;39m 更新电子书信息开始
+2022-03-07 09:58:35.054 INFO  demo.schedule.DocSche                             :35   [32m155856624685289472[0;39m 更新电子书信息结束，耗时：52
+2022-03-07 09:58:40.569 INFO  demo.websocket.WebSocketServer                    :43   [32m                  [0;39m 连接关闭，token：GcyoaA3jtJ，session id：0！当前连接数：0
+2022-03-07 09:58:40.579 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 09:58:40.580 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 09:58:40.582 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-03-07 09:58:40.589 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2022-03-07 09:58:40.809 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 34276 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 09:58:40.810 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 09:58:40.969 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 09:58:40.969 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 09:58:40.981 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2022-03-07 09:58:41.093 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 09:58:41.094 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 09:58:41.094 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 09:58:41.094 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 09:58:41.124 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 09:58:41.125 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 313 ms
+2022-03-07 09:58:41.440 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 09:58:41.607 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 09:58:41.646 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 09:58:41.653 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 09:58:41.657 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 09:58:41.661 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 0.884 seconds (JVM running for 108.542)
+2022-03-07 09:58:41.664 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 09:59:05.003 INFO  demo.schedule.DocSche                             :32   [32m155856750522798080[0;39m 更新电子书信息开始
+2022-03-07 09:59:05.006 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155856750522798080[0;39m HikariPool-2 - Starting...
+2022-03-07 09:59:05.240 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155856750522798080[0;39m HikariPool-2 - Start completed.
+2022-03-07 09:59:05.277 INFO  demo.schedule.DocSche                             :35   [32m155856750522798080[0;39m 更新电子书信息结束，耗时：273
+2022-03-07 09:59:35.002 INFO  demo.schedule.DocSche                             :32   [32m155856876347723776[0;39m 更新电子书信息开始
+2022-03-07 09:59:35.055 INFO  demo.schedule.DocSche                             :35   [32m155856876347723776[0;39m 更新电子书信息结束，耗时：53
+2022-03-07 10:00:05.013 INFO  demo.schedule.DocSche                             :32   [32m155857002222981120[0;39m 更新电子书信息开始
+2022-03-07 10:00:05.067 INFO  demo.schedule.DocSche                             :35   [32m155857002222981120[0;39m 更新电子书信息结束，耗时：54
+2022-03-07 10:00:35.016 INFO  demo.schedule.DocSche                             :32   [32m155857128064684032[0;39m 更新电子书信息开始
+2022-03-07 10:00:35.069 INFO  demo.schedule.DocSche                             :35   [32m155857128064684032[0;39m 更新电子书信息结束，耗时：53
+2022-03-07 10:01:05.008 INFO  demo.schedule.DocSche                             :32   [32m155857253860249600[0;39m 更新电子书信息开始
+2022-03-07 10:01:05.059 INFO  demo.schedule.DocSche                             :35   [32m155857253860249600[0;39m 更新电子书信息结束，耗时：51
+2022-03-07 10:01:35.016 INFO  demo.schedule.DocSche                             :32   [32m155857379722924032[0;39m 更新电子书信息开始
+2022-03-07 10:01:35.072 INFO  demo.schedule.DocSche                             :35   [32m155857379722924032[0;39m 更新电子书信息结束，耗时：56
+2022-03-07 10:02:05.001 INFO  demo.schedule.DocSche                             :32   [32m155857505489129472[0;39m 更新电子书信息开始
+2022-03-07 10:02:05.055 INFO  demo.schedule.DocSche                             :35   [32m155857505489129472[0;39m 更新电子书信息结束，耗时：53
+2022-03-07 10:02:35.002 INFO  demo.schedule.DocSche                             :32   [32m155857631322443776[0;39m 更新电子书信息开始
+2022-03-07 10:02:35.062 INFO  demo.schedule.DocSche                             :35   [32m155857631322443776[0;39m 更新电子书信息结束，耗时：59
+2022-03-07 10:03:05.013 INFO  demo.schedule.DocSche                             :32   [32m155857757197701120[0;39m 更新电子书信息开始
+2022-03-07 10:03:05.066 INFO  demo.schedule.DocSche                             :35   [32m155857757197701120[0;39m 更新电子书信息结束，耗时：53
+2022-03-07 10:03:35.014 INFO  demo.schedule.DocSche                             :32   [32m155857883031015424[0;39m 更新电子书信息开始
+2022-03-07 10:03:35.070 INFO  demo.schedule.DocSche                             :35   [32m155857883031015424[0;39m 更新电子书信息结束，耗时：56
+2022-03-07 10:04:05.002 INFO  demo.schedule.DocSche                             :32   [32m155858008809803776[0;39m 更新电子书信息开始
+2022-03-07 10:04:05.055 INFO  demo.schedule.DocSche                             :35   [32m155858008809803776[0;39m 更新电子书信息结束，耗时：53
+2022-03-07 10:04:35.008 INFO  demo.schedule.DocSche                             :32   [32m155858134664089600[0;39m 更新电子书信息开始
+2022-03-07 10:04:35.061 INFO  demo.schedule.DocSche                             :35   [32m155858134664089600[0;39m 更新电子书信息结束，耗时：53
+2022-03-07 10:05:05.001 INFO  demo.schedule.DocSche                             :32   [32m155858260463849472[0;39m 更新电子书信息开始
+2022-03-07 10:05:05.063 INFO  demo.schedule.DocSche                             :35   [32m155858260463849472[0;39m 更新电子书信息结束，耗时：62
+2022-03-07 10:05:35.009 INFO  demo.schedule.DocSche                             :32   [32m155858386326523904[0;39m 更新电子书信息开始
+2022-03-07 10:05:35.062 INFO  demo.schedule.DocSche                             :35   [32m155858386326523904[0;39m 更新电子书信息结束，耗时：53
+2022-03-07 10:06:05.007 INFO  demo.schedule.DocSche                             :32   [32m155858512147255296[0;39m 更新电子书信息开始
+2022-03-07 10:06:05.064 INFO  demo.schedule.DocSche                             :35   [32m155858512147255296[0;39m 更新电子书信息结束，耗时：57
+2022-03-07 10:06:35.014 INFO  demo.schedule.DocSche                             :32   [32m155858638005735424[0;39m 更新电子书信息开始
+2022-03-07 10:06:35.069 INFO  demo.schedule.DocSche                             :35   [32m155858638005735424[0;39m 更新电子书信息结束，耗时：54
+2022-03-07 10:07:05.009 INFO  demo.schedule.DocSche                             :32   [32m155858763813883904[0;39m 更新电子书信息开始
+2022-03-07 10:07:05.062 INFO  demo.schedule.DocSche                             :35   [32m155858763813883904[0;39m 更新电子书信息结束，耗时：52
+2022-03-07 10:07:35.013 INFO  demo.schedule.DocSche                             :32   [32m155858889659781120[0;39m 更新电子书信息开始
+2022-03-07 10:07:35.065 INFO  demo.schedule.DocSche                             :35   [32m155858889659781120[0;39m 更新电子书信息结束，耗时：52
+2022-03-07 10:07:39.913 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 10:07:39.914 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 10:07:39.915 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2022-03-07 10:07:39.918 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2022-03-07 10:53:26.477 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2022-03-07 10:53:26.492 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 10352 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 10:53:26.494 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 10:53:26.534 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-07 10:53:26.534 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-07 10:53:27.084 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 10:53:27.086 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 10:53:27.117 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2022-03-07 10:53:27.303 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$b9c90c12] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:27.317 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:27.602 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:27.604 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:27.605 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:27.607 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:27.610 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:27.611 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:27.613 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:27.615 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:27.616 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:27.639 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:27.639 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:27.642 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:27.644 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:27.658 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:28.463 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:28.465 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:53:28.907 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 10:53:28.918 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 10:53:28.918 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 10:53:28.919 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 10:53:28.998 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 10:53:28.999 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2464 ms
+2022-03-07 10:53:29.847 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 10:53:30.197 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 10:53:30.251 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 10:53:30.633 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :243  [32m                  [0;39m running container: DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 10:53:30.634 INFO  o.a.r.s.a.ListenerContainerConfiguration          :107  [32m                  [0;39m Register the listener to container, listenerBeanName:voteTopicConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2022-03-07 10:53:30.643 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 10:53:30.662 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 10:53:30.685 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 4.556 seconds (JVM running for 5.342)
+2022-03-07 10:53:35.011 INFO  demo.schedule.DocSche                             :32   [32m155870465930432512[0;39m 更新电子书信息开始
+2022-03-07 10:53:35.042 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155870465930432512[0;39m HikariPool-1 - Starting...
+2022-03-07 10:53:35.434 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155870465930432512[0;39m HikariPool-1 - Start completed.
+2022-03-07 10:53:35.494 INFO  demo.schedule.DocSche                             :35   [32m155870465930432512[0;39m 更新电子书信息结束，耗时：482
+2022-03-07 10:54:05.003 INFO  demo.schedule.DocSche                             :32   [32m155870591725998080[0;39m 更新电子书信息开始
+2022-03-07 10:54:05.060 INFO  demo.schedule.DocSche                             :35   [32m155870591725998080[0;39m 更新电子书信息结束，耗时：57
+2022-03-07 10:54:35.010 INFO  demo.schedule.DocSche                             :32   [32m155870717584478208[0;39m 更新电子书信息开始
+2022-03-07 10:54:35.417 INFO  demo.schedule.DocSche                             :35   [32m155870717584478208[0;39m 更新电子书信息结束，耗时：407
+2022-03-07 10:55:05.008 INFO  demo.schedule.DocSche                             :32   [32m155870843405209600[0;39m 更新电子书信息开始
+2022-03-07 10:55:05.618 INFO  demo.schedule.DocSche                             :35   [32m155870843405209600[0;39m 更新电子书信息结束，耗时：610
+2022-03-07 10:55:35.002 INFO  demo.schedule.DocSche                             :32   [32m155870969209163776[0;39m 更新电子书信息开始
+2022-03-07 10:55:35.557 INFO  demo.schedule.DocSche                             :35   [32m155870969209163776[0;39m 更新电子书信息结束，耗时：555
+2022-03-07 10:56:05.009 INFO  demo.schedule.DocSche                             :32   [32m155871095067643904[0;39m 更新电子书信息开始
+2022-03-07 10:56:05.595 INFO  demo.schedule.DocSche                             :35   [32m155871095067643904[0;39m 更新电子书信息结束，耗时：586
+2022-03-07 10:56:35.006 INFO  demo.schedule.DocSche                             :32   [32m155871220884180992[0;39m 更新电子书信息开始
+2022-03-07 10:56:35.540 INFO  demo.schedule.DocSche                             :35   [32m155871220884180992[0;39m 更新电子书信息结束，耗时：534
+2022-03-07 10:56:44.334 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :216  [32m                  [0;39m container destroyed, DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 10:56:44.336 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 10:56:44.337 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 10:56:44.338 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-03-07 10:56:44.346 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2022-03-07 10:56:44.367 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10909] result: true
+2022-03-07 10:56:44.368 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 10:56:44.368 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 10:56:44.375 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 10:56:44.376 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 10:56:44.464 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 10352 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 10:56:44.464 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 10:56:44.630 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 10:56:44.630 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 10:56:44.641 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2022-03-07 10:56:44.673 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$b9c90c12] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:44.677 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:44.936 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:44.937 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:44.937 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:44.938 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:44.940 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:44.940 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:44.941 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:44.942 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:44.942 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:44.945 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:44.945 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:44.946 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:44.946 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:44.947 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:45.450 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:45.451 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 10:56:45.517 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 10:56:45.518 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 10:56:45.518 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 10:56:45.519 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 10:56:45.536 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 10:56:45.537 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1070 ms
+2022-03-07 10:56:45.741 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 10:56:45.906 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 10:56:45.938 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 10:56:46.227 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :243  [32m                  [0;39m running container: DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 10:56:46.227 INFO  o.a.r.s.a.ListenerContainerConfiguration          :107  [32m                  [0;39m Register the listener to container, listenerBeanName:voteTopicConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2022-03-07 10:56:46.231 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 10:56:46.236 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 10:56:46.240 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 1.804 seconds (JVM running for 200.897)
+2022-03-07 10:56:46.242 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 10:57:05.016 INFO  demo.schedule.DocSche                             :32   [32m155871346755244032[0;39m 更新电子书信息开始
+2022-03-07 10:57:05.020 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155871346755244032[0;39m HikariPool-2 - Starting...
+2022-03-07 10:57:05.288 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155871346755244032[0;39m HikariPool-2 - Start completed.
+2022-03-07 10:57:05.326 INFO  demo.schedule.DocSche                             :35   [32m155871346755244032[0;39m 更新电子书信息结束，耗时：309
+2022-03-07 10:57:34.371 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-07 10:57:34.371 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-03-07 10:57:34.377 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 6 ms
+2022-03-07 10:57:35.008 INFO  demo.schedule.DocSche                             :32   [32m155871472550809600[0;39m 更新电子书信息开始
+2022-03-07 10:57:35.066 INFO  demo.schedule.DocSche                             :35   [32m155871472550809600[0;39m 更新电子书信息结束，耗时：58
+2022-03-07 10:57:38.453 INFO  demo.utils.RedisUtil                              :26   [32m                  [0;39m key不存在，放入：DOC_VOTE_1_null，过期5000秒
+2022-03-07 10:57:38.862 ERROR org.apache.rocketmq.spring.core.RocketMQTemplate  :153  [32m                  [0;39m syncSend failed. destination:VOTE_TOPIC, message:GenericMessage [payload=文档1被点赞!, headers={contentType=text/plain, id=2f1889f4-7934-ff31-b028-0eccb09b631e, timestamp=1646621858558}] 
+2022-03-07 10:57:38.865 ERROR demo.controller.ControllerExceptionHandler        :44   [32m                  [0;39m 系统异常：
+org.springframework.messaging.MessagingException: Send [3] times, still failed, cost [302]ms, Topic: VOTE_TOPIC, BrokersSent: [LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS]
+See http://rocketmq.apache.org/docs/faq/ for further details.; nested exception is org.apache.rocketmq.client.exception.MQClientException: Send [3] times, still failed, cost [302]ms, Topic: VOTE_TOPIC, BrokersSent: [LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.syncSend(RocketMQTemplate.java:154)
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.syncSend(RocketMQTemplate.java:123)
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.syncSend(RocketMQTemplate.java:111)
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.doSend(RocketMQTemplate.java:459)
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.doSend(RocketMQTemplate.java:50)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:109)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.convertAndSend(AbstractMessageSendingTemplate.java:151)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.convertAndSend(AbstractMessageSendingTemplate.java:129)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.convertAndSend(AbstractMessageSendingTemplate.java:122)
+	at demo.service.DocService.vote(DocService.java:155)
+	at demo.service.DocService$$FastClassBySpringCGLIB$$ab41f541.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at demo.service.DocService$$EnhancerBySpringCGLIB$$a153785f.vote(<generated>)
+	at demo.controller.DocController.vote(DocController.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.rocketmq.client.exception.MQClientException: Send [3] times, still failed, cost [302]ms, Topic: VOTE_TOPIC, BrokersSent: [LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:632)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:301)
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.syncSend(RocketMQTemplate.java:148)
+	... 64 common frames omitted
+Caused by: org.apache.rocketmq.client.exception.MQBrokerException: CODE: 14  DESC: service not available now. It may be caused by one of the following reasons: the broker's disk is full [CL:  0.92 CQ:  0.92 INDEX: -1.00], messages are put to the slave, message store has been shut down, etc.
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.processSendResponse(MQClientAPIImpl.java:556)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.sendMessageSync(MQClientAPIImpl.java:358)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.sendMessage(MQClientAPIImpl.java:340)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.sendMessage(MQClientAPIImpl.java:294)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendKernelImpl(DefaultMQProducerImpl.java:807)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:551)
+	... 67 common frames omitted
+2022-03-07 10:57:38.868 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [org.springframework.messaging.MessagingException: Send [3] times, still failed, cost [302]ms, Topic: VOTE_TOPIC, BrokersSent: [LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS]
+See http://rocketmq.apache.org/docs/faq/ for further details.; nested exception is org.apache.rocketmq.client.exception.MQClientException: Send [3] times, still failed, cost [302]ms, Topic: VOTE_TOPIC, BrokersSent: [LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS]
+See http://rocketmq.apache.org/docs/faq/ for further details.]
+2022-03-07 10:58:05.013 INFO  demo.schedule.DocSche                             :32   [32m155871598400901120[0;39m 更新电子书信息开始
+2022-03-07 10:58:05.074 INFO  demo.schedule.DocSche                             :35   [32m155871598400901120[0;39m 更新电子书信息结束，耗时：61
+2022-03-07 10:58:21.593 INFO  demo.utils.RedisUtil                              :26   [32m                  [0;39m key不存在，放入：DOC_VOTE_4_null，过期5000秒
+2022-03-07 10:58:21.683 ERROR org.apache.rocketmq.spring.core.RocketMQTemplate  :153  [32m                  [0;39m syncSend failed. destination:VOTE_TOPIC, message:GenericMessage [payload=文档2.1被点赞!, headers={contentType=text/plain, id=30d03496-3e76-02d1-9d66-de4f4621ed27, timestamp=1646621901666}] 
+2022-03-07 10:58:21.684 ERROR demo.controller.ControllerExceptionHandler        :44   [32m                  [0;39m 系统异常：
+org.springframework.messaging.MessagingException: Send [3] times, still failed, cost [17]ms, Topic: VOTE_TOPIC, BrokersSent: [LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS]
+See http://rocketmq.apache.org/docs/faq/ for further details.; nested exception is org.apache.rocketmq.client.exception.MQClientException: Send [3] times, still failed, cost [17]ms, Topic: VOTE_TOPIC, BrokersSent: [LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.syncSend(RocketMQTemplate.java:154)
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.syncSend(RocketMQTemplate.java:123)
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.syncSend(RocketMQTemplate.java:111)
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.doSend(RocketMQTemplate.java:459)
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.doSend(RocketMQTemplate.java:50)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:109)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.convertAndSend(AbstractMessageSendingTemplate.java:151)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.convertAndSend(AbstractMessageSendingTemplate.java:129)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.convertAndSend(AbstractMessageSendingTemplate.java:122)
+	at demo.service.DocService.vote(DocService.java:155)
+	at demo.service.DocService$$FastClassBySpringCGLIB$$ab41f541.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at demo.service.DocService$$EnhancerBySpringCGLIB$$a153785f.vote(<generated>)
+	at demo.controller.DocController.vote(DocController.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.rocketmq.client.exception.MQClientException: Send [3] times, still failed, cost [17]ms, Topic: VOTE_TOPIC, BrokersSent: [LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:632)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:301)
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.syncSend(RocketMQTemplate.java:148)
+	... 64 common frames omitted
+Caused by: org.apache.rocketmq.client.exception.MQBrokerException: CODE: 14  DESC: service not available now. It may be caused by one of the following reasons: the broker's disk is full [CL:  0.92 CQ:  0.92 INDEX: -1.00], messages are put to the slave, message store has been shut down, etc.
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.processSendResponse(MQClientAPIImpl.java:556)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.sendMessageSync(MQClientAPIImpl.java:358)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.sendMessage(MQClientAPIImpl.java:340)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.sendMessage(MQClientAPIImpl.java:294)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendKernelImpl(DefaultMQProducerImpl.java:807)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:551)
+	... 67 common frames omitted
+2022-03-07 10:58:21.687 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [org.springframework.messaging.MessagingException: Send [3] times, still failed, cost [17]ms, Topic: VOTE_TOPIC, BrokersSent: [LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS]
+See http://rocketmq.apache.org/docs/faq/ for further details.; nested exception is org.apache.rocketmq.client.exception.MQClientException: Send [3] times, still failed, cost [17]ms, Topic: VOTE_TOPIC, BrokersSent: [LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS]
+See http://rocketmq.apache.org/docs/faq/ for further details.]
+2022-03-07 10:58:35.012 INFO  demo.schedule.DocSche                             :32   [32m155871724225826816[0;39m 更新电子书信息开始
+2022-03-07 10:58:35.073 INFO  demo.schedule.DocSche                             :35   [32m155871724225826816[0;39m 更新电子书信息结束，耗时：61
+2022-03-07 10:59:05.015 INFO  demo.schedule.DocSche                             :32   [32m155871850067529728[0;39m 更新电子书信息开始
+2022-03-07 10:59:05.072 INFO  demo.schedule.DocSche                             :35   [32m155871850067529728[0;39m 更新电子书信息结束，耗时：57
+2022-03-07 10:59:35.009 INFO  demo.schedule.DocSche                             :32   [32m155871975871483904[0;39m 更新电子书信息开始
+2022-03-07 10:59:35.068 INFO  demo.schedule.DocSche                             :35   [32m155871975871483904[0;39m 更新电子书信息结束，耗时：59
+2022-03-07 11:00:05.007 INFO  demo.schedule.DocSche                             :32   [32m155872101692215296[0;39m 更新电子书信息开始
+2022-03-07 11:00:05.600 INFO  demo.schedule.DocSche                             :35   [32m155872101692215296[0;39m 更新电子书信息结束，耗时：593
+2022-03-07 11:00:35.001 INFO  demo.schedule.DocSche                             :32   [32m155872227496169472[0;39m 更新电子书信息开始
+2022-03-07 11:00:35.635 INFO  demo.schedule.DocSche                             :35   [32m155872227496169472[0;39m 更新电子书信息结束，耗时：634
+2022-03-07 11:01:05.013 INFO  demo.schedule.DocSche                             :32   [32m155872353375621120[0;39m 更新电子书信息开始
+2022-03-07 11:01:05.648 INFO  demo.schedule.DocSche                             :35   [32m155872353375621120[0;39m 更新电子书信息结束，耗时：635
+2022-03-07 11:01:35.006 INFO  demo.schedule.DocSche                             :32   [32m155872479175380992[0;39m 更新电子书信息开始
+2022-03-07 11:01:35.664 INFO  demo.schedule.DocSche                             :35   [32m155872479175380992[0;39m 更新电子书信息结束，耗时：658
+2022-03-07 11:02:05.011 INFO  demo.schedule.DocSche                             :32   [32m155872605025472512[0;39m 更新电子书信息开始
+2022-03-07 11:02:05.670 INFO  demo.schedule.DocSche                             :35   [32m155872605025472512[0;39m 更新电子书信息结束，耗时：659
+2022-03-07 11:02:35.001 INFO  demo.schedule.DocSche                             :32   [32m155872730812649472[0;39m 更新电子书信息开始
+2022-03-07 11:02:36.098 INFO  demo.schedule.DocSche                             :35   [32m155872730812649472[0;39m 更新电子书信息结束，耗时：1097
+2022-03-07 11:03:05.005 INFO  demo.schedule.DocSche                             :32   [32m155872856658546688[0;39m 更新电子书信息开始
+2022-03-07 11:03:05.617 INFO  demo.schedule.DocSche                             :35   [32m155872856658546688[0;39m 更新电子书信息结束，耗时：612
+2022-03-07 11:03:35.013 INFO  demo.schedule.DocSche                             :32   [32m155872982521221120[0;39m 更新电子书信息开始
+2022-03-07 11:03:35.063 INFO  demo.schedule.DocSche                             :35   [32m155872982521221120[0;39m 更新电子书信息结束，耗时：50
+2022-03-07 11:04:05.008 INFO  demo.schedule.DocSche                             :32   [32m155873108329369600[0;39m 更新电子书信息开始
+2022-03-07 11:04:05.057 INFO  demo.schedule.DocSche                             :35   [32m155873108329369600[0;39m 更新电子书信息结束，耗时：49
+2022-03-07 11:04:35.010 INFO  demo.schedule.DocSche                             :32   [32m155873234166878208[0;39m 更新电子书信息开始
+2022-03-07 11:04:35.659 INFO  demo.schedule.DocSche                             :35   [32m155873234166878208[0;39m 更新电子书信息结束，耗时：649
+2022-03-07 11:05:05.005 INFO  demo.schedule.DocSche                             :32   [32m155873359975026688[0;39m 更新电子书信息开始
+2022-03-07 11:05:05.092 INFO  demo.schedule.DocSche                             :35   [32m155873359975026688[0;39m 更新电子书信息结束，耗时：87
+2022-03-07 11:05:35.004 INFO  demo.schedule.DocSche                             :32   [32m155873485799952384[0;39m 更新电子书信息开始
+2022-03-07 11:05:35.052 INFO  demo.schedule.DocSche                             :35   [32m155873485799952384[0;39m 更新电子书信息结束，耗时：48
+2022-03-07 11:06:05.010 INFO  demo.schedule.DocSche                             :32   [32m155873611654238208[0;39m 更新电子书信息开始
+2022-03-07 11:06:05.060 INFO  demo.schedule.DocSche                             :35   [32m155873611654238208[0;39m 更新电子书信息结束，耗时：50
+2022-03-07 11:06:35.012 INFO  demo.schedule.DocSche                             :32   [32m155873737491746816[0;39m 更新电子书信息开始
+2022-03-07 11:06:35.074 INFO  demo.schedule.DocSche                             :35   [32m155873737491746816[0;39m 更新电子书信息结束，耗时：62
+2022-03-07 11:07:05.009 INFO  demo.schedule.DocSche                             :32   [32m155873863308283904[0;39m 更新电子书信息开始
+2022-03-07 11:07:05.060 INFO  demo.schedule.DocSche                             :35   [32m155873863308283904[0;39m 更新电子书信息结束，耗时：51
+2022-03-07 11:07:35.007 INFO  demo.schedule.DocSche                             :32   [32m155873989129015296[0;39m 更新电子书信息开始
+2022-03-07 11:07:35.062 INFO  demo.schedule.DocSche                             :35   [32m155873989129015296[0;39m 更新电子书信息结束，耗时：55
+2022-03-07 11:08:05.001 INFO  demo.schedule.DocSche                             :32   [32m155874114932969472[0;39m 更新电子书信息开始
+2022-03-07 11:08:05.168 INFO  demo.schedule.DocSche                             :35   [32m155874114932969472[0;39m 更新电子书信息结束，耗时：167
+2022-03-07 11:08:35.014 INFO  demo.schedule.DocSche                             :32   [32m155874240816615424[0;39m 更新电子书信息开始
+2022-03-07 11:08:35.588 INFO  demo.schedule.DocSche                             :35   [32m155874240816615424[0;39m 更新电子书信息结束，耗时：574
+2022-03-07 11:09:05.013 INFO  demo.schedule.DocSche                             :32   [32m155874366641541120[0;39m 更新电子书信息开始
+2022-03-07 11:09:05.586 INFO  demo.schedule.DocSche                             :35   [32m155874366641541120[0;39m 更新电子书信息结束，耗时：573
+2022-03-07 11:09:35.012 INFO  demo.schedule.DocSche                             :32   [32m155874492466466816[0;39m 更新电子书信息开始
+2022-03-07 11:09:35.652 INFO  demo.schedule.DocSche                             :35   [32m155874492466466816[0;39m 更新电子书信息结束，耗时：640
+2022-03-07 11:09:38.222 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 11:09:38.222 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 11:09:42.942 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 11:09:42.942 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 11:09:42.943 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10909] result: true
+2022-03-07 11:09:47.239 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:09:47.489 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:09:47.964 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:09:49.261 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:09:49.505 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:09:49.984 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:09:51.281 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:09:51.998 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:09:53.319 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:09:54.016 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:09:55.357 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:09:56.030 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:09:58.058 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:09:58.059 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:00.071 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:00.072 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:02.095 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:02.097 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:04.109 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:04.125 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:05.012 INFO  demo.schedule.DocSche                             :32   [32m155874618295586816[0;39m 更新电子书信息开始
+2022-03-07 11:10:06.123 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:06.132 INFO  demo.schedule.DocSche                             :35   [32m155874618295586816[0;39m 更新电子书信息结束，耗时：1120
+2022-03-07 11:10:06.138 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:08.145 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:08.160 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:10.167 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:10.183 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:12.178 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:12.193 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:14.224 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:14.240 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:16.247 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:16.260 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:18.252 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:18.267 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:18.479 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:20.295 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:20.311 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:22.326 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:22.341 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:24.344 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:24.359 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:26.358 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:26.373 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:28.375 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:28.390 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:30.401 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:30.416 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:32.428 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:32.444 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:34.440 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:34.456 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:35.004 INFO  demo.schedule.DocSche                             :32   [32m155874744091152384[0;39m 更新电子书信息开始
+2022-03-07 11:10:35.544 INFO  demo.schedule.DocSche                             :35   [32m155874744091152384[0;39m 更新电子书信息结束，耗时：540
+2022-03-07 11:10:36.455 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:36.470 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:38.485 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:38.486 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:40.498 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:40.499 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:42.510 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:42.511 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:44.539 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[] result: true
+2022-03-07 11:10:51.673 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :216  [32m                  [0;39m container destroyed, DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 11:10:51.674 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 11:10:51.675 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 11:10:51.676 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2022-03-07 11:10:51.680 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2022-03-07 11:10:51.799 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 11:10:51.800 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 11:10:51.801 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10909] result: true
+2022-03-07 11:10:51.805 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+2022-03-07 11:10:51.805 WARN  o.s.beans.factory.support.DisposableBeanAdapter   :267  [32m                  [0;39m Invocation of destroy method failed on bean with name 'rocketMQTemplate': java.lang.IllegalStateException: Shutdown in progress
+2022-03-07 11:10:51.806 INFO  RocketmqRemoting                                  :95   [32m                  [0;39m closeChannel: close the connection to remote address[192.168.3.46:10911] result: true
+2022-03-07 11:10:51.806 WARN  o.s.beans.factory.support.DisposableBeanAdapter   :349  [32m                  [0;39m Destroy method 'shutdown' on bean with name 'defaultMQProducer' threw an exception: java.lang.IllegalStateException: Shutdown in progress
+2022-03-07 11:10:54.405 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2022-03-07 11:10:54.415 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 13108 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 11:10:54.416 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 11:10:54.449 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-07 11:10:54.450 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :225  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-07 11:10:54.911 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 11:10:54.913 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 11:10:54.939 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2022-03-07 11:10:55.106 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration$$EnhancerBySpringCGLIB$$40de90d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:55.122 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketmq-org.apache.rocketmq.spring.autoconfigure.RocketMQProperties' of type [org.apache.rocketmq.spring.autoconfigure.RocketMQProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:55.404 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'defaultMQProducer' of type [org.apache.rocketmq.client.producer.DefaultMQProducer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:55.406 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:55.407 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:55.408 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:55.411 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:55.412 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:55.414 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:55.416 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:55.417 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:55.428 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:55.429 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'org.springframework.data.web.config.SpringDataJacksonConfiguration' of type [org.springframework.data.web.config.SpringDataJacksonConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:55.432 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonGeoModule' of type [org.springframework.data.geo.GeoModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:55.433 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:55.444 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:56.248 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'rocketMQTemplate' of type [org.apache.rocketmq.spring.core.RocketMQTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:56.249 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335  [32m                  [0;39m Bean 'transactionHandlerRegistry' of type [org.apache.rocketmq.spring.config.TransactionHandlerRegistry] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-07 11:10:56.569 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 11:10:56.577 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 11:10:56.578 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 11:10:56.578 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 11:10:56.647 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 11:10:56.647 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2197 ms
+2022-03-07 11:10:57.198 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 11:10:57.488 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 11:10:57.533 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 11:10:57.844 INFO  o.a.r.s.support.DefaultRocketMQListenerContainer  :243  [32m                  [0;39m running container: DefaultRocketMQListenerContainer{consumerGroup='default', nameServer='127.0.0.1:9876', topic='VOTE_TOPIC', consumeMode=CONCURRENTLY, selectorType=TAG, selectorExpression='*', messageModel=CLUSTERING}
+2022-03-07 11:10:57.845 INFO  o.a.r.s.a.ListenerContainerConfiguration          :107  [32m                  [0;39m Register the listener to container, listenerBeanName:voteTopicConsumer, containerBeanName:org.apache.rocketmq.spring.support.DefaultRocketMQListenerContainer_1
+2022-03-07 11:10:57.852 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 11:10:57.867 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 11:10:57.879 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 3.77 seconds (JVM running for 4.835)
+2022-03-07 11:11:00.542 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-07 11:11:00.543 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-03-07 11:11:00.549 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 6 ms
+2022-03-07 11:11:00.592 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2022-03-07 11:11:00.951 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2022-03-07 11:11:05.003 INFO  demo.schedule.DocSche                             :32   [32m155874869916078080[0;39m 更新电子书信息开始
+2022-03-07 11:11:05.536 INFO  demo.utils.RedisUtil                              :23   [32m                  [0;39m key已存在：DOC_VOTE_1_null
+2022-03-07 11:11:05.539 WARN  demo.controller.ControllerExceptionHandler        :34   [32m                  [0;39m 业务异常：您已点赞过
+2022-03-07 11:11:05.540 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [demo.exception.BusinessException: 您已点赞过]
+2022-03-07 11:11:05.618 INFO  demo.schedule.DocSche                             :35   [32m155874869916078080[0;39m 更新电子书信息结束，耗时：614
+2022-03-07 11:11:07.910 INFO  demo.utils.RedisUtil                              :26   [32m                  [0;39m key不存在，放入：DOC_VOTE_2_null，过期5000秒
+2022-03-07 11:11:08.327 ERROR org.apache.rocketmq.spring.core.RocketMQTemplate  :153  [32m                  [0;39m syncSend failed. destination:VOTE_TOPIC, message:GenericMessage [payload=文档1.1被点赞!, headers={contentType=text/plain, id=a215fe76-d7f9-3d16-ca35-28709494ba87, timestamp=1646622667994}] 
+2022-03-07 11:11:08.330 ERROR demo.controller.ControllerExceptionHandler        :44   [32m                  [0;39m 系统异常：
+org.springframework.messaging.MessagingException: Send [3] times, still failed, cost [332]ms, Topic: VOTE_TOPIC, BrokersSent: [LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS]
+See http://rocketmq.apache.org/docs/faq/ for further details.; nested exception is org.apache.rocketmq.client.exception.MQClientException: Send [3] times, still failed, cost [332]ms, Topic: VOTE_TOPIC, BrokersSent: [LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.syncSend(RocketMQTemplate.java:154)
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.syncSend(RocketMQTemplate.java:123)
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.syncSend(RocketMQTemplate.java:111)
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.doSend(RocketMQTemplate.java:459)
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.doSend(RocketMQTemplate.java:50)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.send(AbstractMessageSendingTemplate.java:109)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.convertAndSend(AbstractMessageSendingTemplate.java:151)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.convertAndSend(AbstractMessageSendingTemplate.java:129)
+	at org.springframework.messaging.core.AbstractMessageSendingTemplate.convertAndSend(AbstractMessageSendingTemplate.java:122)
+	at demo.service.DocService.vote(DocService.java:155)
+	at demo.service.DocService$$FastClassBySpringCGLIB$$ab41f541.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at demo.service.DocService$$EnhancerBySpringCGLIB$$3da227e5.vote(<generated>)
+	at demo.controller.DocController.vote(DocController.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.apache.rocketmq.client.exception.MQClientException: Send [3] times, still failed, cost [332]ms, Topic: VOTE_TOPIC, BrokersSent: [LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS]
+See http://rocketmq.apache.org/docs/faq/ for further details.
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:632)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.send(DefaultMQProducerImpl.java:1279)
+	at org.apache.rocketmq.client.producer.DefaultMQProducer.send(DefaultMQProducer.java:301)
+	at org.apache.rocketmq.spring.core.RocketMQTemplate.syncSend(RocketMQTemplate.java:148)
+	... 64 common frames omitted
+Caused by: org.apache.rocketmq.client.exception.MQBrokerException: CODE: 14  DESC: service not available now. It may be caused by one of the following reasons: the broker's disk is full [CL:  0.92 CQ:  0.92 INDEX: -1.00], messages are put to the slave, message store has been shut down, etc.
+For more information, please visit the url, http://rocketmq.apache.org/docs/faq/
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.processSendResponse(MQClientAPIImpl.java:556)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.sendMessageSync(MQClientAPIImpl.java:358)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.sendMessage(MQClientAPIImpl.java:340)
+	at org.apache.rocketmq.client.impl.MQClientAPIImpl.sendMessage(MQClientAPIImpl.java:294)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendKernelImpl(DefaultMQProducerImpl.java:807)
+	at org.apache.rocketmq.client.impl.producer.DefaultMQProducerImpl.sendDefaultImpl(DefaultMQProducerImpl.java:551)
+	... 67 common frames omitted
+2022-03-07 11:11:08.332 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [org.springframework.messaging.MessagingException: Send [3] times, still failed, cost [332]ms, Topic: VOTE_TOPIC, BrokersSent: [LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS]
+See http://rocketmq.apache.org/docs/faq/ for further details.; nested exception is org.apache.rocketmq.client.exception.MQClientException: Send [3] times, still failed, cost [332]ms, Topic: VOTE_TOPIC, BrokersSent: [LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS, LAPTOP-FLIV6UGS]
+See http://rocketmq.apache.org/docs/faq/ for further details.]
+2022-03-07 11:11:35.004 INFO  demo.schedule.DocSche                             :32   [32m155874995749392384[0;39m 更新电子书信息开始
+2022-03-07 11:11:35.057 INFO  demo.schedule.DocSche                             :35   [32m155874995749392384[0;39m 更新电子书信息结束，耗时：53
+2022-03-07 11:12:05.005 INFO  demo.schedule.DocSche                             :32   [32m155875121582706688[0;39m 更新电子书信息开始
+2022-03-07 11:12:05.058 INFO  demo.schedule.DocSche                             :35   [32m155875121582706688[0;39m 更新电子书信息结束，耗时：53
+2022-03-07 11:12:35.008 INFO  demo.schedule.DocSche                             :32   [32m155875247424409600[0;39m 更新电子书信息开始
+2022-03-07 11:12:35.548 INFO  demo.schedule.DocSche                             :35   [32m155875247424409600[0;39m 更新电子书信息结束，耗时：540
+2022-03-07 11:13:05.010 INFO  demo.schedule.DocSche                             :32   [32m155875373261918208[0;39m 更新电子书信息开始
+2022-03-07 11:13:05.544 INFO  demo.schedule.DocSche                             :35   [32m155875373261918208[0;39m 更新电子书信息结束，耗时：534
+2022-03-07 11:13:35.016 INFO  demo.schedule.DocSche                             :32   [32m155875499116204032[0;39m 更新电子书信息开始
+2022-03-07 11:13:35.629 INFO  demo.schedule.DocSche                             :35   [32m155875499116204032[0;39m 更新电子书信息结束，耗时：613
+2022-03-07 11:14:05.014 INFO  demo.schedule.DocSche                             :32   [32m155875624936935424[0;39m 更新电子书信息开始
+2022-03-07 11:14:05.332 INFO  demo.schedule.DocSche                             :35   [32m155875624936935424[0;39m 更新电子书信息结束，耗时：317
+2022-03-07 11:14:35.007 INFO  demo.schedule.DocSche                             :32   [32m155875750736695296[0;39m 更新电子书信息开始
+2022-03-07 11:14:35.195 INFO  demo.schedule.DocSche                             :35   [32m155875750736695296[0;39m 更新电子书信息结束，耗时：188
+2022-03-07 11:15:05.004 INFO  demo.schedule.DocSche                             :32   [32m155875876553232384[0;39m 更新电子书信息开始
+2022-03-07 11:15:05.168 INFO  demo.schedule.DocSche                             :35   [32m155875876553232384[0;39m 更新电子书信息结束，耗时：164
+2022-03-07 11:15:35.014 INFO  demo.schedule.DocSche                             :32   [32m155876002424295424[0;39m 更新电子书信息开始
+2022-03-07 11:15:35.070 INFO  demo.schedule.DocSche                             :35   [32m155876002424295424[0;39m 更新电子书信息结束，耗时：56
+2022-03-07 11:16:05.013 INFO  demo.schedule.DocSche                             :32   [32m155876128249221120[0;39m 更新电子书信息开始
+2022-03-07 11:16:05.081 INFO  demo.schedule.DocSche                             :35   [32m155876128249221120[0;39m 更新电子书信息结束，耗时：67
+2022-03-07 11:16:35.010 INFO  demo.schedule.DocSche                             :32   [32m155876254065758208[0;39m 更新电子书信息开始
+2022-03-07 11:16:35.064 INFO  demo.schedule.DocSche                             :35   [32m155876254065758208[0;39m 更新电子书信息结束，耗时：54
+2022-03-07 11:17:05.000 INFO  demo.schedule.DocSche                             :32   [32m155876379852935168[0;39m 更新电子书信息开始
+2022-03-07 11:17:05.063 INFO  demo.schedule.DocSche                             :35   [32m155876379852935168[0;39m 更新电子书信息结束，耗时：63
+2022-03-07 11:17:35.010 INFO  demo.schedule.DocSche                             :32   [32m155876505723998208[0;39m 更新电子书信息开始
+2022-03-07 11:17:35.068 INFO  demo.schedule.DocSche                             :35   [32m155876505723998208[0;39m 更新电子书信息结束，耗时：58
+2022-03-07 11:18:05.007 INFO  demo.schedule.DocSche                             :32   [32m155876631540535296[0;39m 更新电子书信息开始
+2022-03-07 11:18:05.195 INFO  demo.schedule.DocSche                             :35   [32m155876631540535296[0;39m 更新电子书信息结束，耗时：188
