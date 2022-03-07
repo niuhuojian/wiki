@@ -914,3 +914,226 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2022-03-07 09:28:35.058 INFO  demo.schedule.DocSche                             :35   [32m155849074946478080[0;39m 更新电子书信息结束，耗时：55
 2022-03-07 09:29:05.009 INFO  demo.schedule.DocSche                             :32   [32m155849200800763904[0;39m 更新电子书信息开始
 2022-03-07 09:29:05.072 INFO  demo.schedule.DocSche                             :35   [32m155849200800763904[0;39m 更新电子书信息结束，耗时：63
+2022-03-07 09:29:35.003 INFO  demo.schedule.DocSche                             :32   [32m155849326604718080[0;39m 更新电子书信息开始
+2022-03-07 09:29:35.055 INFO  demo.schedule.DocSche                             :35   [32m155849326604718080[0;39m 更新电子书信息结束，耗时：52
+2022-03-07 09:30:05.012 INFO  demo.schedule.DocSche                             :32   [32m155849452471586816[0;39m 更新电子书信息开始
+2022-03-07 09:30:05.062 INFO  demo.schedule.DocSche                             :35   [32m155849452471586816[0;39m 更新电子书信息结束，耗时：50
+2022-03-07 09:30:35.014 INFO  demo.schedule.DocSche                             :32   [32m155849578309095424[0;39m 更新电子书信息开始
+2022-03-07 09:30:35.067 INFO  demo.schedule.DocSche                             :35   [32m155849578309095424[0;39m 更新电子书信息结束，耗时：53
+2022-03-07 09:31:05.008 INFO  demo.schedule.DocSche                             :32   [32m155849704113049600[0;39m 更新电子书信息开始
+2022-03-07 09:31:05.061 INFO  demo.schedule.DocSche                             :35   [32m155849704113049600[0;39m 更新电子书信息结束，耗时：53
+2022-03-07 09:31:35.000 INFO  demo.schedule.DocSche                             :32   [32m155849829908615168[0;39m 更新电子书信息开始
+2022-03-07 09:31:35.103 INFO  demo.schedule.DocSche                             :35   [32m155849829908615168[0;39m 更新电子书信息结束，耗时：103
+2022-03-07 09:32:05.015 INFO  demo.schedule.DocSche                             :32   [32m155849955800649728[0;39m 更新电子书信息开始
+2022-03-07 09:32:05.065 INFO  demo.schedule.DocSche                             :35   [32m155849955800649728[0;39m 更新电子书信息结束，耗时：50
+2022-03-07 09:32:35.011 INFO  demo.schedule.DocSche                             :32   [32m155850081612992512[0;39m 更新电子书信息开始
+2022-03-07 09:32:35.069 INFO  demo.schedule.DocSche                             :35   [32m155850081612992512[0;39m 更新电子书信息结束，耗时：57
+2022-03-07 09:32:36.746 INFO  demo.websocket.WebSocketServer                    :42   [32m                  [0;39m 连接关闭，token：iGlgEHzriE，session id：0！当前连接数：0
+2022-03-07 09:32:36.752 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 09:32:36.753 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 09:32:36.753 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2022-03-07 09:32:36.757 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2022-03-07 09:32:36.957 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 4236 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 09:32:36.957 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 09:32:37.077 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 09:32:37.077 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 09:32:37.087 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2022-03-07 09:32:37.186 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 09:32:37.187 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 09:32:37.187 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 09:32:37.187 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 09:32:37.205 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 09:32:37.205 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 245 ms
+2022-03-07 09:32:37.486 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 09:32:37.631 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 09:32:37.665 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 09:32:37.678 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 09:32:37.683 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 09:32:37.686 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 0.755 seconds (JVM running for 1441.537)
+2022-03-07 09:32:37.688 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 09:32:42.359 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 09:32:42.360 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 09:32:42.418 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 4236 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 09:32:42.418 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 09:32:42.530 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 09:32:42.530 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 09:32:42.539 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2022-03-07 09:32:42.614 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 09:32:42.615 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 09:32:42.615 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 09:32:42.615 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 09:32:42.629 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 09:32:42.629 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 209 ms
+2022-03-07 09:32:42.858 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 09:32:42.999 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 09:32:43.027 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 09:32:43.035 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 09:32:43.038 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 09:32:43.041 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 0.642 seconds (JVM running for 1446.891)
+2022-03-07 09:32:43.042 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 09:33:02.196 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 09:33:02.197 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 09:33:02.271 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 4236 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 09:33:02.272 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 09:33:02.414 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 09:33:02.414 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 09:33:02.424 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-03-07 09:33:02.511 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 09:33:02.512 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 09:33:02.512 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 09:33:02.512 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 09:33:02.526 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 09:33:02.526 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 251 ms
+2022-03-07 09:33:02.760 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 09:33:02.923 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 09:33:02.987 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 09:33:03.002 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 09:33:03.014 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 09:33:03.020 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 0.773 seconds (JVM running for 1466.87)
+2022-03-07 09:33:03.021 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 09:33:05.007 INFO  demo.schedule.DocSche                             :32   [32m155850207425335296[0;39m 更新电子书信息开始
+2022-03-07 09:33:05.008 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155850207425335296[0;39m HikariPool-3 - Starting...
+2022-03-07 09:33:05.251 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155850207425335296[0;39m HikariPool-3 - Start completed.
+2022-03-07 09:33:05.288 INFO  demo.schedule.DocSche                             :35   [32m155850207425335296[0;39m 更新电子书信息结束，耗时：280
+2022-03-07 09:33:35.009 INFO  demo.schedule.DocSche                             :32   [32m155850333262843904[0;39m 更新电子书信息开始
+2022-03-07 09:33:35.068 INFO  demo.schedule.DocSche                             :35   [32m155850333262843904[0;39m 更新电子书信息结束，耗时：59
+2022-03-07 09:33:46.778 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 09:33:46.779 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 09:33:46.779 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2022-03-07 09:33:46.782 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2022-03-07 09:33:46.847 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 4236 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 09:33:46.848 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 09:33:46.958 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 09:33:46.958 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 09:33:46.967 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2022-03-07 09:33:47.043 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 09:33:47.043 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 09:33:47.044 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 09:33:47.044 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 09:33:47.067 INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 09:33:47.067 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 218 ms
+2022-03-07 09:33:47.180 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:559  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'docController' defined in file [D:\imoocJavaTest\wiki\target\classes\demo\controller\DocController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [demo.controller.DocController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4f2913c5]
+2022-03-07 09:33:47.183 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2022-03-07 09:33:47.187 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-07 09:33:47.193 ERROR org.springframework.boot.SpringApplication        :837  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'docController' defined in file [D:\imoocJavaTest\wiki\target\classes\demo\controller\DocController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [demo.controller.DocController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4f2913c5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at demo.WikiApplication.main(WikiApplication.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [demo.controller.DocController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4f2913c5]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:666)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:366)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:347)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:295)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:568)
+	... 21 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Ldemo/service/DocService;
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3062)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2249)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:729)
+	... 27 common frames omitted
+Caused by: java.lang.ClassNotFoundException: demo.service.DocService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 31 common frames omitted
+2022-03-07 09:33:55.886 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 4236 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 09:33:55.886 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 09:33:56.021 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 09:33:56.021 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 09:33:56.030 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2022-03-07 09:33:56.112 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 09:33:56.113 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 09:33:56.113 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 09:33:56.114 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 09:33:56.128 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 09:33:56.129 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 241 ms
+2022-03-07 09:33:56.353 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 09:33:56.486 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 09:33:56.513 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 09:33:56.520 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 09:33:56.522 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 09:33:56.525 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 0.662 seconds (JVM running for 1520.375)
+2022-03-07 09:33:56.526 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 09:34:05.011 INFO  demo.schedule.DocSche                             :32   [32m155850459100352512[0;39m 更新电子书信息开始
+2022-03-07 09:34:05.012 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155850459100352512[0;39m HikariPool-4 - Starting...
+2022-03-07 09:34:05.245 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155850459100352512[0;39m HikariPool-4 - Start completed.
+2022-03-07 09:34:05.280 INFO  demo.schedule.DocSche                             :35   [32m155850459100352512[0;39m 更新电子书信息结束，耗时：268
+2022-03-07 09:34:23.237 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 09:34:23.238 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 09:34:23.238 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-4 - Shutdown initiated...
+2022-03-07 09:34:23.241 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-4 - Shutdown completed.
+2022-03-07 09:34:23.310 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 4236 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 09:34:23.311 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 09:34:23.424 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 09:34:23.424 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 09:34:23.432 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2022-03-07 09:34:23.529 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 09:34:23.530 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 09:34:23.530 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 09:34:23.530 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 09:34:23.545 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 09:34:23.545 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 232 ms
+2022-03-07 09:34:23.742 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 09:34:23.875 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 09:34:23.904 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 09:34:23.910 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 09:34:23.913 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 09:34:23.915 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 0.625 seconds (JVM running for 1547.765)
+2022-03-07 09:34:23.916 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 09:34:35.014 INFO  demo.schedule.DocSche                             :32   [32m155850584942055424[0;39m 更新电子书信息开始
+2022-03-07 09:34:35.015 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155850584942055424[0;39m HikariPool-5 - Starting...
+2022-03-07 09:34:35.202 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155850584942055424[0;39m HikariPool-5 - Start completed.
+2022-03-07 09:34:35.239 INFO  demo.schedule.DocSche                             :35   [32m155850584942055424[0;39m 更新电子书信息结束，耗时：224
+2022-03-07 09:35:05.005 INFO  demo.schedule.DocSche                             :32   [32m155850710733426688[0;39m 更新电子书信息开始
+2022-03-07 09:35:05.065 INFO  demo.schedule.DocSche                             :35   [32m155850710733426688[0;39m 更新电子书信息结束，耗时：60
+2022-03-07 09:35:06.015 INFO  o.a.c.c.ContainerBase.[Tomcat-2].[localhost].[/]  :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-07 09:35:06.015 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-03-07 09:35:06.021 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 5 ms
+2022-03-07 09:35:06.024 INFO  demo.websocket.WebSocketServer                    :33   [32m                  [0;39m 有新连接：token：RolrqnYs4o，session id：1，当前连接数：1
+2022-03-07 09:35:35.001 INFO  demo.schedule.DocSche                             :32   [32m155850836545769472[0;39m 更新电子书信息开始
+2022-03-07 09:35:35.054 INFO  demo.schedule.DocSche                             :35   [32m155850836545769472[0;39m 更新电子书信息结束，耗时：53
+2022-03-07 09:36:05.010 INFO  demo.schedule.DocSche                             :32   [32m155850962412638208[0;39m 更新电子书信息开始
+2022-03-07 09:36:05.062 INFO  demo.schedule.DocSche                             :35   [32m155850962412638208[0;39m 更新电子书信息结束，耗时：52
+2022-03-07 09:36:35.012 INFO  demo.schedule.DocSche                             :32   [32m155851088250146816[0;39m 更新电子书信息开始
+2022-03-07 09:36:35.064 INFO  demo.schedule.DocSche                             :35   [32m155851088250146816[0;39m 更新电子书信息结束，耗时：52
+2022-03-07 09:37:05.005 INFO  demo.schedule.DocSche                             :32   [32m155851214049906688[0;39m 更新电子书信息开始
+2022-03-07 09:37:05.061 INFO  demo.schedule.DocSche                             :35   [32m155851214049906688[0;39m 更新电子书信息结束，耗时：56
+2022-03-07 09:37:11.439 INFO  demo.controller.UserController                    :81   [32m                  [0;39m 生成单点登录的token:155851241036058624，放入redis中
+2022-03-07 09:37:17.184 INFO  demo.utils.RedisUtil                              :23   [32m                  [0;39m key已存在：DOC_VOTE_155313690294489088_null
+2022-03-07 09:37:17.185 WARN  demo.controller.ControllerExceptionHandler        :34   [32m                  [0;39m 业务异常：您已点赞过
+2022-03-07 09:37:17.187 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :199  [32m                  [0;39m Resolved [demo.exception.BusinessException: 您已点赞过]
+2022-03-07 09:37:22.210 INFO  demo.utils.RedisUtil                              :26   [32m                  [0;39m key不存在，放入：DOC_VOTE_6_null，过期86400秒
+2022-03-07 09:37:22.279 INFO  demo.websocket.WebSocketServer                    :72   [32m                  [0;39m 推送消息：RolrqnYs4o，内容：文档2.2.1被点赞!
+2022-03-07 09:37:35.001 INFO  demo.schedule.DocSche                             :32   [32m155851339862249472[0;39m 更新电子书信息开始
+2022-03-07 09:37:35.056 INFO  demo.schedule.DocSche                             :35   [32m155851339862249472[0;39m 更新电子书信息结束，耗时：55
+2022-03-07 09:38:05.006 INFO  demo.schedule.DocSche                             :32   [32m155851465712340992[0;39m 更新电子书信息开始
+2022-03-07 09:38:05.058 INFO  demo.schedule.DocSche                             :35   [32m155851465712340992[0;39m 更新电子书信息结束，耗时：52

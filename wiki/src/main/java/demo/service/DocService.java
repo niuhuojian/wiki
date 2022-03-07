@@ -18,6 +18,7 @@ import demo.utils.CopyUtils;
 import demo.utils.RedisUtil;
 import demo.utils.RequestContext;
 import demo.utils.SnowFlake;
+import demo.websocket.WebSocketServer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,6 +44,9 @@ public class DocService {
 
     @Autowired
     private RedisUtil redisUtil;
+
+    @Autowired
+    private WebSocketServer webSocketServer;
 
     public PageResp<DocQueryResp> list(DocQueryReq docReq){
 
@@ -132,6 +136,10 @@ public class DocService {
         }else{
             throw new BusinessException(BusinessExceptionCode.VOTE_REPEAT);
         }
+
+        //推送消息
+        Doc docDb = docMapper.selectByPrimaryKey(id);
+        webSocketServer.sendInfo(docDb.getName()+"被点赞!");
     }
 
     public void updateEbookInfo(){
