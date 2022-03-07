@@ -18,4 +18,7 @@ public class EbookSnapshotService {
     public List<StatisticResp> getData(){
         return mapper.getData();
     }
+
+    public List<StatisticResp> get30Data(){return mapper.get30Data();}
+
 }

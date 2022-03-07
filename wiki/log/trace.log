@@ -8223,3 +8223,798 @@ Consider revisiting the entries above or defining a bean of type 'org.apache.roc
 2022-03-07 14:36:15.501 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926501831872512[0;39m 生成今日电子书快照结束，耗时489秒
 2022-03-07 14:36:20.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926522761449472[0;39m 生成今日电子书快照开始
 2022-03-07 14:36:20.593 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926522761449472[0;39m 生成今日电子书快照结束，耗时592秒
+2022-03-07 14:36:25.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926543758135296[0;39m 生成今日电子书快照开始
+2022-03-07 14:36:25.591 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926543758135296[0;39m 生成今日电子书快照结束，耗时584秒
+2022-03-07 14:36:30.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926564742238208[0;39m 生成今日电子书快照开始
+2022-03-07 14:36:30.480 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926564742238208[0;39m 生成今日电子书快照结束，耗时470秒
+2022-03-07 14:36:35.011 INFO  demo.schedule.DocSche                             :32   [32m155926585717952512[0;39m 更新电子书信息开始
+2022-03-07 14:36:35.607 INFO  demo.schedule.DocSche                             :35   [32m155926585717952512[0;39m 更新电子书信息结束，耗时：596
+2022-03-07 14:36:35.607 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926588217757696[0;39m 生成今日电子书快照开始
+2022-03-07 14:36:36.015 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926588217757696[0;39m 生成今日电子书快照结束，耗时407秒
+2022-03-07 14:36:40.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926606693666816[0;39m 生成今日电子书快照开始
+2022-03-07 14:36:40.516 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926606693666816[0;39m 生成今日电子书快照结束，耗时504秒
+2022-03-07 14:36:45.015 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926627677769728[0;39m 生成今日电子书快照开始
+2022-03-07 14:36:45.615 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926627677769728[0;39m 生成今日电子书快照结束，耗时600秒
+2022-03-07 14:36:50.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926648636706816[0;39m 生成今日电子书快照开始
+2022-03-07 14:36:50.500 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926648636706816[0;39m 生成今日电子书快照结束，耗时488秒
+2022-03-07 14:36:55.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926669599838208[0;39m 生成今日电子书快照开始
+2022-03-07 14:36:55.603 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926669599838208[0;39m 生成今日电子书快照结束，耗时593秒
+2022-03-07 14:37:00.000 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926690529415168[0;39m 生成今日电子书快照开始
+2022-03-07 14:37:00.528 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926690529415168[0;39m 生成今日电子书快照结束，耗时528秒
+2022-03-07 14:37:05.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926711542878208[0;39m 生成今日电子书快照开始
+2022-03-07 14:37:05.540 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926711542878208[0;39m 生成今日电子书快照结束，耗时530秒
+2022-03-07 14:37:05.540 INFO  demo.schedule.DocSche                             :32   [32m155926713765859328[0;39m 更新电子书信息开始
+2022-03-07 14:37:05.895 INFO  demo.schedule.DocSche                             :35   [32m155926713765859328[0;39m 更新电子书信息结束，耗时：354
+2022-03-07 14:37:10.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926732526981120[0;39m 生成今日电子书快照开始
+2022-03-07 14:37:10.460 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926732526981120[0;39m 生成今日电子书快照结束，耗时447秒
+2022-03-07 14:37:15.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926753460752384[0;39m 生成今日电子书快照开始
+2022-03-07 14:37:15.222 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926753460752384[0;39m 生成今日电子书快照结束，耗时218秒
+2022-03-07 14:37:20.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926774453243904[0;39m 生成今日电子书快照开始
+2022-03-07 14:37:20.428 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926774453243904[0;39m 生成今日电子书快照结束，耗时419秒
+2022-03-07 14:37:25.015 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926795449929728[0;39m 生成今日电子书快照开始
+2022-03-07 14:37:25.232 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926795449929728[0;39m 生成今日电子书快照结束，耗时217秒
+2022-03-07 14:37:30.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926816387895296[0;39m 生成今日电子书快照开始
+2022-03-07 14:37:30.222 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926816387895296[0;39m 生成今日电子书快照结束，耗时215秒
+2022-03-07 14:37:35.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926837342638080[0;39m 生成今日电子书快照开始
+2022-03-07 14:37:35.308 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926837342638080[0;39m 生成今日电子书快照结束，耗时305秒
+2022-03-07 14:37:35.308 INFO  demo.schedule.DocSche                             :32   [32m155926838621900800[0;39m 更新电子书信息开始
+2022-03-07 14:37:35.489 INFO  demo.schedule.DocSche                             :35   [32m155926838621900800[0;39m 更新电子书信息结束，耗时：180
+2022-03-07 14:37:40.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926858356101120[0;39m 生成今日电子书快照开始
+2022-03-07 14:37:40.071 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926858356101120[0;39m 生成今日电子书快照结束，耗时58秒
+2022-03-07 14:37:45.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926879331815424[0;39m 生成今日电子书快照开始
+2022-03-07 14:37:45.355 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926879331815424[0;39m 生成今日电子书快照结束，耗时341秒
+2022-03-07 14:37:50.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926900303335424[0;39m 生成今日电子书快照开始
+2022-03-07 14:37:50.594 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926900303335424[0;39m 生成今日电子书快照结束，耗时580秒
+2022-03-07 14:37:55.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926921241300992[0;39m 生成今日电子书快照开始
+2022-03-07 14:37:55.505 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926921241300992[0;39m 生成今日电子书快照结束，耗时499秒
+2022-03-07 14:38:00.015 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926942250569728[0;39m 生成今日电子书快照开始
+2022-03-07 14:38:00.388 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926942250569728[0;39m 生成今日电子书快照结束，耗时373秒
+2022-03-07 14:38:05.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926963188535296[0;39m 生成今日电子书快照开始
+2022-03-07 14:38:05.534 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926963188535296[0;39m 生成今日电子书快照结束，耗时527秒
+2022-03-07 14:38:05.535 INFO  demo.schedule.DocSche                             :32   [32m155926965403127808[0;39m 更新电子书信息开始
+2022-03-07 14:38:05.917 INFO  demo.schedule.DocSche                             :35   [32m155926965403127808[0;39m 更新电子书信息结束，耗时：382
+2022-03-07 14:38:10.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155926984151666688[0;39m 生成今日电子书快照开始
+2022-03-07 14:38:10.323 INFO  demo.schedule.EbookSnapSche                       :31   [32m155926984151666688[0;39m 生成今日电子书快照结束，耗时318秒
+2022-03-07 14:38:15.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927005131575296[0;39m 生成今日电子书快照开始
+2022-03-07 14:38:15.066 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927005131575296[0;39m 生成今日电子书快照结束，耗时59秒
+2022-03-07 14:38:20.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927026103095296[0;39m 生成今日电子书快照开始
+2022-03-07 14:38:20.263 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927026103095296[0;39m 生成今日电子书快照结束，耗时256秒
+2022-03-07 14:38:25.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927047087198208[0;39m 生成今日电子书快照开始
+2022-03-07 14:38:25.122 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927047087198208[0;39m 生成今日电子书快照结束，耗时112秒
+2022-03-07 14:38:30.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927068041940992[0;39m 生成今日电子书快照开始
+2022-03-07 14:38:30.073 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927068041940992[0;39m 生成今日电子书快照结束，耗时67秒
+2022-03-07 14:38:35.010 INFO  demo.schedule.DocSche                             :32   [32m155927089030238208[0;39m 更新电子书信息开始
+2022-03-07 14:38:35.305 INFO  demo.schedule.DocSche                             :35   [32m155927089030238208[0;39m 更新电子书信息结束，耗时：295
+2022-03-07 14:38:35.305 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927090267557888[0;39m 生成今日电子书快照开始
+2022-03-07 14:38:35.483 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927090267557888[0;39m 生成今日电子书快照结束，耗时177秒
+2022-03-07 14:38:40.000 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927109959815168[0;39m 生成今日电子书快照开始
+2022-03-07 14:38:40.059 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927109959815168[0;39m 生成今日电子书快照结束，耗时59秒
+2022-03-07 14:38:45.016 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927130998444032[0;39m 生成今日电子书快照开始
+2022-03-07 14:38:45.100 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927130998444032[0;39m 生成今日电子书快照结束，耗时84秒
+2022-03-07 14:38:50.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927151936409600[0;39m 生成今日电子书快照开始
+2022-03-07 14:38:50.059 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927151936409600[0;39m 生成今日电子书快照结束，耗时51秒
+2022-03-07 14:38:55.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927172878569472[0;39m 生成今日电子书快照开始
+2022-03-07 14:38:55.478 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927172878569472[0;39m 生成今日电子书快照结束，耗时477秒
+2022-03-07 14:38:59.027 INFO  demo.websocket.WebSocketServer                    :43   [32m                  [0;39m 连接关闭，token：aMwVhsYNmy，session id：0！当前连接数：0
+2022-03-07 14:38:59.033 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 14:38:59.034 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:38:59.035 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-03-07 14:38:59.042 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2022-03-07 14:38:59.130 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 4168 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 14:38:59.130 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 14:38:59.278 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 14:38:59.279 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 14:38:59.289 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-03-07 14:38:59.381 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 14:38:59.381 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:38:59.381 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 14:38:59.382 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 14:38:59.399 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 14:38:59.399 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 267 ms
+2022-03-07 14:38:59.635 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:38:59.769 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 14:38:59.797 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 14:38:59.804 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:38:59.806 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 14:38:59.809 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 0.704 seconds (JVM running for 247.469)
+2022-03-07 14:38:59.810 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 14:39:00.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927193887838208[0;39m 生成今日电子书快照开始
+2022-03-07 14:39:00.011 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155927193887838208[0;39m HikariPool-2 - Starting...
+2022-03-07 14:39:00.291 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155927193887838208[0;39m HikariPool-2 - Start completed.
+2022-03-07 14:39:00.340 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927193887838208[0;39m 生成今日电子书快照结束，耗时329秒
+2022-03-07 14:39:05.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927214850969600[0;39m 生成今日电子书快照开始
+2022-03-07 14:39:05.218 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927214850969600[0;39m 生成今日电子书快照结束，耗时209秒
+2022-03-07 14:39:05.219 INFO  demo.schedule.DocSche                             :32   [32m155927215735967744[0;39m 更新电子书信息开始
+2022-03-07 14:39:05.503 INFO  demo.schedule.DocSche                             :35   [32m155927215735967744[0;39m 更新电子书信息结束，耗时：284
+2022-03-07 14:39:10.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927235793129472[0;39m 生成今日电子书快照开始
+2022-03-07 14:39:10.053 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927235793129472[0;39m 生成今日电子书快照结束，耗时52秒
+2022-03-07 14:39:10.669 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 14:39:10.670 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:39:10.670 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-2 - Shutdown initiated...
+2022-03-07 14:39:10.672 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-2 - Shutdown completed.
+2022-03-07 14:39:10.737 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 4168 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 14:39:10.737 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 14:39:10.856 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 14:39:10.856 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 14:39:10.866 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-03-07 14:39:10.953 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 14:39:10.954 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:39:10.954 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 14:39:10.954 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 14:39:10.969 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 14:39:10.970 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 231 ms
+2022-03-07 14:39:11.197 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:39:11.345 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 14:39:11.374 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 14:39:11.382 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:39:11.386 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 14:39:11.390 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 0.677 seconds (JVM running for 259.051)
+2022-03-07 14:39:11.391 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 14:39:15.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927256781426688[0;39m 生成今日电子书快照开始
+2022-03-07 14:39:15.006 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155927256781426688[0;39m HikariPool-3 - Starting...
+2022-03-07 14:39:15.214 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155927256781426688[0;39m HikariPool-3 - Start completed.
+2022-03-07 14:39:15.252 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927256781426688[0;39m 生成今日电子书快照结束，耗时246秒
+2022-03-07 14:39:20.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927277773918208[0;39m 生成今日电子书快照开始
+2022-03-07 14:39:20.200 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927277773918208[0;39m 生成今日电子书快照结束，耗时190秒
+2022-03-07 14:39:25.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927298762215424[0;39m 生成今日电子书快照开始
+2022-03-07 14:39:25.424 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927298762215424[0;39m 生成今日电子书快照结束，耗时410秒
+2022-03-07 14:39:30.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927319733735424[0;39m 生成今日电子书快照开始
+2022-03-07 14:39:30.260 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927319733735424[0;39m 生成今日电子书快照结束，耗时246秒
+2022-03-07 14:39:35.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927340663312384[0;39m 生成今日电子书快照开始
+2022-03-07 14:39:35.546 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927340663312384[0;39m 生成今日电子书快照结束，耗时542秒
+2022-03-07 14:39:35.547 INFO  demo.schedule.DocSche                             :32   [32m155927342936625152[0;39m 更新电子书信息开始
+2022-03-07 14:39:35.912 INFO  demo.schedule.DocSche                             :35   [32m155927342936625152[0;39m 更新电子书信息结束，耗时：365
+2022-03-07 14:39:40.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927361626443776[0;39m 生成今日电子书快照开始
+2022-03-07 14:39:40.384 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927361626443776[0;39m 生成今日电子书快照结束，耗时382秒
+2022-03-07 14:39:43.873 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 14:39:43.873 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:39:43.874 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2022-03-07 14:39:43.876 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.
+2022-03-07 14:39:43.939 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 4168 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 14:39:43.940 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 14:39:44.055 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 14:39:44.055 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 14:39:44.066 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2022-03-07 14:39:44.146 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 14:39:44.146 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:39:44.146 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 14:39:44.146 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 14:39:44.161 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 14:39:44.161 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 220 ms
+2022-03-07 14:39:44.442 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:39:44.588 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 14:39:44.616 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 14:39:44.623 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:39:44.625 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 14:39:44.628 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 0.711 seconds (JVM running for 292.289)
+2022-03-07 14:39:44.628 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 14:39:45.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927382610546688[0;39m 生成今日电子书快照开始
+2022-03-07 14:39:45.006 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155927382610546688[0;39m HikariPool-4 - Starting...
+2022-03-07 14:39:45.290 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155927382610546688[0;39m HikariPool-4 - Start completed.
+2022-03-07 14:39:45.329 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927382610546688[0;39m 生成今日电子书快照结束，耗时323秒
+2022-03-07 14:39:50.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927403582066688[0;39m 生成今日电子书快照开始
+2022-03-07 14:39:50.222 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927403582066688[0;39m 生成今日电子书快照结束，耗时217秒
+2022-03-07 14:39:55.016 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927424599724032[0;39m 生成今日电子书快照开始
+2022-03-07 14:39:55.385 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927424599724032[0;39m 生成今日电子书快照结束，耗时369秒
+2022-03-07 14:40:00.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927445562855424[0;39m 生成今日电子书快照开始
+2022-03-07 14:40:00.370 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927445562855424[0;39m 生成今日电子书快照结束，耗时356秒
+2022-03-07 14:40:05.010 INFO  demo.schedule.DocSche                             :32   [32m155927466517598208[0;39m 更新电子书信息开始
+2022-03-07 14:40:05.389 INFO  demo.schedule.DocSche                             :35   [32m155927466517598208[0;39m 更新电子书信息结束，耗时：379
+2022-03-07 14:40:05.390 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927468111433728[0;39m 生成今日电子书快照开始
+2022-03-07 14:40:05.636 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927468111433728[0;39m 生成今日电子书快照结束，耗时246秒
+2022-03-07 14:40:10.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927487476535296[0;39m 生成今日电子书快照开始
+2022-03-07 14:40:10.493 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927487476535296[0;39m 生成今日电子书快照结束，耗时486秒
+2022-03-07 14:40:15.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927508469026816[0;39m 生成今日电子书快照开始
+2022-03-07 14:40:15.596 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927508469026816[0;39m 生成今日电子书快照结束，耗时584秒
+2022-03-07 14:40:20.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927529406992384[0;39m 生成今日电子书快照开始
+2022-03-07 14:40:20.500 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927529406992384[0;39m 生成今日电子书快照结束，耗时496秒
+2022-03-07 14:40:25.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927550395289600[0;39m 生成今日电子书快照开始
+2022-03-07 14:40:25.599 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927550395289600[0;39m 生成今日电子书快照结束，耗时591秒
+2022-03-07 14:40:30.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927571366809600[0;39m 生成今日电子书快照开始
+2022-03-07 14:40:30.575 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927571366809600[0;39m 生成今日电子书快照结束，耗时567秒
+2022-03-07 14:40:35.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927592346718208[0;39m 生成今日电子书快照开始
+2022-03-07 14:40:35.594 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927592346718208[0;39m 生成今日电子书快照结束，耗时584秒
+2022-03-07 14:40:35.595 INFO  demo.schedule.DocSche                             :32   [32m155927594800386048[0;39m 更新电子书信息开始
+2022-03-07 14:40:35.970 INFO  demo.schedule.DocSche                             :35   [32m155927594800386048[0;39m 更新电子书信息结束，耗时：375
+2022-03-07 14:40:36.050 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 14:40:36.050 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:40:36.051 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-4 - Shutdown initiated...
+2022-03-07 14:40:36.054 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-4 - Shutdown completed.
+2022-03-07 14:40:36.114 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 4168 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 14:40:36.114 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 14:40:36.226 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 14:40:36.226 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 14:40:36.236 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-03-07 14:40:36.318 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 14:40:36.319 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:40:36.319 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 14:40:36.319 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 14:40:36.334 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 14:40:36.335 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 219 ms
+2022-03-07 14:40:36.554 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:40:36.687 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 14:40:36.716 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 14:40:36.723 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:40:36.727 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 14:40:36.730 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 0.636 seconds (JVM running for 344.391)
+2022-03-07 14:40:36.731 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 14:40:40.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927613284683776[0;39m 生成今日电子书快照开始
+2022-03-07 14:40:40.003 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155927613284683776[0;39m HikariPool-5 - Starting...
+2022-03-07 14:40:40.254 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155927613284683776[0;39m HikariPool-5 - Start completed.
+2022-03-07 14:40:40.291 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927613284683776[0;39m 生成今日电子书快照结束，耗时288秒
+2022-03-07 14:40:45.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927634289758208[0;39m 生成今日电子书快照开始
+2022-03-07 14:40:45.243 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927634289758208[0;39m 生成今日电子书快照结束，耗时233秒
+2022-03-07 14:40:50.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927655227723776[0;39m 生成今日电子书快照开始
+2022-03-07 14:40:50.372 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927655227723776[0;39m 生成今日电子书快照结束，耗时370秒
+2022-03-07 14:40:55.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927676249575424[0;39m 生成今日电子书快照开始
+2022-03-07 14:40:55.471 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927676249575424[0;39m 生成今日电子书快照结束，耗时457秒
+2022-03-07 14:41:00.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927697221095424[0;39m 生成今日电子书快照开始
+2022-03-07 14:41:00.540 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927697221095424[0;39m 生成今日电子书快照结束，耗时526秒
+2022-03-07 14:41:02.960 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 14:41:02.961 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:41:02.961 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-5 - Shutdown initiated...
+2022-03-07 14:41:02.964 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-5 - Shutdown completed.
+2022-03-07 14:41:03.035 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 4168 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 14:41:03.035 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 14:41:03.162 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 14:41:03.162 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 14:41:03.172 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2022-03-07 14:41:03.269 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 14:41:03.270 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:41:03.270 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 14:41:03.270 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 14:41:03.286 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 14:41:03.286 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 248 ms
+2022-03-07 14:41:03.503 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:41:03.635 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 14:41:03.664 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 14:41:03.671 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:41:03.674 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 14:41:03.677 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 0.667 seconds (JVM running for 371.337)
+2022-03-07 14:41:03.678 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 14:41:05.004 INFO  demo.schedule.DocSche                             :32   [32m155927718150672384[0;39m 更新电子书信息开始
+2022-03-07 14:41:05.006 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155927718150672384[0;39m HikariPool-6 - Starting...
+2022-03-07 14:41:05.200 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155927718150672384[0;39m HikariPool-6 - Start completed.
+2022-03-07 14:41:05.238 INFO  demo.schedule.DocSche                             :35   [32m155927718150672384[0;39m 更新电子书信息结束，耗时：233
+2022-03-07 14:41:05.238 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927719132139520[0;39m 生成今日电子书快照开始
+2022-03-07 14:41:05.278 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927719132139520[0;39m 生成今日电子书快照结束，耗时39秒
+2022-03-07 14:41:10.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927739164135424[0;39m 生成今日电子书快照开始
+2022-03-07 14:41:10.342 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927739164135424[0;39m 生成今日电子书快照结束，耗时328秒
+2022-03-07 14:41:15.011 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927760123072512[0;39m 生成今日电子书快照开始
+2022-03-07 14:41:15.482 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927760123072512[0;39m 生成今日电子书快照结束，耗时471秒
+2022-03-07 14:41:16.561 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 14:41:16.562 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:41:16.562 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-6 - Shutdown initiated...
+2022-03-07 14:41:16.564 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-6 - Shutdown completed.
+2022-03-07 14:41:16.632 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 4168 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 14:41:16.632 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 14:41:16.757 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 14:41:16.757 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 14:41:16.768 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+2022-03-07 14:41:16.858 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 14:41:16.859 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:41:16.859 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 14:41:16.859 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 14:41:16.875 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 14:41:16.875 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 241 ms
+2022-03-07 14:41:17.105 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:41:17.237 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 14:41:17.264 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 14:41:17.271 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:41:17.274 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 14:41:17.277 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 0.669 seconds (JVM running for 384.938)
+2022-03-07 14:41:17.278 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 14:41:20.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927781086203904[0;39m 生成今日电子书快照开始
+2022-03-07 14:41:20.010 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155927781086203904[0;39m HikariPool-7 - Starting...
+2022-03-07 14:41:20.256 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155927781086203904[0;39m HikariPool-7 - Start completed.
+2022-03-07 14:41:20.296 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927781086203904[0;39m 生成今日电子书快照结束，耗时286秒
+2022-03-07 14:41:25.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927802028363776[0;39m 生成今日电子书快照开始
+2022-03-07 14:41:25.205 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927802028363776[0;39m 生成今日电子书快照结束，耗时203秒
+2022-03-07 14:41:30.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927823046021120[0;39m 生成今日电子书快照开始
+2022-03-07 14:41:30.468 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927823046021120[0;39m 生成今日电子书快照结束，耗时455秒
+2022-03-07 14:41:35.015 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927844025929728[0;39m 生成今日电子书快照开始
+2022-03-07 14:41:35.625 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927844025929728[0;39m 生成今日电子书快照结束，耗时610秒
+2022-03-07 14:41:35.626 INFO  demo.schedule.DocSche                             :32   [32m155927846588649472[0;39m 更新电子书信息开始
+2022-03-07 14:41:35.984 INFO  demo.schedule.DocSche                             :35   [32m155927846588649472[0;39m 更新电子书信息结束，耗时：358
+2022-03-07 14:41:40.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927864955506688[0;39m 生成今日电子书快照开始
+2022-03-07 14:41:40.543 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927864955506688[0;39m 生成今日电子书快照结束，耗时538秒
+2022-03-07 14:41:45.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927885922832384[0;39m 生成今日电子书快照开始
+2022-03-07 14:41:45.469 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927885922832384[0;39m 生成今日电子书快照结束，耗时465秒
+2022-03-07 14:41:50.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927906902740992[0;39m 生成今日电子书快照开始
+2022-03-07 14:41:50.623 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927906902740992[0;39m 生成今日电子书快照结束，耗时617秒
+2022-03-07 14:41:55.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927927853289472[0;39m 生成今日电子书快照开始
+2022-03-07 14:41:55.573 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927927853289472[0;39m 生成今日电子书快照结束，耗时572秒
+2022-03-07 14:42:00.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927948824809472[0;39m 生成今日电子书快照开始
+2022-03-07 14:42:00.588 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927948824809472[0;39m 生成今日电子书快照结束，耗时587秒
+2022-03-07 14:42:05.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927969813106688[0;39m 生成今日电子书快照开始
+2022-03-07 14:42:05.520 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927969813106688[0;39m 生成今日电子书快照结束，耗时515秒
+2022-03-07 14:42:05.521 INFO  demo.schedule.DocSche                             :32   [32m155927971977367552[0;39m 更新电子书信息开始
+2022-03-07 14:42:05.920 INFO  demo.schedule.DocSche                             :35   [32m155927971977367552[0;39m 更新电子书信息结束，耗时：399
+2022-03-07 14:42:10.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155927990805598208[0;39m 生成今日电子书快照开始
+2022-03-07 14:42:10.467 INFO  demo.schedule.EbookSnapSche                       :31   [32m155927990805598208[0;39m 生成今日电子书快照结束，耗时457秒
+2022-03-07 14:42:15.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928011772923904[0;39m 生成今日电子书快照开始
+2022-03-07 14:42:15.345 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928011772923904[0;39m 生成今日电子书快照结束，耗时336秒
+2022-03-07 14:42:19.438 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 14:42:19.439 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:42:19.439 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-7 - Shutdown initiated...
+2022-03-07 14:42:19.442 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-7 - Shutdown completed.
+2022-03-07 14:42:19.509 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 4168 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 14:42:19.509 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 14:42:19.640 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 14:42:19.640 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 14:42:19.652 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2022-03-07 14:42:19.736 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 14:42:19.737 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:42:19.737 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 14:42:19.737 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 14:42:19.752 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 14:42:19.752 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 241 ms
+2022-03-07 14:42:19.968 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:42:20.098 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 14:42:20.130 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 14:42:20.137 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:42:20.140 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 14:42:20.144 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 0.657 seconds (JVM running for 447.804)
+2022-03-07 14:42:20.145 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 14:42:25.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928053690798080[0;39m 生成今日电子书快照开始
+2022-03-07 14:42:25.004 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155928053690798080[0;39m HikariPool-8 - Starting...
+2022-03-07 14:42:25.266 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155928053690798080[0;39m HikariPool-8 - Start completed.
+2022-03-07 14:42:25.305 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928053690798080[0;39m 生成今日电子书快照结束，耗时301秒
+2022-03-07 14:42:30.011 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928074695872512[0;39m 生成今日电子书快照开始
+2022-03-07 14:42:30.239 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928074695872512[0;39m 生成今日电子书快照结束，耗时228秒
+2022-03-07 14:42:35.015 INFO  demo.schedule.DocSche                             :32   [32m155928095684169728[0;39m 更新电子书信息开始
+2022-03-07 14:42:35.606 INFO  demo.schedule.DocSche                             :35   [32m155928095684169728[0;39m 更新电子书信息结束，耗时：591
+2022-03-07 14:42:35.607 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928098167197696[0;39m 生成今日电子书快照开始
+2022-03-07 14:42:35.939 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928098167197696[0;39m 生成今日电子书快照结束，耗时332秒
+2022-03-07 14:42:40.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928116647301120[0;39m 生成今日电子书快照开始
+2022-03-07 14:42:40.388 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928116647301120[0;39m 生成今日电子书快照结束，耗时375秒
+2022-03-07 14:42:45.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928137593655296[0;39m 生成今日电子书快照开始
+2022-03-07 14:42:45.607 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928137593655296[0;39m 生成今日电子书快照结束，耗时600秒
+2022-03-07 14:42:50.015 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928158598729728[0;39m 生成今日电子书快照开始
+2022-03-07 14:42:50.558 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928158598729728[0;39m 生成今日电子书快照结束，耗时543秒
+2022-03-07 14:42:55.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928179536695296[0;39m 生成今日电子书快照开始
+2022-03-07 14:42:55.572 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928179536695296[0;39m 生成今日电子书快照结束，耗时565秒
+2022-03-07 14:43:00.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928200520798208[0;39m 生成今日电子书快照开始
+2022-03-07 14:43:00.341 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928200520798208[0;39m 生成今日电子书快照结束，耗时331秒
+2022-03-07 14:43:05.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928221462958080[0;39m 生成今日电子书快照开始
+2022-03-07 14:43:05.355 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928221462958080[0;39m 生成今日电子书快照结束，耗时352秒
+2022-03-07 14:43:05.356 INFO  demo.schedule.DocSche                             :32   [32m155928222943547392[0;39m 更新电子书信息开始
+2022-03-07 14:43:05.484 INFO  demo.schedule.DocSche                             :35   [32m155928222943547392[0;39m 更新电子书信息结束，耗时：128
+2022-03-07 14:43:10.000 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928242421895168[0;39m 生成今日电子书快照开始
+2022-03-07 14:43:10.366 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928242421895168[0;39m 生成今日电子书快照结束，耗时366秒
+2022-03-07 14:43:15.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928263431163904[0;39m 生成今日电子书快照开始
+2022-03-07 14:43:15.355 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928263431163904[0;39m 生成今日电子书快照结束，耗时346秒
+2022-03-07 14:43:20.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928284385906688[0;39m 生成今日电子书快照开始
+2022-03-07 14:43:20.062 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928284385906688[0;39m 生成今日电子书快照结束，耗时57秒
+2022-03-07 14:43:25.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928305370009600[0;39m 生成今日电子书快照开始
+2022-03-07 14:43:25.284 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928305370009600[0;39m 生成今日电子书快照结束，耗时276秒
+2022-03-07 14:43:30.011 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928326354112512[0;39m 生成今日电子书快照开始
+2022-03-07 14:43:30.138 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928326354112512[0;39m 生成今日电子书快照结束，耗时127秒
+2022-03-07 14:43:35.006 INFO  demo.schedule.DocSche                             :32   [32m155928347304660992[0;39m 更新电子书信息开始
+2022-03-07 14:43:35.306 INFO  demo.schedule.DocSche                             :35   [32m155928347304660992[0;39m 更新电子书信息结束，耗时：300
+2022-03-07 14:43:35.307 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928348567146496[0;39m 生成今日电子书快照开始
+2022-03-07 14:43:35.474 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928348567146496[0;39m 生成今日电子书快照结束，耗时167秒
+2022-03-07 14:43:40.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928368263598080[0;39m 生成今日电子书快照开始
+2022-03-07 14:43:40.535 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928368263598080[0;39m 生成今日电子书快照结束，耗时532秒
+2022-03-07 14:43:45.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928389243506688[0;39m 生成今日电子书快照开始
+2022-03-07 14:43:45.449 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928389243506688[0;39m 生成今日电子书快照结束，耗时444秒
+2022-03-07 14:43:50.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928410206638080[0;39m 生成今日电子书快照开始
+2022-03-07 14:43:50.391 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928410206638080[0;39m 生成今日电子书快照结束，耗时388秒
+2022-03-07 14:43:55.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928431203323904[0;39m 生成今日电子书快照开始
+2022-03-07 14:43:55.505 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928431203323904[0;39m 生成今日电子书快照结束，耗时496秒
+2022-03-07 14:44:00.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928452187426816[0;39m 生成今日电子书快照开始
+2022-03-07 14:44:00.290 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928452187426816[0;39m 生成今日电子书快照结束，耗时278秒
+2022-03-07 14:44:05.012 INFO  demo.schedule.DocSche                             :32   [32m155928473158946816[0;39m 更新电子书信息开始
+2022-03-07 14:44:05.463 INFO  demo.schedule.DocSche                             :35   [32m155928473158946816[0;39m 更新电子书信息结束，耗时：451
+2022-03-07 14:44:05.463 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928475050577920[0;39m 生成今日电子书快照开始
+2022-03-07 14:44:05.768 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928475050577920[0;39m 生成今日电子书快照结束，耗时305秒
+2022-03-07 14:44:10.015 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928494143049728[0;39m 生成今日电子书快照开始
+2022-03-07 14:44:10.193 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928494143049728[0;39m 生成今日电子书快照结束，耗时178秒
+2022-03-07 14:44:15.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928515060043776[0;39m 生成今日电子书快照开始
+2022-03-07 14:44:15.259 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928515060043776[0;39m 生成今日电子书快照结束，耗时257秒
+2022-03-07 14:44:20.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928536052535296[0;39m 生成今日电子书快照开始
+2022-03-07 14:44:20.546 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928536052535296[0;39m 生成今日电子书快照结束，耗时539秒
+2022-03-07 14:44:25.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928557003083776[0;39m 生成今日电子书快照开始
+2022-03-07 14:44:25.192 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928557003083776[0;39m 生成今日电子书快照结束，耗时190秒
+2022-03-07 14:44:30.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928577995575296[0;39m 生成今日电子书快照开始
+2022-03-07 14:44:30.510 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928577995575296[0;39m 生成今日电子书快照结束，耗时503秒
+2022-03-07 14:44:35.009 INFO  demo.schedule.DocSche                             :32   [32m155928598975483904[0;39m 更新电子书信息开始
+2022-03-07 14:44:35.616 INFO  demo.schedule.DocSche                             :35   [32m155928598975483904[0;39m 更新电子书信息结束，耗时：607
+2022-03-07 14:44:35.616 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928601521426432[0;39m 生成今日电子书快照开始
+2022-03-07 14:44:36.023 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928601521426432[0;39m 生成今日电子书快照结束，耗时407秒
+2022-03-07 14:44:40.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928619947003904[0;39m 生成今日电子书快照开始
+2022-03-07 14:44:40.315 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928619947003904[0;39m 生成今日电子书快照结束，耗时306秒
+2022-03-07 14:44:45.016 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928640947884032[0;39m 生成今日电子书快照开始
+2022-03-07 14:44:45.559 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928640947884032[0;39m 生成今日电子书快照结束，耗时543秒
+2022-03-07 14:44:50.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928661890043904[0;39m 生成今日电子书快照开始
+2022-03-07 14:44:50.511 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928661890043904[0;39m 生成今日电子书快照结束，耗时502秒
+2022-03-07 14:44:55.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928682840592384[0;39m 生成今日电子书快照开始
+2022-03-07 14:44:55.589 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928682840592384[0;39m 生成今日电子书快照结束，耗时585秒
+2022-03-07 14:45:00.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928703816306688[0;39m 生成今日电子书快照开始
+2022-03-07 14:45:00.407 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928703816306688[0;39m 生成今日电子书快照结束，耗时402秒
+2022-03-07 14:45:05.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928724800409600[0;39m 生成今日电子书快照开始
+2022-03-07 14:45:05.481 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928724800409600[0;39m 生成今日电子书快照结束，耗时473秒
+2022-03-07 14:45:05.481 INFO  demo.schedule.DocSche                             :32   [32m155928726784315392[0;39m 更新电子书信息开始
+2022-03-07 14:45:05.878 INFO  demo.schedule.DocSche                             :35   [32m155928726784315392[0;39m 更新电子书信息结束，耗时：397
+2022-03-07 14:45:10.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928745792901120[0;39m 生成今日电子书快照开始
+2022-03-07 14:45:10.544 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928745792901120[0;39m 生成今日电子书快照结束，耗时531秒
+2022-03-07 14:45:15.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928766743449600[0;39m 生成今日电子书快照开始
+2022-03-07 14:45:15.342 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928766743449600[0;39m 生成今日电子书快照结束，耗时334秒
+2022-03-07 14:45:20.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928787740135424[0;39m 生成今日电子书快照开始
+2022-03-07 14:45:20.526 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928787740135424[0;39m 生成今日电子书快照结束，耗时512秒
+2022-03-07 14:45:25.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928808669712384[0;39m 生成今日电子书快照开始
+2022-03-07 14:45:25.448 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928808669712384[0;39m 生成今日电子书快照结束，耗时444秒
+2022-03-07 14:45:30.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928829632843776[0;39m 生成今日电子书快照开始
+2022-03-07 14:45:30.223 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928829632843776[0;39m 生成今日电子书快照结束，耗时221秒
+2022-03-07 14:45:35.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928850616946688[0;39m 生成今日电子书快照开始
+2022-03-07 14:45:35.402 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928850616946688[0;39m 生成今日电子书快照结束，耗时397秒
+2022-03-07 14:45:35.403 INFO  demo.schedule.DocSche                             :32   [32m155928852286279680[0;39m 更新电子书信息开始
+2022-03-07 14:45:35.714 INFO  demo.schedule.DocSche                             :35   [32m155928852286279680[0;39m 更新电子书信息结束，耗时：311
+2022-03-07 14:45:40.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928871588466688[0;39m 生成今日电子书快照开始
+2022-03-07 14:45:40.318 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928871588466688[0;39m 生成今日电子书快照结束，耗时313秒
+2022-03-07 14:45:45.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928892559986688[0;39m 生成今日电子书快照开始
+2022-03-07 14:45:45.178 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928892559986688[0;39m 生成今日电子书快照结束，耗时173秒
+2022-03-07 14:45:50.016 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928913577644032[0;39m 生成今日电子书快照开始
+2022-03-07 14:45:50.261 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928913577644032[0;39m 生成今日电子书快照结束，耗时245秒
+2022-03-07 14:45:55.017 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928934553358336[0;39m 生成今日电子书快照开始
+2022-03-07 14:45:55.852 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928934553358336[0;39m 生成今日电子书快照结束，耗时835秒
+2022-03-07 14:46:00.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928955474546688[0;39m 生成今日电子书快照开始
+2022-03-07 14:46:00.631 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928955474546688[0;39m 生成今日电子书快照结束，耗时626秒
+2022-03-07 14:46:05.014 INFO  demo.schedule.DocSche                             :32   [32m155928976483815424[0;39m 更新电子书信息开始
+2022-03-07 14:46:05.365 INFO  demo.schedule.DocSche                             :35   [32m155928976483815424[0;39m 更新电子书信息结束，耗时：351
+2022-03-07 14:46:05.365 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928977956016128[0;39m 生成今日电子书快照开始
+2022-03-07 14:46:05.627 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928977956016128[0;39m 生成今日电子书快照结束，耗时261秒
+2022-03-07 14:46:10.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155928997400809472[0;39m 生成今日电子书快照开始
+2022-03-07 14:46:10.177 INFO  demo.schedule.EbookSnapSche                       :31   [32m155928997400809472[0;39m 生成今日电子书快照结束，耗时176秒
+2022-03-07 14:46:15.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929018426855424[0;39m 生成今日电子书快照开始
+2022-03-07 14:46:15.420 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929018426855424[0;39m 生成今日电子书快照结束，耗时406秒
+2022-03-07 14:46:20.015 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929039402569728[0;39m 生成今日电子书快照开始
+2022-03-07 14:46:20.206 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929039402569728[0;39m 生成今日电子书快照结束，耗时191秒
+2022-03-07 14:46:25.015 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929060374089728[0;39m 生成今日电子书快照开始
+2022-03-07 14:46:25.306 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929060374089728[0;39m 生成今日电子书快照结束，耗时291秒
+2022-03-07 14:46:30.015 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929081345609728[0;39m 生成今日电子书快照开始
+2022-03-07 14:46:30.392 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929081345609728[0;39m 生成今日电子书快照结束，耗时377秒
+2022-03-07 14:46:35.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929102287769600[0;39m 生成今日电子书快照开始
+2022-03-07 14:46:35.065 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929102287769600[0;39m 生成今日电子书快照结束，耗时57秒
+2022-03-07 14:46:35.065 INFO  demo.schedule.DocSche                             :32   [32m155929102526844928[0;39m 更新电子书信息开始
+2022-03-07 14:46:35.104 INFO  demo.schedule.DocSche                             :35   [32m155929102526844928[0;39m 更新电子书信息结束，耗时：39
+2022-03-07 14:46:40.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929123280261120[0;39m 生成今日电子书快照开始
+2022-03-07 14:46:40.182 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929123280261120[0;39m 生成今日电子书快照结束，耗时169秒
+2022-03-07 14:46:45.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929144235003904[0;39m 生成今日电子书快照开始
+2022-03-07 14:46:45.267 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929144235003904[0;39m 生成今日电子书快照结束，耗时258秒
+2022-03-07 14:46:50.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929165210718208[0;39m 生成今日电子书快照开始
+2022-03-07 14:46:50.210 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929165210718208[0;39m 生成今日电子书快照结束，耗时200秒
+2022-03-07 14:46:55.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929186165460992[0;39m 生成今日电子书快照开始
+2022-03-07 14:46:55.057 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929186165460992[0;39m 生成今日电子书快照结束，耗时51秒
+2022-03-07 14:47:00.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929207120203776[0;39m 生成今日电子书快照开始
+2022-03-07 14:47:00.065 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929207120203776[0;39m 生成今日电子书快照结束，耗时63秒
+2022-03-07 14:47:05.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929228091723776[0;39m 生成今日电子书快照开始
+2022-03-07 14:47:05.339 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929228091723776[0;39m 生成今日电子书快照结束，耗时337秒
+2022-03-07 14:47:05.339 INFO  demo.schedule.DocSche                             :32   [32m155929229505204224[0;39m 更新电子书信息开始
+2022-03-07 14:47:05.549 INFO  demo.schedule.DocSche                             :35   [32m155929229505204224[0;39m 更新电子书信息结束，耗时：209
+2022-03-07 14:47:10.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929249067438080[0;39m 生成今日电子书快照开始
+2022-03-07 14:47:10.638 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929249067438080[0;39m 生成今日电子书快照结束，耗时635秒
+2022-03-07 14:47:15.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929270059929600[0;39m 生成今日电子书快照开始
+2022-03-07 14:47:15.650 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929270059929600[0;39m 生成今日电子书快照结束，耗时642秒
+2022-03-07 14:47:20.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929291002089472[0;39m 生成今日电子书快照开始
+2022-03-07 14:47:20.622 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929291002089472[0;39m 生成今日电子书快照结束，耗时621秒
+2022-03-07 14:47:25.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929311981998080[0;39m 生成今日电子书快照开始
+2022-03-07 14:47:25.601 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929311981998080[0;39m 生成今日电子书快照结束，耗时598秒
+2022-03-07 14:47:30.016 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929333008044032[0;39m 生成今日电子书快照开始
+2022-03-07 14:47:30.622 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929333008044032[0;39m 生成今日电子书快照结束，耗时605秒
+2022-03-07 14:47:34.012 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 14:47:34.013 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:47:34.014 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-8 - Shutdown initiated...
+2022-03-07 14:47:34.015 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-8 - Shutdown completed.
+2022-03-07 14:47:34.079 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 4168 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 14:47:34.080 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 14:47:34.228 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 14:47:34.228 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 14:47:34.238 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-03-07 14:47:34.328 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 14:47:34.328 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:47:34.328 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 14:47:34.329 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 14:47:34.348 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 14:47:34.349 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 268 ms
+2022-03-07 14:47:34.605 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:47:34.739 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 14:47:34.769 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 14:47:34.776 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:47:34.779 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 14:47:34.782 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 0.723 seconds (JVM running for 762.442)
+2022-03-07 14:47:34.783 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 14:47:35.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929353912455168[0;39m 生成今日电子书快照开始
+2022-03-07 14:47:35.001 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155929353912455168[0;39m HikariPool-9 - Starting...
+2022-03-07 14:47:35.271 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155929353912455168[0;39m HikariPool-9 - Start completed.
+2022-03-07 14:47:35.311 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929353912455168[0;39m 生成今日电子书快照结束，耗时310秒
+2022-03-07 14:47:35.311 INFO  demo.schedule.DocSche                             :32   [32m155929355216883712[0;39m 更新电子书信息开始
+2022-03-07 14:47:35.352 INFO  demo.schedule.DocSche                             :35   [32m155929355216883712[0;39m 更新电子书信息结束，耗时：41
+2022-03-07 14:47:40.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929374938501120[0;39m 生成今日电子书快照开始
+2022-03-07 14:47:40.597 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929374938501120[0;39m 生成今日电子书快照结束，耗时584秒
+2022-03-07 14:47:45.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929395893243904[0;39m 生成今日电子书快照开始
+2022-03-07 14:47:45.579 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929395893243904[0;39m 生成今日电子书快照结束，耗时570秒
+2022-03-07 14:47:50.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929416835403776[0;39m 生成今日电子书快照开始
+2022-03-07 14:47:50.554 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929416835403776[0;39m 生成今日电子书快照结束，耗时552秒
+2022-03-07 14:47:52.806 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-03-07 14:47:52.807 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:47:52.807 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-9 - Shutdown initiated...
+2022-03-07 14:47:52.809 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-9 - Shutdown completed.
+2022-03-07 14:47:52.861 INFO  demo.WikiApplication                              :55   [32m                  [0;39m Starting WikiApplication on LAPTOP-FLIV6UGS with PID 4168 (D:\imoocJavaTest\wiki\target\classes started by jake in D:\imoocJavaTest\wiki)
+2022-03-07 14:47:52.862 INFO  demo.WikiApplication                              :651  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-03-07 14:47:52.963 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :249  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-07 14:47:52.963 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :127  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-03-07 14:47:52.972 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :187  [32m                  [0;39m Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2022-03-07 14:47:53.047 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8081 (http)
+2022-03-07 14:47:53.047 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:47:53.048 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-03-07 14:47:53.048 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-03-07 14:47:53.062 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-03-07 14:47:53.062 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :285  [32m                  [0;39m Root WebApplicationContext: initialization completed in 199 ms
+2022-03-07 14:47:53.262 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-07 14:47:53.384 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-03-07 14:47:53.412 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-03-07 14:47:53.423 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8081"]
+2022-03-07 14:47:53.431 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8081 (http) with context path ''
+2022-03-07 14:47:53.441 INFO  demo.WikiApplication                              :61   [32m                  [0;39m Started WikiApplication in 0.596 seconds (JVM running for 781.102)
+2022-03-07 14:47:53.443 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2022-03-07 14:47:55.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929437811118080[0;39m 生成今日电子书快照开始
+2022-03-07 14:47:55.004 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m155929437811118080[0;39m HikariPool-10 - Starting...
+2022-03-07 14:47:55.198 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m155929437811118080[0;39m HikariPool-10 - Start completed.
+2022-03-07 14:47:55.239 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929437811118080[0;39m 生成今日电子书快照结束，耗时235秒
+2022-03-07 14:48:00.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929458782638080[0;39m 生成今日电子书快照开始
+2022-03-07 14:48:00.236 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929458782638080[0;39m 生成今日电子书快照结束，耗时233秒
+2022-03-07 14:48:05.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929479762546688[0;39m 生成今日电子书快照开始
+2022-03-07 14:48:05.639 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929479762546688[0;39m 生成今日电子书快照结束，耗时634秒
+2022-03-07 14:48:05.640 INFO  demo.schedule.DocSche                             :32   [32m155929482425929728[0;39m 更新电子书信息开始
+2022-03-07 14:48:05.968 INFO  demo.schedule.DocSche                             :35   [32m155929482425929728[0;39m 更新电子书信息结束，耗时：328
+2022-03-07 14:48:10.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929500734066688[0;39m 生成今日电子书快照开始
+2022-03-07 14:48:10.520 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929500734066688[0;39m 生成今日电子书快照结束，耗时515秒
+2022-03-07 14:48:15.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929521713975296[0;39m 生成今日电子书快照开始
+2022-03-07 14:48:15.612 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929521713975296[0;39m 生成今日电子书快照结束，耗时605秒
+2022-03-07 14:48:20.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929542681300992[0;39m 生成今日电子书快照开始
+2022-03-07 14:48:20.538 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929542681300992[0;39m 生成今日电子书快照结束，耗时532秒
+2022-03-07 14:48:25.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929563648626688[0;39m 生成今日电子书快照开始
+2022-03-07 14:48:25.613 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929563648626688[0;39m 生成今日电子书快照结束，耗时608秒
+2022-03-07 14:48:30.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929584653701120[0;39m 生成今日电子书快照开始
+2022-03-07 14:48:30.607 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929584653701120[0;39m 生成今日电子书快照结束，耗时594秒
+2022-03-07 14:48:35.003 INFO  demo.schedule.DocSche                             :32   [32m155929605583278080[0;39m 更新电子书信息开始
+2022-03-07 14:48:35.572 INFO  demo.schedule.DocSche                             :35   [32m155929605583278080[0;39m 更新电子书信息结束，耗时：569
+2022-03-07 14:48:35.572 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929607969837056[0;39m 生成今日电子书快照开始
+2022-03-07 14:48:35.987 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929607969837056[0;39m 生成今日电子书快照结束，耗时415秒
+2022-03-07 14:48:40.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929626563186688[0;39m 生成今日电子书快照开始
+2022-03-07 14:48:40.601 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929626563186688[0;39m 生成今日电子书快照结束，耗时596秒
+2022-03-07 14:48:45.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929647538900992[0;39m 生成今日电子书快照开始
+2022-03-07 14:48:45.598 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929647538900992[0;39m 生成今日电子书快照结束，耗时592秒
+2022-03-07 14:48:50.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929668506226688[0;39m 生成今日电子书快照开始
+2022-03-07 14:48:50.535 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929668506226688[0;39m 生成今日电子书快照结束，耗时530秒
+2022-03-07 14:48:55.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929689486135296[0;39m 生成今日电子书快照开始
+2022-03-07 14:48:55.587 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929689486135296[0;39m 生成今日电子书快照结束，耗时580秒
+2022-03-07 14:49:00.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929710487015424[0;39m 生成今日电子书快照开始
+2022-03-07 14:49:00.543 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929710487015424[0;39m 生成今日电子书快照结束，耗时528秒
+2022-03-07 14:49:05.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929731424980992[0;39m 生成今日电子书快照开始
+2022-03-07 14:49:05.498 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929731424980992[0;39m 生成今日电子书快照结束，耗时492秒
+2022-03-07 14:49:05.499 INFO  demo.schedule.DocSche                             :32   [32m155929733492772864[0;39m 更新电子书信息开始
+2022-03-07 14:49:05.872 INFO  demo.schedule.DocSche                             :35   [32m155929733492772864[0;39m 更新电子书信息结束，耗时：373
+2022-03-07 14:49:10.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929752388112384[0;39m 生成今日电子书快照开始
+2022-03-07 14:49:10.568 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929752388112384[0;39m 生成今日电子书快照结束，耗时563秒
+2022-03-07 14:49:15.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929773368020992[0;39m 生成今日电子书快照开始
+2022-03-07 14:49:15.543 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929773368020992[0;39m 生成今日电子书快照结束，耗时537秒
+2022-03-07 14:49:20.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929794343735296[0;39m 生成今日电子书快照开始
+2022-03-07 14:49:20.452 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929794343735296[0;39m 生成今日电子书快照结束，耗时445秒
+2022-03-07 14:49:25.016 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929815353004032[0;39m 生成今日电子书快照开始
+2022-03-07 14:49:25.508 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929815353004032[0;39m 生成今日电子书快照结束，耗时492秒
+2022-03-07 14:49:30.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929836274192384[0;39m 生成今日电子书快照开始
+2022-03-07 14:49:30.470 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929836274192384[0;39m 生成今日电子书快照结束，耗时465秒
+2022-03-07 14:49:35.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929857237323776[0;39m 生成今日电子书快照开始
+2022-03-07 14:49:35.380 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929857237323776[0;39m 生成今日电子书快照结束，耗时378秒
+2022-03-07 14:49:35.380 INFO  demo.schedule.DocSche                             :32   [32m155929858822770688[0;39m 更新电子书信息开始
+2022-03-07 14:49:35.624 INFO  demo.schedule.DocSche                             :35   [32m155929858822770688[0;39m 更新电子书信息结束，耗时：244
+2022-03-07 14:49:40.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929878225620992[0;39m 生成今日电子书快照开始
+2022-03-07 14:49:40.130 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929878225620992[0;39m 生成今日电子书快照结束，耗时124秒
+2022-03-07 14:49:45.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929899226501120[0;39m 生成今日电子书快照开始
+2022-03-07 14:49:45.407 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929899226501120[0;39m 生成今日电子书快照结束，耗时394秒
+2022-03-07 14:49:50.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929920156078080[0;39m 生成今日电子书快照开始
+2022-03-07 14:49:50.524 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929920156078080[0;39m 生成今日电子书快照结束，耗时521秒
+2022-03-07 14:49:55.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929941173735424[0;39m 生成今日电子书快照开始
+2022-03-07 14:49:55.585 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929941173735424[0;39m 生成今日电子书快照结束，耗时571秒
+2022-03-07 14:50:00.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929962141061120[0;39m 生成今日电子书快照开始
+2022-03-07 14:50:00.515 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929962141061120[0;39m 生成今日电子书快照结束，耗时502秒
+2022-03-07 14:50:05.009 INFO  demo.schedule.DocSche                             :32   [32m155929983095803904[0;39m 更新电子书信息开始
+2022-03-07 14:50:05.551 INFO  demo.schedule.DocSche                             :35   [32m155929983095803904[0;39m 更新电子书信息结束，耗时：542
+2022-03-07 14:50:05.551 INFO  demo.schedule.EbookSnapSche                       :28   [32m155929985369116672[0;39m 生成今日电子书快照开始
+2022-03-07 14:50:05.938 INFO  demo.schedule.EbookSnapSche                       :31   [32m155929985369116672[0;39m 生成今日电子书快照结束，耗时386秒
+2022-03-07 14:50:10.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930004050546688[0;39m 生成今日电子书快照开始
+2022-03-07 14:50:10.414 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930004050546688[0;39m 生成今日电子书快照结束，耗时409秒
+2022-03-07 14:50:15.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930025030455296[0;39m 生成今日电子书快照开始
+2022-03-07 14:50:15.532 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930025030455296[0;39m 生成今日电子书快照结束，耗时525秒
+2022-03-07 14:50:20.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930046022946816[0;39m 生成今日电子书快照开始
+2022-03-07 14:50:20.413 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930046022946816[0;39m 生成今日电子书快照结束，耗时400秒
+2022-03-07 14:50:25.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930066965106688[0;39m 生成今日电子书快照开始
+2022-03-07 14:50:25.379 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930066965106688[0;39m 生成今日电子书快照结束，耗时374秒
+2022-03-07 14:50:30.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930087945015296[0;39m 生成今日电子书快照开始
+2022-03-07 14:50:30.406 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930087945015296[0;39m 生成今日电子书快照结束，耗时399秒
+2022-03-07 14:50:35.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930108920729600[0;39m 生成今日电子书快照开始
+2022-03-07 14:50:35.530 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930108920729600[0;39m 生成今日电子书快照结束，耗时522秒
+2022-03-07 14:50:35.531 INFO  demo.schedule.DocSche                             :32   [32m155930111114350592[0;39m 更新电子书信息开始
+2022-03-07 14:50:35.919 INFO  demo.schedule.DocSche                             :35   [32m155930111114350592[0;39m 更新电子书信息结束，耗时：388
+2022-03-07 14:50:40.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930129879666688[0;39m 生成今日电子书快照开始
+2022-03-07 14:50:40.586 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930129879666688[0;39m 生成今日电子书快照结束，耗时581秒
+2022-03-07 14:50:45.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930150851186688[0;39m 生成今日电子书快照开始
+2022-03-07 14:50:45.479 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930150851186688[0;39m 生成今日电子书快照结束，耗时474秒
+2022-03-07 14:50:50.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930171843678208[0;39m 生成今日电子书快照开始
+2022-03-07 14:50:50.197 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930171843678208[0;39m 生成今日电子书快照结束，耗时187秒
+2022-03-07 14:50:55.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930192823586816[0;39m 生成今日电子书快照开始
+2022-03-07 14:50:55.471 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930192823586816[0;39m 生成今日电子书快照结束，耗时459秒
+2022-03-07 14:51:00.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930213761552384[0;39m 生成今日电子书快照开始
+2022-03-07 14:51:00.139 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930213761552384[0;39m 生成今日电子书快照结束，耗时135秒
+2022-03-07 14:51:05.007 INFO  demo.schedule.DocSche                             :32   [32m155930234745655296[0;39m 更新电子书信息开始
+2022-03-07 14:51:05.473 INFO  demo.schedule.DocSche                             :35   [32m155930234745655296[0;39m 更新电子书信息结束，耗时：466
+2022-03-07 14:51:05.473 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930236700200960[0;39m 生成今日电子书快照开始
+2022-03-07 14:51:05.859 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930236700200960[0;39m 生成今日电子书快照结束，耗时386秒
+2022-03-07 14:51:10.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930255708786688[0;39m 生成今日电子书快照开始
+2022-03-07 14:51:10.530 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930255708786688[0;39m 生成今日电子书快照结束，耗时525秒
+2022-03-07 14:51:15.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930276701278208[0;39m 生成今日电子书快照开始
+2022-03-07 14:51:15.076 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930276701278208[0;39m 生成今日电子书快照结束，耗时66秒
+2022-03-07 14:51:20.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930297647632384[0;39m 生成今日电子书快照开始
+2022-03-07 14:51:20.472 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930297647632384[0;39m 生成今日电子书快照结束，耗时468秒
+2022-03-07 14:51:25.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930318640123904[0;39m 生成今日电子书快照开始
+2022-03-07 14:51:25.469 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930318640123904[0;39m 生成今日电子书快照结束，耗时460秒
+2022-03-07 14:51:30.029 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930339695529984[0;39m 生成今日电子书快照开始
+2022-03-07 14:51:30.531 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930339695529984[0;39m 生成今日电子书快照结束，耗时502秒
+2022-03-07 14:51:35.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930360553803776[0;39m 生成今日电子书快照开始
+2022-03-07 14:51:35.437 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930360553803776[0;39m 生成今日电子书快照结束，耗时435秒
+2022-03-07 14:51:35.437 INFO  demo.schedule.DocSche                             :32   [32m155930362378326016[0;39m 更新电子书信息开始
+2022-03-07 14:51:35.801 INFO  demo.schedule.DocSche                             :35   [32m155930362378326016[0;39m 更新电子书信息结束，耗时：363
+2022-03-07 14:51:40.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930381567266816[0;39m 生成今日电子书快照开始
+2022-03-07 14:51:40.628 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930381567266816[0;39m 生成今日电子书快照结束，耗时616秒
+2022-03-07 14:51:45.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930402530398208[0;39m 生成今日电子书快照开始
+2022-03-07 14:51:45.541 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930402530398208[0;39m 生成今日电子书快照结束，耗时531秒
+2022-03-07 14:51:50.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930423518695424[0;39m 生成今日电子书快照开始
+2022-03-07 14:51:50.505 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930423518695424[0;39m 生成今日电子书快照结束，耗时491秒
+2022-03-07 14:51:55.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930444460855296[0;39m 生成今日电子书快照开始
+2022-03-07 14:51:55.431 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930444460855296[0;39m 生成今日电子书快照结束，耗时424秒
+2022-03-07 14:52:00.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930465411403776[0;39m 生成今日电子书快照开始
+2022-03-07 14:52:00.376 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930465411403776[0;39m 生成今日电子书快照结束，耗时374秒
+2022-03-07 14:52:05.002 INFO  demo.schedule.DocSche                             :32   [32m155930486382923776[0;39m 更新电子书信息开始
+2022-03-07 14:52:05.183 INFO  demo.schedule.DocSche                             :35   [32m155930486382923776[0;39m 更新电子书信息结束，耗时：181
+2022-03-07 14:52:05.183 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930487142092800[0;39m 生成今日电子书快照开始
+2022-03-07 14:52:05.343 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930487142092800[0;39m 生成今日电子书快照结束，耗时160秒
+2022-03-07 14:52:10.011 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930507392192512[0;39m 生成今日电子书快照开始
+2022-03-07 14:52:10.624 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930507392192512[0;39m 生成今日电子书快照结束，耗时613秒
+2022-03-07 14:52:15.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930528321769472[0;39m 生成今日电子书快照开始
+2022-03-07 14:52:15.556 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930528321769472[0;39m 生成今日电子书快照结束，耗时555秒
+2022-03-07 14:52:20.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930549343621120[0;39m 生成今日电子书快照开始
+2022-03-07 14:52:20.584 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930549343621120[0;39m 生成今日电子书快照结束，耗时571秒
+2022-03-07 14:52:25.011 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930570306752512[0;39m 生成今日电子书快照开始
+2022-03-07 14:52:25.275 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930570306752512[0;39m 生成今日电子书快照结束，耗时264秒
+2022-03-07 14:52:30.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930591274078208[0;39m 生成今日电子书快照开始
+2022-03-07 14:52:30.216 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930591274078208[0;39m 生成今日电子书快照结束，耗时206秒
+2022-03-07 14:52:35.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930612262375424[0;39m 生成今日电子书快照开始
+2022-03-07 14:52:35.621 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930612262375424[0;39m 生成今日电子书快照结束，耗时607秒
+2022-03-07 14:52:35.622 INFO  demo.schedule.DocSche                             :32   [32m155930614812512256[0;39m 更新电子书信息开始
+2022-03-07 14:52:35.975 INFO  demo.schedule.DocSche                             :35   [32m155930614812512256[0;39m 更新电子书信息结束，耗时：353
+2022-03-07 14:52:40.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930633200340992[0;39m 生成今日电子书快照开始
+2022-03-07 14:52:40.535 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930633200340992[0;39m 生成今日电子书快照结束，耗时526秒
+2022-03-07 14:52:45.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930654184443904[0;39m 生成今日电子书快照开始
+2022-03-07 14:52:45.414 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930654184443904[0;39m 生成今日电子书快照结束，耗时405秒
+2022-03-07 14:52:50.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930675147575296[0;39m 生成今日电子书快照开始
+2022-03-07 14:52:50.367 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930675147575296[0;39m 生成今日电子书快照结束，耗时359秒
+2022-03-07 14:52:55.031 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930696219758592[0;39m 生成今日电子书快照开始
+2022-03-07 14:52:55.317 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930696219758592[0;39m 生成今日电子书快照结束，耗时283秒
+2022-03-07 14:53:00.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930717099003904[0;39m 生成今日电子书快照开始
+2022-03-07 14:53:00.063 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930717099003904[0;39m 生成今日电子书快照结束，耗时54秒
+2022-03-07 14:53:05.011 INFO  demo.schedule.DocSche                             :32   [32m155930738078912512[0;39m 更新电子书信息开始
+2022-03-07 14:53:05.156 INFO  demo.schedule.DocSche                             :35   [32m155930738078912512[0;39m 更新电子书信息结束，耗时：145
+2022-03-07 14:53:05.157 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930738691280896[0;39m 生成今日电子书快照开始
+2022-03-07 14:53:05.301 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930738691280896[0;39m 生成今日电子书快照结束，耗时144秒
+2022-03-07 14:53:10.010 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930759046238208[0;39m 生成今日电子书快照开始
+2022-03-07 14:53:10.346 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930759046238208[0;39m 生成今日电子书快照结束，耗时336秒
+2022-03-07 14:53:15.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930779992592384[0;39m 生成今日电子书快照开始
+2022-03-07 14:53:15.059 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930779992592384[0;39m 生成今日电子书快照结束，耗时55秒
+2022-03-07 14:53:20.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930800951529472[0;39m 生成今日电子书快照开始
+2022-03-07 14:53:20.053 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930800951529472[0;39m 生成今日电子书快照结束，耗时51秒
+2022-03-07 14:53:25.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930821923049472[0;39m 生成今日电子书快照开始
+2022-03-07 14:53:25.219 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930821923049472[0;39m 生成今日电子书快照结束，耗时218秒
+2022-03-07 14:53:30.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930842919735296[0;39m 生成今日电子书快照开始
+2022-03-07 14:53:30.241 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930842919735296[0;39m 生成今日电子书快照结束，耗时234秒
+2022-03-07 14:53:35.000 INFO  demo.schedule.DocSche                             :32   [32m155930863861895168[0;39m 更新电子书信息开始
+2022-03-07 14:53:35.388 INFO  demo.schedule.DocSche                             :35   [32m155930863861895168[0;39m 更新电子书信息结束，耗时：388
+2022-03-07 14:53:35.389 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930865493479424[0;39m 生成今日电子书快照开始
+2022-03-07 14:53:35.772 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930865493479424[0;39m 生成今日电子书快照结束，耗时383秒
+2022-03-07 14:53:40.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930884854386688[0;39m 生成今日电子书快照开始
+2022-03-07 14:53:40.335 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930884854386688[0;39m 生成今日电子书快照结束，耗时330秒
+2022-03-07 14:53:45.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930905817518080[0;39m 生成今日电子书快照开始
+2022-03-07 14:53:45.414 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930905817518080[0;39m 生成今日电子书快照结束，耗时411秒
+2022-03-07 14:53:50.011 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930926822592512[0;39m 生成今日电子书快照开始
+2022-03-07 14:53:50.361 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930926822592512[0;39m 生成今日电子书快照结束，耗时350秒
+2022-03-07 14:53:55.015 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930947810889728[0;39m 生成今日电子书快照开始
+2022-03-07 14:53:55.071 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930947810889728[0;39m 生成今日电子书快照结束，耗时56秒
+2022-03-07 14:54:00.015 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930968782409728[0;39m 生成今日电子书快照开始
+2022-03-07 14:54:00.360 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930968782409728[0;39m 生成今日电子书快照结束，耗时344秒
+2022-03-07 14:54:05.010 INFO  demo.schedule.DocSche                             :32   [32m155930989732958208[0;39m 更新电子书信息开始
+2022-03-07 14:54:05.380 INFO  demo.schedule.DocSche                             :35   [32m155930989732958208[0;39m 更新电子书信息结束，耗时：370
+2022-03-07 14:54:05.381 INFO  demo.schedule.EbookSnapSche                       :28   [32m155930991289044992[0;39m 生成今日电子书快照开始
+2022-03-07 14:54:05.555 INFO  demo.schedule.EbookSnapSche                       :31   [32m155930991289044992[0;39m 生成今日电子书快照结束，耗时174秒
+2022-03-07 14:54:10.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931010691895296[0;39m 生成今日电子书快照开始
+2022-03-07 14:54:10.604 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931010691895296[0;39m 生成今日电子书快照结束，耗时597秒
+2022-03-07 14:54:15.000 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931031634055168[0;39m 生成今日电子书快照开始
+2022-03-07 14:54:15.532 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931031634055168[0;39m 生成今日电子书快照结束，耗时532秒
+2022-03-07 14:54:20.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931052664295424[0;39m 生成今日电子书快照开始
+2022-03-07 14:54:20.599 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931052664295424[0;39m 生成今日电子书快照结束，耗时585秒
+2022-03-07 14:54:25.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931073610649600[0;39m 生成今日电子书快照开始
+2022-03-07 14:54:25.559 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931073610649600[0;39m 生成今日电子书快照结束，耗时551秒
+2022-03-07 14:54:30.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931094573780992[0;39m 生成今日电子书快照开始
+2022-03-07 14:54:30.616 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931094573780992[0;39m 生成今日电子书快照结束，耗时610秒
+2022-03-07 14:54:35.014 INFO  demo.schedule.DocSche                             :32   [32m155931115578855424[0;39m 更新电子书信息开始
+2022-03-07 14:54:35.422 INFO  demo.schedule.DocSche                             :35   [32m155931115578855424[0;39m 更新电子书信息结束，耗时：408
+2022-03-07 14:54:35.422 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931117290131456[0;39m 生成今日电子书快照开始
+2022-03-07 14:54:35.779 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931117290131456[0;39m 生成今日电子书快照结束，耗时357秒
+2022-03-07 14:54:40.002 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931136500043776[0;39m 生成今日电子书快照开始
+2022-03-07 14:54:40.484 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931136500043776[0;39m 生成今日电子书快照结束，耗时482秒
+2022-03-07 14:54:45.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931157484146688[0;39m 生成今日电子书快照开始
+2022-03-07 14:54:45.617 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931157484146688[0;39m 生成今日电子书快照结束，耗时612秒
+2022-03-07 14:54:50.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931178438889472[0;39m 生成今日电子书快照开始
+2022-03-07 14:54:50.520 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931178438889472[0;39m 生成今日电子书快照结束，耗时519秒
+2022-03-07 14:54:55.001 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931199410409472[0;39m 生成今日电子书快照开始
+2022-03-07 14:54:55.597 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931199410409472[0;39m 生成今日电子书快照结束，耗时596秒
+2022-03-07 14:55:00.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931220415483904[0;39m 生成今日电子书快照开始
+2022-03-07 14:55:00.553 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931220415483904[0;39m 生成今日电子书快照结束，耗时544秒
+2022-03-07 14:55:05.007 INFO  demo.schedule.DocSche                             :32   [32m155931241378615296[0;39m 更新电子书信息开始
+2022-03-07 14:55:05.551 INFO  demo.schedule.DocSche                             :35   [32m155931241378615296[0;39m 更新电子书信息结束，耗时：544
+2022-03-07 14:55:05.551 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931243660316672[0;39m 生成今日电子书快照开始
+2022-03-07 14:55:05.897 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931243660316672[0;39m 生成今日电子书快照结束，耗时346秒
+2022-03-07 14:55:10.007 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931262350135296[0;39m 生成今日电子书快照开始
+2022-03-07 14:55:10.456 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931262350135296[0;39m 生成今日电子书快照结束，耗时448秒
+2022-03-07 14:55:15.000 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931283292295168[0;39m 生成今日电子书快照开始
+2022-03-07 14:55:15.406 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931283292295168[0;39m 生成今日电子书快照结束，耗时406秒
+2022-03-07 14:55:20.004 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931304280592384[0;39m 生成今日电子书快照开始
+2022-03-07 14:55:20.614 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931304280592384[0;39m 生成今日电子书快照结束，耗时610秒
+2022-03-07 14:55:25.014 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931325294055424[0;39m 生成今日电子书快照开始
+2022-03-07 14:55:25.468 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931325294055424[0;39m 生成今日电子书快照结束，耗时454秒
+2022-03-07 14:55:30.000 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931346206855168[0;39m 生成今日电子书快照开始
+2022-03-07 14:55:30.512 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931346206855168[0;39m 生成今日电子书快照结束，耗时512秒
+2022-03-07 14:55:35.004 INFO  demo.schedule.DocSche                             :32   [32m155931367195152384[0;39m 更新电子书信息开始
+2022-03-07 14:55:35.474 INFO  demo.schedule.DocSche                             :35   [32m155931367195152384[0;39m 更新电子书信息结束，耗时：470
+2022-03-07 14:55:35.475 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931369170669568[0;39m 生成今日电子书快照开始
+2022-03-07 14:55:35.849 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931369170669568[0;39m 生成今日电子书快照结束，耗时374秒
+2022-03-07 14:55:40.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931388187643904[0;39m 生成今日电子书快照开始
+2022-03-07 14:55:40.616 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931388187643904[0;39m 生成今日电子书快照结束，耗时607秒
+2022-03-07 14:55:45.008 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931409154969600[0;39m 生成今日电子书快照开始
+2022-03-07 14:55:45.633 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931409154969600[0;39m 生成今日电子书快照结束，耗时625秒
+2022-03-07 14:55:50.006 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931430118100992[0;39m 生成今日电子书快照开始
+2022-03-07 14:55:50.614 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931430118100992[0;39m 生成今日电子书快照结束，耗时608秒
+2022-03-07 14:55:54.299 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-07 14:55:54.299 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-03-07 14:55:54.304 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 5 ms
+2022-03-07 14:55:55.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931451114786816[0;39m 生成今日电子书快照开始
+2022-03-07 14:55:55.419 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931451114786816[0;39m 生成今日电子书快照结束，耗时407秒
+2022-03-07 14:56:00.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931472086306816[0;39m 生成今日电子书快照开始
+2022-03-07 14:56:00.639 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931472086306816[0;39m 生成今日电子书快照结束，耗时627秒
+2022-03-07 14:56:05.006 INFO  demo.schedule.DocSche                             :32   [32m155931493032660992[0;39m 更新电子书信息开始
+2022-03-07 14:56:05.586 INFO  demo.schedule.DocSche                             :35   [32m155931493032660992[0;39m 更新电子书信息结束，耗时：580
+2022-03-07 14:56:05.586 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931495465357312[0;39m 生成今日电子书快照开始
+2022-03-07 14:56:05.993 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931495465357312[0;39m 生成今日电子书快照结束，耗时407秒
+2022-03-07 14:56:10.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931514033541120[0;39m 生成今日电子书快照开始
+2022-03-07 14:56:10.650 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931514033541120[0;39m 生成今日电子书快照结束，耗时636秒
+2022-03-07 14:56:15.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931534988283904[0;39m 生成今日电子书快照开始
+2022-03-07 14:56:15.639 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931534988283904[0;39m 生成今日电子书快照结束，耗时630秒
+2022-03-07 14:56:20.005 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931555943026688[0;39m 生成今日电子书快照开始
+2022-03-07 14:56:20.398 INFO  demo.websocket.WebSocketServer                    :34   [32m                  [0;39m 有新连接：token：322fpRXI8k，session id：1，当前连接数：1
+2022-03-07 14:56:20.615 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931555943026688[0;39m 生成今日电子书快照结束，耗时610秒
+2022-03-07 14:56:25.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931576948101120[0;39m 生成今日电子书快照开始
+2022-03-07 14:56:25.621 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931576948101120[0;39m 生成今日电子书快照结束，耗时608秒
+2022-03-07 14:56:30.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931597877678080[0;39m 生成今日电子书快照开始
+2022-03-07 14:56:30.630 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931597877678080[0;39m 生成今日电子书快照结束，耗时627秒
+2022-03-07 14:56:35.003 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931618849198080[0;39m 生成今日电子书快照开始
+2022-03-07 14:56:35.622 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931618849198080[0;39m 生成今日电子书快照结束，耗时619秒
+2022-03-07 14:56:35.623 INFO  demo.schedule.DocSche                             :32   [32m155931621449666560[0;39m 更新电子书信息开始
+2022-03-07 14:56:36.038 INFO  demo.schedule.DocSche                             :35   [32m155931621449666560[0;39m 更新电子书信息结束，耗时：415
+2022-03-07 14:56:40.012 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931639858466816[0;39m 生成今日电子书快照开始
+2022-03-07 14:56:40.622 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931639858466816[0;39m 生成今日电子书快照结束，耗时610秒
+2022-03-07 14:56:45.009 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931660817403904[0;39m 生成今日电子书快照开始
+2022-03-07 14:56:45.590 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931660817403904[0;39m 生成今日电子书快照结束，耗时581秒
+2022-03-07 14:56:50.015 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931681814089728[0;39m 生成今日电子书快照开始
+2022-03-07 14:56:50.618 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931681814089728[0;39m 生成今日电子书快照结束，耗时603秒
+2022-03-07 14:56:55.013 INFO  demo.schedule.EbookSnapSche                       :28   [32m155931702777221120[0;39m 生成今日电子书快照开始
+2022-03-07 14:56:55.607 INFO  demo.schedule.EbookSnapSche                       :31   [32m155931702777221120[0;39m 生成今日电子书快照结束，耗时594秒
